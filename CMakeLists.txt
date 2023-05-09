@@ -3,21 +3,23 @@ cmake_minimum_required( VERSION 3.12 )
 message( STATUS "Parallel Programming Course" )
 
 include(cmake/configure.cmake)
-include(cmake/gtest.cmake)
+
+set(USE_MPI ON)
+set(USE_OMP ON)
+set(USE_TBB ON)
+set(USE_SEQ ON)
+set(USE_STD ON)
 
 ################################ MPI ################################
-# option(USE_MPI OFF)
-# if( USE_MPI )
-#     include(cmake/boost.cmake)
-#     find_package( MPI )
-#     if( MPI_FOUND )
-#         include_directories( ${MPI_INCLUDE_PATH} )
-#     else( MPI_FOUND )
-#         set( USE_MPI OFF )
-#     endif( MPI_FOUND )
-# endif( USE_MPI )
-
-set(USE_MPI OFF)
+option(USE_MPI OFF)
+if( USE_MPI )
+    find_package( MPI )
+    if( MPI_FOUND )
+        include_directories( ${MPI_INCLUDE_PATH} )
+    else( MPI_FOUND )
+        set( USE_MPI OFF )
+    endif( MPI_FOUND )
+endif( USE_MPI )
 
 ############################### OpenMP ##############################
 option(USE_OMP OFF)
