@@ -111,7 +111,7 @@ int main(int argc, char **argv)
     MPI_Comm_rank(MPI_COMM_WORLD, &procRank);
 
     int size;
-    sscanf_s(argv[1], "%d", &size);
+    sscanf(argv[1], "%d", &size);
     
     double eps = 0.01;
 

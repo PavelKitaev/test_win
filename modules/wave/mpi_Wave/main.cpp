@@ -208,7 +208,7 @@ int main(int argc, char **argv)
 
     double eps = 0.01;
     int size;
-    sscanf_s(argv[1], "%d", &size);
+    sscanf(argv[1], "%d", &size);
   
     double start_mpi, end_mpi;
     double* matrix_mpi;

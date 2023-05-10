@@ -59,7 +59,7 @@ void SequentialAlg(double* matrix, int size, double eps) {
 int main(int argc, char **argv)
 {
     int size;
-    sscanf_s(argv[1], "%d", &size);
+    sscanf(argv[1], "%d", &size);
 
     double eps = 0.01;
     

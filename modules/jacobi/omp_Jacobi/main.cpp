@@ -81,10 +81,10 @@ int main(int argc, char **argv)
 {
     double eps = 0.01;
     int size;
-    sscanf_s(argv[1], "%d", &size);
+    sscanf(argv[1], "%d", &size);
 
     int procNum;
-    sscanf_s(argv[2], "%d", &procNum);
+    sscanf(argv[2], "%d", &procNum);
     
     double* matrix_omp = new double[size * size];
     FillingTheMatrix(matrix_omp, size);
