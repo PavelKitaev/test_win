@@ -68,7 +68,7 @@ int main(int argc, char **argv)
     matrix_seq = new double[size * size];
     FillingTheMatrix(matrix_seq, size);
     
-    std::cout << "STD Start. Size: " << size << std::endl;
+    std::cout << "SEQ Start. Size: " << size << std::endl;
 
     double start_seq = omp_get_wtime();
     SequentialAlg(matrix_seq, size, eps);

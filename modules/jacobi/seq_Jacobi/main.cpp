@@ -77,7 +77,7 @@ int main(int argc, char **argv)
     int size;
     sscanf(argv[1], "%d", &size);
 
-    std::cout << "Start seq... " << std::endl;
+    std::cout << "Start seq. Size: " << size << std::endl;
     double* matrix_seq;
     matrix_seq = new double[size * size];
     FillingTheMatrix(matrix_seq, size);
