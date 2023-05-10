@@ -78,15 +78,16 @@ void ParallelAlgHybrid(double* matrix, int size, double eps, int num_omp_th) {
     int q = 0;
     double dmax, temp, d;
     double temp_dmax = 0;
-    double dm = 0;
+    double* dm = new double[size];
     
     do {
         q++;
         dmax = 0;
         dm = 0;
 
-        for (int i = begin; i < end; i++ ) {
 #pragma omp parallel for private(d, temp) num_threads(num_omp_th)
+        for (int i = begin; i < end; i++ ) {
+            dm[i-1] = 0;
             for (int j = 1; j < size - 1; j++ ) {
                 temp = matrix[size * i + j];
                 matrix_temp[size * i + j] = 0.25 * (matrix[size * (i - 1) + j] +
@@ -95,15 +96,19 @@ void ParallelAlgHybrid(double* matrix, int size, double eps, int num_omp_th) {
                                                matrix[size * i + (j + 1)] );
                 
                 d = fabs(temp-matrix_temp[size * i + j]);
-                if (dm < d)
-                    dm = d;
+                if (dm[i-1] < d)
+                    dm[i-1] = d;
             }
         }
         
-        MPI_Reduce(&dm, &temp_dmax, 1, MPI_DOUBLE, MPI_MAX, 0, MPI_COMM_WORLD);
+        //MPI_Reduce(&dm, &temp_dmax, 1, MPI_DOUBLE, MPI_MAX, 0, MPI_COMM_WORLD);
         
+        MPI_Barrier(MPI_COMM_WORLD);
         if (procRank == 0) {
-            dmax = (temp_dmax > dmax) ? temp_dmax : dmax;
+            for (int i =0; i < size; i++){
+                dmax = (dm[i] > dmax) ? dm[i] : dmax;
+            }
+            //dmax = (temp_dmax > dmax) ? temp_dmax : dmax;
             
             for (int i = 1; i < size - 1; i++ ) {
                 for (int j = 1; j < size - 1; j++ ) {
