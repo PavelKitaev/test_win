@@ -106,7 +106,7 @@ int main(int argc, char **argv)
     double* matrix_tbb = new double[size * size];
     FillingTheMatrix(matrix_tbb, size);
     
-    std::cout << "Start TBB, procNum: " << procNum << ". Size: " << size << "... " << std::endl;
+    std::cout << "Start TBB, Size: " << size << ". ProcNum: " << procNum << std::endl;
 
     oneapi::tbb::tick_count start_tbb = oneapi::tbb::tick_count::now();
     ParallelAlgTBB(matrix_tbb, size, eps, procNum);

@@ -74,6 +74,8 @@ int main(int argc, char **argv)
     double* matrix_omp = new double[size * size];
     FillingTheMatrix(matrix_omp, size);
     
+    std::cout << "OMP Start. Size: " << size << ", procNum: " << procNum << std::endl;
+
     double start_omp = omp_get_wtime();
     ParallelAlgOMP(matrix_omp, size, eps, procNum);
     double end_omp = omp_get_wtime();

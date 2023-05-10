@@ -158,7 +158,7 @@ int main(int argc, char **argv)
     int procNum;
     sscanf(argv[2], "%d", &procNum);
     
-    std::cout << "Start std, procNum: " << procNum << ". Size: " << size << "... " << std::endl;
+    std::cout << "Start std, Size: " << size << ". ProcNum: " << procNum << "... " << std::endl;
 
     double* matrix_std = new double[size * size];
     FillingTheMatrix(matrix_std, size);

@@ -117,6 +117,8 @@ int main(int argc, char **argv)
     double* matrix_std = new double[size * size];
     FillingTheMatrix(matrix_std, size);
 
+    std::cout << "STD Start. Size: " << size << ", procNum: " << procNum << std::endl;
+    
     double start_std = omp_get_wtime();
     ParallelAlgSTD(matrix_std, size, eps, procNum);
     double end_std = omp_get_wtime();

@@ -122,8 +122,7 @@ int main(int argc, char **argv)
     if (procRank == 0) {
         MPI_Win_allocate_shared(size*size * sizeof(double), 1, MPI_INFO_NULL, MPI_COMM_WORLD, &matrix_mpi, &win_matrix);
         FillingTheMatrix(matrix_mpi, size);
-        std::cout << "ProcNum: " << procNum << std::endl;
-        std::cout << "Start mpi... " << std::endl;
+        std::cout << "Start mpi. Size: " << size << ", ProcNum: " << procNum << std::endl;
         start_mpi = MPI_Wtime();
     } else {
         int disp;
