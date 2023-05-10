@@ -87,7 +87,7 @@ void ParallelAlgHybrid(double* matrix, int size, double eps, int num_omp_th) {
 #pragma omp parallel for private(d, temp) num_threads(num_omp_th)
         for (int i = begin; i < end; i++ ) {
             for (int j = 1; j < size - 1; j++ ) {
-                dtemp = matrix[size * i + j];
+                temp = matrix[size * i + j];
                 matrix_temp[size * i + j] = 0.25 * (matrix[size * (i - 1) + j] +
                                                matrix[size * (i + 1) + j] +
                                                matrix[size * i + (j - 1)] +
