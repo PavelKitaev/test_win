@@ -47,7 +47,7 @@ void ParallelAlgMPI(double* matrix, int size, double eps)
 
   MPI_Barrier(MPI_COMM_WORLD);
 
-  double dmax;
+  double dmax = 0;
 
   int start_inc;
   int end_inc;
@@ -188,7 +188,6 @@ void ParallelAlgMPI(double* matrix, int size, double eps)
     }
 
     MPI_Bcast(&dmax, 1, MPI_DOUBLE, 0, MPI_COMM_WORLD);
-    MPI_Barrier(MPI_COMM_WORLD);
   } while (dmax > eps);
 
   if (procRank == 0)

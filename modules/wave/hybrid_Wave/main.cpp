@@ -141,9 +141,8 @@ void ParallelAlgHybrid(double* matrix, int size, double eps, int num_omp_th)
   do
   {
     q++;
-    MPI_Barrier(MPI_COMM_WORLD);
 
-#pragma omp parallel for private(j, d, temp) num_threads(2)
+#pragma omp parallel for private(j, d, temp) num_threads(num_omp_th)
     for (int wave = start_inc; wave < end_inc; wave++) {
       dm[wave - 1] = 0;
       for (int i = 1; i < wave + 1; i++) {
@@ -164,7 +163,7 @@ void ParallelAlgHybrid(double* matrix, int size, double eps, int num_omp_th)
 
 #pragma omp barrier 
 
-#pragma omp parallel for private(j, d, temp) num_threads(2)
+#pragma omp parallel for private(j, d, temp) num_threads(num_omp_th)
     for (int wave = start_dec; wave > end_dec; wave--) {
       dm[wave - 1] = 0;
       for (int i = (size - 2) - wave + 1; i < (size - 2) + 1; i++) {
@@ -184,12 +183,12 @@ void ParallelAlgHybrid(double* matrix, int size, double eps, int num_omp_th)
     }
 
     MPI_Barrier(MPI_COMM_WORLD);
+
     if (procRank == 0) {
       dmax = 0;
       for (int i = 0; i < size; i++) {
         if (dmax < dm[i]) {
           dmax = dm[i];
-
         }
       }
     }
