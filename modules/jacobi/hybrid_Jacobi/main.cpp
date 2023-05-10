@@ -84,8 +84,9 @@ void ParallelAlgHybrid(double* matrix, int size, double eps, int num_omp_th) {
         q++;
         dmax = 0;
         dm = 0;
-#pragma omp parallel for private(d, temp) num_threads(num_omp_th)
+
         for (int i = begin; i < end; i++ ) {
+#pragma omp parallel for private(d, temp) num_threads(num_omp_th)
             for (int j = 1; j < size - 1; j++ ) {
                 temp = matrix[size * i + j];
                 matrix_temp[size * i + j] = 0.25 * (matrix[size * (i - 1) + j] +
@@ -99,7 +100,6 @@ void ParallelAlgHybrid(double* matrix, int size, double eps, int num_omp_th) {
             }
         }
         
-#pragma omp barrier
         MPI_Reduce(&dm, &temp_dmax, 1, MPI_DOUBLE, MPI_MAX, 0, MPI_COMM_WORLD);
         
         if (procRank == 0) {
