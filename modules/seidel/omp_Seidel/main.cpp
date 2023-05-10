@@ -1,6 +1,7 @@
 #include <iostream>
 #include <cmath>
 #include "omp.h"
+#include <fstream>
 
 void PrintMatrix(double* matrix, int size) {
   for (int i = 0; i < size; i++) {
@@ -87,5 +88,11 @@ int main(int argc, char **argv)
 
     delete[] matrix_omp;
     
+    std::ofstream out;            // поток для записи
+    std::string filename = "Seidel_omp.txt";
+    out.open(filename, std::ios::app);         // открываем файл для записи
+    out << "Size: " << size << ", ProcNum: " << procNum << ", Time: " << time_mpi << std::endl;
+    out.close();
+
     return 0;
 }

@@ -1,0 +1,32 @@
+#!/bin/sh
+cd build
+cd bin
+./seq_Jacobi_seq 100
+./seq_Jacobi_seq 100
+./seq_Jacobi_seq 100
+./seq_Jacobi_seq 100
+
+./seq_Jacobi_seq 1000
+./seq_Jacobi_seq 1000
+./seq_Jacobi_seq 1000
+./seq_Jacobi_seq 1000
+
+./seq_Jacobi_seq 1500
+./seq_Jacobi_seq 1500
+./seq_Jacobi_seq 1500
+./seq_Jacobi_seq 1500
+
+./seq_Jacobi_seq 2000
+./seq_Jacobi_seq 2000
+./seq_Jacobi_seq 2000
+./seq_Jacobi_seq 2000
+
+./seq_Jacobi_seq 2500
+./seq_Jacobi_seq 2500
+./seq_Jacobi_seq 2500
+./seq_Jacobi_seq 2500
+
+./seq_Jacobi_seq 3000
+./seq_Jacobi_seq 3000
+./seq_Jacobi_seq 3000
+./seq_Jacobi_seq 3000
