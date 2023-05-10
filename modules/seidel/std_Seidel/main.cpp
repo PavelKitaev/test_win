@@ -106,9 +106,13 @@ void ParallelAlgSTD(double* matrix, int size, double eps, int th_num) {
 
 int main(int argc, char **argv)
 {
-    int size = 10;
     double eps = 0.01;
-    int procNum = 2;
+    
+    int size;
+    sscanf_s(argv[1], "%d", &size);
+
+    int procNum;
+    sscanf_s(argv[2], "%d", &procNum);
 
     double* matrix_std = new double[size * size];
     FillingTheMatrix(matrix_std, size);

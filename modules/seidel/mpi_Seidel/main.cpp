@@ -110,7 +110,9 @@ int main(int argc, char **argv)
     MPI_Comm_size(MPI_COMM_WORLD, &procNum);
     MPI_Comm_rank(MPI_COMM_WORLD, &procRank);
 
-    int size = 10;
+    int size;
+    sscanf_s(argv[1], "%d", &size);
+    
     double eps = 0.01;
 
     double start_mpi, end_mpi;

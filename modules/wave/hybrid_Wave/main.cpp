@@ -210,10 +210,10 @@ int main(int argc, char **argv)
 
     double eps = 0.01;
     int size;
-    sscanf(argv[1], "%d", &size);
+    sscanf_s(argv[1], "%d", &size);
 
     int num_omp_th;
-    sscanf(argv[2], "%d", &num_omp_th);
+    sscanf_s(argv[2], "%d", &num_omp_th);
 
     double start_mpi, end_mpi;
     double* matrix_mpi;

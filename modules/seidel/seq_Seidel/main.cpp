@@ -58,7 +58,9 @@ void SequentialAlg(double* matrix, int size, double eps) {
 
 int main(int argc, char **argv)
 {
-    int size = 1000;
+    int size;
+    sscanf_s(argv[1], "%d", &size);
+
     double eps = 0.01;
     
     std::cout << "Start seq... " << std::endl;

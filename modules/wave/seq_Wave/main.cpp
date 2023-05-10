@@ -82,7 +82,7 @@ int main(int argc, char **argv)
 {
     double eps = 0.01;
     int size;
-    sscanf(argv[1], "%d", &size);
+    sscanf_s(argv[1], "%d", &size);
 
     std::cout << "Start seq. Size: " << size << "... " << std::endl;
     double* matrix_seq;

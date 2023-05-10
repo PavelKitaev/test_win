@@ -138,11 +138,7 @@ void ParallelAlgMPI(double* matrix, int size, double eps)
   MPI_Barrier(MPI_COMM_WORLD);
   do
   {
-<<<<<<< HEAD
-	  q++;
-=======
     q++;
->>>>>>> 0ccdb22f4a015c5e7ad8f8bf35566acee447da82
     for (int wave = start_inc; wave < end_inc; wave++) {
       dm[wave - 1] = 0;
       for (int i = 1; i < wave + 1; i++) {
@@ -212,7 +208,7 @@ int main(int argc, char **argv)
 
     double eps = 0.01;
     int size;
-    sscanf(argv[1], "%d", &size);
+    sscanf_s(argv[1], "%d", &size);
   
     double start_mpi, end_mpi;
     double* matrix_mpi;

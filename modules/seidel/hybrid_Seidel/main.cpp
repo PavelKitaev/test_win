@@ -114,9 +114,11 @@ int main(int argc, char **argv)
     MPI_Comm_rank(MPI_COMM_WORLD, &procRank);
 
     double eps = 0.01;
-    int size = 1000;
+    int size;
+    sscanf_s(argv[1], "%d", &size);
 
-    int num_omp_th = 2;
+    int num_omp_th;
+    sscanf_s(argv[2], "%d", &num_omp_th);
   
     double start_mpi, end_mpi;
     double* matrix_mpi;
