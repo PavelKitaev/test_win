@@ -15,13 +15,7 @@ if( USE_MPI AND USE_OMP )
     set(PACK_LIB "${ProjectId}_lib")
     add_library(${PACK_LIB} STATIC ${ALL_SOURCE_FILES} )
 
-    if (CMAKE_CXX_COMPILER_ID STREQUAL "Clang")
-        set(CMAKE_CXX_FLAGS "${CMAKE_CXX_FLAGS} -fopenmp")
-    elseif (CMAKE_CXX_COMPILER_ID STREQUAL "GNU")
-        set(CMAKE_CXX_FLAGS "${CMAKE_CXX_FLAGS} -fopenmp")
-    elseif (CMAKE_CXX_COMPILER_ID STREQUAL "MSVC")
-        set(CMAKE_CXX_FLAGS "${CMAKE_CXX_FLAGS} /openmp")
-    endif()
+
 
     add_executable( ${ProjectId} ${ALL_SOURCE_FILES} )
 
