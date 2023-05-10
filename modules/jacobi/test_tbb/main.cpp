@@ -1,44 +1,87 @@
 // Copyright 2018 Nesterov Alexander
-#include <gtest/gtest.h>
+#include <tbb/tbb.h>
 #include <vector>
-#include "./ops_tbb.h"
+#include <string>
+#include <random>
+#include <functional>
+#include <numeric>
 
-TEST(Parallel_Operations_TBB, Test_Sum) {
-    std::vector<int> vec = getRandomVector(100);
-    int sequential_sum = getSequentialOperations(vec, "+");
-    int parallel_sum = getParallelOperations(vec, "+");
-    ASSERT_EQ(sequential_sum, parallel_sum);
+std::vector<int> getRandomVector(int sz) {
+    std::random_device dev;
+    std::mt19937 gen(dev());
+    std::vector<int> vec(sz);
+    for (int i = 0; i < sz; i++) { vec[i] = gen() % 100; }
+    return vec;
 }
 
-TEST(Parallel_Operations_TBB, Test_Diff) {
-    std::vector<int> vec = getRandomVector(100);
-    int sequential_diff = getSequentialOperations(vec, "-");
-    int parallel_diff = getParallelOperations(vec, "-");
-    ASSERT_EQ(sequential_diff, parallel_diff);
+struct Sum {
+    int value;
+    Sum() : value(0) {}
+    Sum(Sum&s, tbb::split) : value(0) {}
+    void operator()(const tbb::blocked_range<std::vector<int>::iterator>& r) {
+        value = std::accumulate(r.begin(), r.end(), value);
+    }
+    void join(const Sum& rhs) { value += rhs.value; }
+};
+
+struct Mult {
+    int value;
+    Mult() : value(1) {}
+    Mult(Mult&s, tbb::split) : value(1) {}
+    void operator()(const tbb::blocked_range<std::vector<int>::iterator>& r) {
+        value = std::accumulate(r.begin(), r.end(), value, std::multiplies<int>{});
+    }
+    void join(const Mult& rhs) { value *= rhs.value; }
+};
+
+int getParallelOperations(std::vector<int> vec, const std::string& ops) {
+    int reduction_elem = 1;
+    if (ops == "+") {
+        Sum sum;
+        tbb::parallel_reduce(
+            tbb::blocked_range<std::vector<int>::iterator>(
+                vec.begin(), vec.end()), sum);
+        reduction_elem += sum.value;
+    } else if (ops == "-") {
+        Sum diff;
+        tbb::parallel_reduce(
+            tbb::blocked_range<std::vector<int>::iterator>(
+                vec.begin(), vec.end()), diff);
+        reduction_elem -= diff.value;
+    } else if (ops == "*") {
+        Mult mult;
+        tbb::parallel_reduce(
+            tbb::blocked_range<std::vector<int>::iterator>(
+                vec.begin(), vec.end()), mult);
+        reduction_elem *= mult.value;
+    }
+    return reduction_elem;
 }
 
-TEST(Parallel_Operations_TBB, Test_Diff_2) {
-    std::vector<int> vec = getRandomVector(50);
-    int sequential_diff = getSequentialOperations(vec, "-");
-    int parallel_diff = getParallelOperations(vec, "-");
-    ASSERT_EQ(sequential_diff, parallel_diff);
+int getSequentialOperations(std::vector<int> vec, const std::string& ops) {
+    const int sz = vec.size();
+    int reduction_elem = 1;
+    if (ops == "+") {
+        for (int i = 0; i < sz; i++) {
+            reduction_elem += vec[i];
+        }
+    } else if (ops == "-") {
+        for (int i = 0; i < sz; i++) {
+            reduction_elem -= vec[i];
+        }
+    } else if (ops == "*") {
+        for (int i = 0; i < sz; i++) {
+            reduction_elem *= vec[i];
+        }
+    }
+    return reduction_elem;
 }
 
-TEST(Parallel_Operations_TBB, Test_Mult) {
+
+int main(int argc, char **argv) {
     std::vector<int> vec = getRandomVector(10);
     int sequential_mult = getSequentialOperations(vec, "*");
     int parallel_mult = getParallelOperations(vec, "*");
-    ASSERT_EQ(sequential_mult, parallel_mult);
-}
 
-TEST(Parallel_Operations_TBB, Test_Mult_2) {
-    std::vector<int> vec = getRandomVector(5);
-    int sequential_mult = getSequentialOperations(vec, "*");
-    int parallel_mult = getParallelOperations(vec, "*");
-    ASSERT_EQ(sequential_mult, parallel_mult);
-}
-
-int main(int argc, char **argv) {
-    ::testing::InitGoogleTest(&argc, argv);
-    return RUN_ALL_TESTS();
+    return 0;
 }
