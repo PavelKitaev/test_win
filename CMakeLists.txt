@@ -1,6 +1,8 @@
 cmake_minimum_required( VERSION 3.12 )
 project(Dirichle)
+
 message( STATUS "Parallel Programming Course" )
+
 include(cmake/configure.cmake)
 
 set(USE_MPI ON)
@@ -9,6 +11,9 @@ set(USE_TBB ON)
 set(USE_SEQ ON)
 set(USE_STD ON)
 set(CMAKE_BUILD_TYPE Release)
+
+message(STATUS "Build project: CMAKE_BUILD_TYPE: ${CMAKE_BUILD_TYPE} , OpenMP_CXX_FLAGS: ${OpenMP_CXX_FLAGS} ")
+
 
 ################################ MPI ################################
 if( USE_MPI )

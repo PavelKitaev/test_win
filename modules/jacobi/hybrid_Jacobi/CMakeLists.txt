@@ -18,7 +18,7 @@ if( USE_MPI AND USE_OMP )
     set(PACK_LIB_omp "${ProjectId}_omp_lib")
     add_library(${PACK_LIB_omp} STATIC ${ALL_SOURCE_FILES} )
 
-    set(CMAKE_CXX_FLAGS "${CMAKE_CXX_FLAGS} -fopenmp")
+    set(CMAKE_CXX_FLAGS "${CMAKE_CXX_FLAGS} /openmp")
 
     add_executable( ${ProjectId} ${ALL_SOURCE_FILES} )
 

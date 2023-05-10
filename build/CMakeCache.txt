@@ -276,12 +276,6 @@ PKG_CONFIG_ARGN:STRING=
 //pkg-config executable
 PKG_CONFIG_EXECUTABLE:FILEPATH=PKG_CONFIG_EXECUTABLE-NOTFOUND
 
-//Enable Interprocedural Optimization (IPO) during the compilation
-TBB_ENABLE_IPO:BOOL=OFF
-
-//No help, variable specified on the command line.
-TBB_TEST:UNINITIALIZED=OFF
-
 //Value Computed by CMake
 hybrid_Jacobi_hybrid_BINARY_DIR:STATIC=C:/test_win/build/modules/jacobi/hybrid_Jacobi
 
@@ -595,8 +589,6 @@ FIND_PACKAGE_MESSAGE_DETAILS_OpenMP_C:INTERNAL=[-openmp][v2.0()]
 FIND_PACKAGE_MESSAGE_DETAILS_OpenMP_CXX:INTERNAL=[-openmp][v2.0()]
 //Details about finding Threads
 FIND_PACKAGE_MESSAGE_DETAILS_Threads:INTERNAL=[TRUE][v()]
-//ADVANCED property for variable: MPIEXEC_EXECUTABLE
-MPIEXEC_EXECUTABLE-ADVANCED:INTERNAL=1
 //ADVANCED property for variable: MPIEXEC_MAX_NUMPROCS
 MPIEXEC_MAX_NUMPROCS-ADVANCED:INTERNAL=1
 //ADVANCED property for variable: MPIEXEC_NUMPROC_FLAG

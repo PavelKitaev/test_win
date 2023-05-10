@@ -24,7 +24,7 @@ events:
       The output was:
       0
       MSBuild version 17.5.1+f6fdcf537 for .NET Framework
-      Сборка начата 10.05.2023 9:00:35.
+      Сборка начата 10.05.2023 9:48:10.
       Included response file: C:\\Program Files\\Microsoft Visual Studio\\2022\\Community\\MSBuild\\Current\\Bin\\amd64\\MSBuild.rsp
       
       Проект "C:\\test_win\\build\\onetbb-build\\CMakeFiles\\3.26.3\\CompilerIdCXX\\CompilerIdCXX.vcxproj" в узле 1 (целевые объекты по умолчанию).
@@ -52,7 +52,7 @@ events:
           Предупреждений: 0
           Ошибок: 0
       
-      Прошло времени 00:00:00.85
+      Прошло времени 00:00:01.01
       
       
       Compilation of the CXX compiler identification source "CMakeCXXCompilerId.cpp" produced "CompilerIdCXX.exe"
@@ -71,46 +71,46 @@ events:
     checks:
       - "Detecting CXX compiler ABI info"
     directories:
-      source: "C:/test_win/build/onetbb-build/CMakeFiles/CMakeScratch/TryCompile-ndq5b4"
-      binary: "C:/test_win/build/onetbb-build/CMakeFiles/CMakeScratch/TryCompile-ndq5b4"
+      source: "C:/test_win/build/onetbb-build/CMakeFiles/CMakeScratch/TryCompile-29i2n0"
+      binary: "C:/test_win/build/onetbb-build/CMakeFiles/CMakeScratch/TryCompile-29i2n0"
     cmakeVariables:
       CMAKE_CXX_FLAGS: "/DWIN32 /D_WINDOWS /W3 /GR /EHsc -openmp"
     buildResult:
       variable: "CMAKE_CXX_ABI_COMPILED"
       cached: true
       stdout: |
-        Change Dir: C:/test_win/build/onetbb-build/CMakeFiles/CMakeScratch/TryCompile-ndq5b4
+        Change Dir: C:/test_win/build/onetbb-build/CMakeFiles/CMakeScratch/TryCompile-29i2n0
         
-        Run Build Command(s):C:/Program Files/Microsoft Visual Studio/2022/Community/MSBuild/Current/Bin/amd64/MSBuild.exe cmTC_dbe5c.vcxproj /p:Configuration=Debug /p:Platform=x64 /p:VisualStudioVersion=17.0 /v:n && MSBuild version 17.5.1+f6fdcf537 for .NET Framework
-        Сборка начата 10.05.2023 9:00:36.
+        Run Build Command(s):C:/Program Files/Microsoft Visual Studio/2022/Community/MSBuild/Current/Bin/amd64/MSBuild.exe cmTC_c3ffe.vcxproj /p:Configuration=Debug /p:Platform=x64 /p:VisualStudioVersion=17.0 /v:n && MSBuild version 17.5.1+f6fdcf537 for .NET Framework
+        Сборка начата 10.05.2023 9:48:12.
         Included response file: C:\\Program Files\\Microsoft Visual Studio\\2022\\Community\\MSBuild\\Current\\Bin\\amd64\\MSBuild.rsp
         
-        Проект "C:\\test_win\\build\\onetbb-build\\CMakeFiles\\CMakeScratch\\TryCompile-ndq5b4\\cmTC_dbe5c.vcxproj" в узле 1 (целевые объекты по умолчанию).
+        Проект "C:\\test_win\\build\\onetbb-build\\CMakeFiles\\CMakeScratch\\TryCompile-29i2n0\\cmTC_c3ffe.vcxproj" в узле 1 (целевые объекты по умолчанию).
         PrepareForBuild:
-          Создание каталога "cmTC_dbe5c.dir\\Debug\\".
-          Создание каталога "C:\\test_win\\build\\onetbb-build\\CMakeFiles\\CMakeScratch\\TryCompile-ndq5b4\\Debug\\".
-          Создание каталога "cmTC_dbe5c.dir\\Debug\\cmTC_dbe5c.tlog\\".
+          Создание каталога "cmTC_c3ffe.dir\\Debug\\".
+          Создание каталога "C:\\test_win\\build\\onetbb-build\\CMakeFiles\\CMakeScratch\\TryCompile-29i2n0\\Debug\\".
+          Создание каталога "cmTC_c3ffe.dir\\Debug\\cmTC_c3ffe.tlog\\".
         InitializeBuildStatus:
-          Создание "cmTC_dbe5c.dir\\Debug\\cmTC_dbe5c.tlog\\unsuccessfulbuild", так как было задано "AlwaysCreate".
+          Создание "cmTC_c3ffe.dir\\Debug\\cmTC_c3ffe.tlog\\unsuccessfulbuild", так как было задано "AlwaysCreate".
         ClCompile:
-          C:\\Program Files\\Microsoft Visual Studio\\2022\\Community\\VC\\Tools\\MSVC\\14.35.32215\\bin\\HostX64\\x64\\CL.exe /c /Zi /W3 /WX- /diagnostics:column /Od /Ob0 /D _MBCS /D WIN32 /D _WINDOWS /D "CMAKE_INTDIR=\\"Debug\\"" /Gm- /EHsc /RTC1 /MDd /GS /fp:precise /Zc:wchar_t /Zc:forScope /Zc:inline /GR /openmp /Fo"cmTC_dbe5c.dir\\Debug\\\\" /Fd"cmTC_dbe5c.dir\\Debug\\vc143.pdb" /external:W3 /Gd /TP /errorReport:queue "C:\\Program Files\\CMake\\share\\cmake-3.26\\Modules\\CMakeCXXCompilerABI.cpp"
+          C:\\Program Files\\Microsoft Visual Studio\\2022\\Community\\VC\\Tools\\MSVC\\14.35.32215\\bin\\HostX64\\x64\\CL.exe /c /Zi /W3 /WX- /diagnostics:column /Od /Ob0 /D _MBCS /D WIN32 /D _WINDOWS /D "CMAKE_INTDIR=\\"Debug\\"" /Gm- /EHsc /RTC1 /MDd /GS /fp:precise /Zc:wchar_t /Zc:forScope /Zc:inline /GR /openmp /Fo"cmTC_c3ffe.dir\\Debug\\\\" /Fd"cmTC_c3ffe.dir\\Debug\\vc143.pdb" /external:W3 /Gd /TP /errorReport:queue "C:\\Program Files\\CMake\\share\\cmake-3.26\\Modules\\CMakeCXXCompilerABI.cpp"
           Оптимизирующий компилятор Microsoft (R) C/C++ версии 19.35.32217.1 для x64
           CMakeCXXCompilerABI.cpp
           (C) Корпорация Майкрософт (Microsoft Corporation).  Все права защищены.
-          cl /c /Zi /W3 /WX- /diagnostics:column /Od /Ob0 /D _MBCS /D WIN32 /D _WINDOWS /D "CMAKE_INTDIR=\\"Debug\\"" /Gm- /EHsc /RTC1 /MDd /GS /fp:precise /Zc:wchar_t /Zc:forScope /Zc:inline /GR /openmp /Fo"cmTC_dbe5c.dir\\Debug\\\\" /Fd"cmTC_dbe5c.dir\\Debug\\vc143.pdb" /external:W3 /Gd /TP /errorReport:queue "C:\\Program Files\\CMake\\share\\cmake-3.26\\Modules\\CMakeCXXCompilerABI.cpp"
+          cl /c /Zi /W3 /WX- /diagnostics:column /Od /Ob0 /D _MBCS /D WIN32 /D _WINDOWS /D "CMAKE_INTDIR=\\"Debug\\"" /Gm- /EHsc /RTC1 /MDd /GS /fp:precise /Zc:wchar_t /Zc:forScope /Zc:inline /GR /openmp /Fo"cmTC_c3ffe.dir\\Debug\\\\" /Fd"cmTC_c3ffe.dir\\Debug\\vc143.pdb" /external:W3 /Gd /TP /errorReport:queue "C:\\Program Files\\CMake\\share\\cmake-3.26\\Modules\\CMakeCXXCompilerABI.cpp"
         Link:
-          C:\\Program Files\\Microsoft Visual Studio\\2022\\Community\\VC\\Tools\\MSVC\\14.35.32215\\bin\\HostX64\\x64\\link.exe /ERRORREPORT:QUEUE /OUT:"C:\\test_win\\build\\onetbb-build\\CMakeFiles\\CMakeScratch\\TryCompile-ndq5b4\\Debug\\cmTC_dbe5c.exe" /INCREMENTAL /ILK:"cmTC_dbe5c.dir\\Debug\\cmTC_dbe5c.ilk" /NOLOGO kernel32.lib user32.lib gdi32.lib winspool.lib shell32.lib ole32.lib oleaut32.lib uuid.lib comdlg32.lib advapi32.lib /MANIFEST /MANIFESTUAC:"level='asInvoker' uiAccess='false'" /manifest:embed /DEBUG /PDB:"C:/test_win/build/onetbb-build/CMakeFiles/CMakeScratch/TryCompile-ndq5b4/Debug/cmTC_dbe5c.pdb" /SUBSYSTEM:CONSOLE /TLBID:1 /DYNAMICBASE /NXCOMPAT /IMPLIB:"C:/test_win/build/onetbb-build/CMakeFiles/CMakeScratch/TryCompile-ndq5b4/Debug/cmTC_dbe5c.lib" /MACHINE:X64  /machine:x64 cmTC_dbe5c.dir\\Debug\\CMakeCXXCompilerABI.obj
-          cmTC_dbe5c.vcxproj -> C:\\test_win\\build\\onetbb-build\\CMakeFiles\\CMakeScratch\\TryCompile-ndq5b4\\Debug\\cmTC_dbe5c.exe
+          C:\\Program Files\\Microsoft Visual Studio\\2022\\Community\\VC\\Tools\\MSVC\\14.35.32215\\bin\\HostX64\\x64\\link.exe /ERRORREPORT:QUEUE /OUT:"C:\\test_win\\build\\onetbb-build\\CMakeFiles\\CMakeScratch\\TryCompile-29i2n0\\Debug\\cmTC_c3ffe.exe" /INCREMENTAL /ILK:"cmTC_c3ffe.dir\\Debug\\cmTC_c3ffe.ilk" /NOLOGO kernel32.lib user32.lib gdi32.lib winspool.lib shell32.lib ole32.lib oleaut32.lib uuid.lib comdlg32.lib advapi32.lib /MANIFEST /MANIFESTUAC:"level='asInvoker' uiAccess='false'" /manifest:embed /DEBUG /PDB:"C:/test_win/build/onetbb-build/CMakeFiles/CMakeScratch/TryCompile-29i2n0/Debug/cmTC_c3ffe.pdb" /SUBSYSTEM:CONSOLE /TLBID:1 /DYNAMICBASE /NXCOMPAT /IMPLIB:"C:/test_win/build/onetbb-build/CMakeFiles/CMakeScratch/TryCompile-29i2n0/Debug/cmTC_c3ffe.lib" /MACHINE:X64  /machine:x64 cmTC_c3ffe.dir\\Debug\\CMakeCXXCompilerABI.obj
+          cmTC_c3ffe.vcxproj -> C:\\test_win\\build\\onetbb-build\\CMakeFiles\\CMakeScratch\\TryCompile-29i2n0\\Debug\\cmTC_c3ffe.exe
         FinalizeBuildStatus:
-          Файл "cmTC_dbe5c.dir\\Debug\\cmTC_dbe5c.tlog\\unsuccessfulbuild" удаляется.
-          Обращение к "cmTC_dbe5c.dir\\Debug\\cmTC_dbe5c.tlog\\cmTC_dbe5c.lastbuildstate".
-        Сборка проекта "C:\\test_win\\build\\onetbb-build\\CMakeFiles\\CMakeScratch\\TryCompile-ndq5b4\\cmTC_dbe5c.vcxproj" завершена (целевые объекты по умолчанию).
+          Файл "cmTC_c3ffe.dir\\Debug\\cmTC_c3ffe.tlog\\unsuccessfulbuild" удаляется.
+          Обращение к "cmTC_c3ffe.dir\\Debug\\cmTC_c3ffe.tlog\\cmTC_c3ffe.lastbuildstate".
+        Сборка проекта "C:\\test_win\\build\\onetbb-build\\CMakeFiles\\CMakeScratch\\TryCompile-29i2n0\\cmTC_c3ffe.vcxproj" завершена (целевые объекты по умолчанию).
         
         Сборка успешно завершена.
             Предупреждений: 0
             Ошибок: 0
         
-        Прошло времени 00:00:00.86
+        Прошло времени 00:00:00.93
         
       exitCode: 0
   -
@@ -124,46 +124,46 @@ events:
     checks:
       - "Performing Test CMAKE_HAVE_LIBC_PTHREAD"
     directories:
-      source: "C:/test_win/build/onetbb-build/CMakeFiles/CMakeScratch/TryCompile-t4k4ic"
-      binary: "C:/test_win/build/onetbb-build/CMakeFiles/CMakeScratch/TryCompile-t4k4ic"
+      source: "C:/test_win/build/onetbb-build/CMakeFiles/CMakeScratch/TryCompile-toopso"
+      binary: "C:/test_win/build/onetbb-build/CMakeFiles/CMakeScratch/TryCompile-toopso"
     cmakeVariables:
       CMAKE_CXX_FLAGS: "/DWIN32 /D_WINDOWS /W3 /GR /EHsc -openmp"
     buildResult:
       variable: "CMAKE_HAVE_LIBC_PTHREAD"
       cached: true
       stdout: |
-        Change Dir: C:/test_win/build/onetbb-build/CMakeFiles/CMakeScratch/TryCompile-t4k4ic
+        Change Dir: C:/test_win/build/onetbb-build/CMakeFiles/CMakeScratch/TryCompile-toopso
         
-        Run Build Command(s):C:/Program Files/Microsoft Visual Studio/2022/Community/MSBuild/Current/Bin/amd64/MSBuild.exe cmTC_2ffdb.vcxproj /p:Configuration=Debug /p:Platform=x64 /p:VisualStudioVersion=17.0 /v:n && MSBuild version 17.5.1+f6fdcf537 for .NET Framework
-        Сборка начата 10.05.2023 9:00:37.
+        Run Build Command(s):C:/Program Files/Microsoft Visual Studio/2022/Community/MSBuild/Current/Bin/amd64/MSBuild.exe cmTC_38100.vcxproj /p:Configuration=Debug /p:Platform=x64 /p:VisualStudioVersion=17.0 /v:n && MSBuild version 17.5.1+f6fdcf537 for .NET Framework
+        Сборка начата 10.05.2023 9:48:13.
         Included response file: C:\\Program Files\\Microsoft Visual Studio\\2022\\Community\\MSBuild\\Current\\Bin\\amd64\\MSBuild.rsp
         
-        Проект "C:\\test_win\\build\\onetbb-build\\CMakeFiles\\CMakeScratch\\TryCompile-t4k4ic\\cmTC_2ffdb.vcxproj" в узле 1 (целевые объекты по умолчанию).
+        Проект "C:\\test_win\\build\\onetbb-build\\CMakeFiles\\CMakeScratch\\TryCompile-toopso\\cmTC_38100.vcxproj" в узле 1 (целевые объекты по умолчанию).
         PrepareForBuild:
-          Создание каталога "cmTC_2ffdb.dir\\Debug\\".
-          Создание каталога "C:\\test_win\\build\\onetbb-build\\CMakeFiles\\CMakeScratch\\TryCompile-t4k4ic\\Debug\\".
-          Создание каталога "cmTC_2ffdb.dir\\Debug\\cmTC_2ffdb.tlog\\".
+          Создание каталога "cmTC_38100.dir\\Debug\\".
+          Создание каталога "C:\\test_win\\build\\onetbb-build\\CMakeFiles\\CMakeScratch\\TryCompile-toopso\\Debug\\".
+          Создание каталога "cmTC_38100.dir\\Debug\\cmTC_38100.tlog\\".
         InitializeBuildStatus:
-          Создание "cmTC_2ffdb.dir\\Debug\\cmTC_2ffdb.tlog\\unsuccessfulbuild", так как было задано "AlwaysCreate".
+          Создание "cmTC_38100.dir\\Debug\\cmTC_38100.tlog\\unsuccessfulbuild", так как было задано "AlwaysCreate".
         ClCompile:
-          C:\\Program Files\\Microsoft Visual Studio\\2022\\Community\\VC\\Tools\\MSVC\\14.35.32215\\bin\\HostX64\\x64\\CL.exe /c /Zi /W3 /WX- /diagnostics:column /Od /Ob0 /D _MBCS /D WIN32 /D _WINDOWS /D CMAKE_HAVE_LIBC_PTHREAD /D "CMAKE_INTDIR=\\"Debug\\"" /Gm- /EHsc /RTC1 /MDd /GS /fp:precise /Zc:wchar_t /Zc:forScope /Zc:inline /GR /openmp /Fo"cmTC_2ffdb.dir\\Debug\\\\" /Fd"cmTC_2ffdb.dir\\Debug\\vc143.pdb" /external:W3 /Gd /TP /errorReport:queue "C:\\test_win\\build\\onetbb-build\\CMakeFiles\\CMakeScratch\\TryCompile-t4k4ic\\src.cxx"
+          C:\\Program Files\\Microsoft Visual Studio\\2022\\Community\\VC\\Tools\\MSVC\\14.35.32215\\bin\\HostX64\\x64\\CL.exe /c /Zi /W3 /WX- /diagnostics:column /Od /Ob0 /D _MBCS /D WIN32 /D _WINDOWS /D CMAKE_HAVE_LIBC_PTHREAD /D "CMAKE_INTDIR=\\"Debug\\"" /Gm- /EHsc /RTC1 /MDd /GS /fp:precise /Zc:wchar_t /Zc:forScope /Zc:inline /GR /openmp /Fo"cmTC_38100.dir\\Debug\\\\" /Fd"cmTC_38100.dir\\Debug\\vc143.pdb" /external:W3 /Gd /TP /errorReport:queue "C:\\test_win\\build\\onetbb-build\\CMakeFiles\\CMakeScratch\\TryCompile-toopso\\src.cxx"
           Оптимизирующий компилятор Microsoft (R) C/C++ версии 19.35.32217.1 для x64
           src.cxx
           (C) Корпорация Майкрософт (Microsoft Corporation).  Все права защищены.
-          cl /c /Zi /W3 /WX- /diagnostics:column /Od /Ob0 /D _MBCS /D WIN32 /D _WINDOWS /D CMAKE_HAVE_LIBC_PTHREAD /D "CMAKE_INTDIR=\\"Debug\\"" /Gm- /EHsc /RTC1 /MDd /GS /fp:precise /Zc:wchar_t /Zc:forScope /Zc:inline /GR /openmp /Fo"cmTC_2ffdb.dir\\Debug\\\\" /Fd"cmTC_2ffdb.dir\\Debug\\vc143.pdb" /external:W3 /Gd /TP /errorReport:queue "C:\\test_win\\build\\onetbb-build\\CMakeFiles\\CMakeScratch\\TryCompile-t4k4ic\\src.cxx"
-        C:\\test_win\\build\\onetbb-build\\CMakeFiles\\CMakeScratch\\TryCompile-t4k4ic\\src.cxx(1,10): fatal  error C1083: Не удается открыть файл включение: pthread.h: No such file or directory, [C:\\test_win\\build\\onetbb-build\\CMakeFiles\\CMakeScratch\\TryCompile-t4k4ic\\cmTC_2ffdb.vcxproj]
-        Сборка проекта "C:\\test_win\\build\\onetbb-build\\CMakeFiles\\CMakeScratch\\TryCompile-t4k4ic\\cmTC_2ffdb.vcxproj" завершена (целевые объекты по умолчанию) с ошибкой.
+          cl /c /Zi /W3 /WX- /diagnostics:column /Od /Ob0 /D _MBCS /D WIN32 /D _WINDOWS /D CMAKE_HAVE_LIBC_PTHREAD /D "CMAKE_INTDIR=\\"Debug\\"" /Gm- /EHsc /RTC1 /MDd /GS /fp:precise /Zc:wchar_t /Zc:forScope /Zc:inline /GR /openmp /Fo"cmTC_38100.dir\\Debug\\\\" /Fd"cmTC_38100.dir\\Debug\\vc143.pdb" /external:W3 /Gd /TP /errorReport:queue "C:\\test_win\\build\\onetbb-build\\CMakeFiles\\CMakeScratch\\TryCompile-toopso\\src.cxx"
+        C:\\test_win\\build\\onetbb-build\\CMakeFiles\\CMakeScratch\\TryCompile-toopso\\src.cxx(1,10): fatal  error C1083: Не удается открыть файл включение: pthread.h: No such file or directory, [C:\\test_win\\build\\onetbb-build\\CMakeFiles\\CMakeScratch\\TryCompile-toopso\\cmTC_38100.vcxproj]
+        Сборка проекта "C:\\test_win\\build\\onetbb-build\\CMakeFiles\\CMakeScratch\\TryCompile-toopso\\cmTC_38100.vcxproj" завершена (целевые объекты по умолчанию) с ошибкой.
         
         Ошибка сборки.
         
-        "C:\\test_win\\build\\onetbb-build\\CMakeFiles\\CMakeScratch\\TryCompile-t4k4ic\\cmTC_2ffdb.vcxproj" (целевой объект по умолчанию) (1) ->
+        "C:\\test_win\\build\\onetbb-build\\CMakeFiles\\CMakeScratch\\TryCompile-toopso\\cmTC_38100.vcxproj" (целевой объект по умолчанию) (1) ->
         (Целевой объект ClCompile) -> 
-          C:\\test_win\\build\\onetbb-build\\CMakeFiles\\CMakeScratch\\TryCompile-t4k4ic\\src.cxx(1,10): fatal  error C1083: Не удается открыть файл включение: pthread.h: No such file or directory, [C:\\test_win\\build\\onetbb-build\\CMakeFiles\\CMakeScratch\\TryCompile-t4k4ic\\cmTC_2ffdb.vcxproj]
+          C:\\test_win\\build\\onetbb-build\\CMakeFiles\\CMakeScratch\\TryCompile-toopso\\src.cxx(1,10): fatal  error C1083: Не удается открыть файл включение: pthread.h: No such file or directory, [C:\\test_win\\build\\onetbb-build\\CMakeFiles\\CMakeScratch\\TryCompile-toopso\\cmTC_38100.vcxproj]
         
             Предупреждений: 0
             Ошибок: 1
         
-        Прошло времени 00:00:00.57
+        Прошло времени 00:00:00.60
         
       exitCode: 1
   -
@@ -176,48 +176,48 @@ events:
     checks:
       - "Looking for pthread_create in pthreads"
     directories:
-      source: "C:/test_win/build/onetbb-build/CMakeFiles/CMakeScratch/TryCompile-nka2wd"
-      binary: "C:/test_win/build/onetbb-build/CMakeFiles/CMakeScratch/TryCompile-nka2wd"
+      source: "C:/test_win/build/onetbb-build/CMakeFiles/CMakeScratch/TryCompile-956z4o"
+      binary: "C:/test_win/build/onetbb-build/CMakeFiles/CMakeScratch/TryCompile-956z4o"
     cmakeVariables:
       CMAKE_CXX_FLAGS: "/DWIN32 /D_WINDOWS /W3 /GR /EHsc -openmp"
     buildResult:
       variable: "CMAKE_HAVE_PTHREADS_CREATE"
       cached: true
       stdout: |
-        Change Dir: C:/test_win/build/onetbb-build/CMakeFiles/CMakeScratch/TryCompile-nka2wd
+        Change Dir: C:/test_win/build/onetbb-build/CMakeFiles/CMakeScratch/TryCompile-956z4o
         
-        Run Build Command(s):C:/Program Files/Microsoft Visual Studio/2022/Community/MSBuild/Current/Bin/amd64/MSBuild.exe cmTC_8582d.vcxproj /p:Configuration=Debug /p:Platform=x64 /p:VisualStudioVersion=17.0 /v:n && MSBuild version 17.5.1+f6fdcf537 for .NET Framework
-        Сборка начата 10.05.2023 9:00:38.
+        Run Build Command(s):C:/Program Files/Microsoft Visual Studio/2022/Community/MSBuild/Current/Bin/amd64/MSBuild.exe cmTC_9e398.vcxproj /p:Configuration=Debug /p:Platform=x64 /p:VisualStudioVersion=17.0 /v:n && MSBuild version 17.5.1+f6fdcf537 for .NET Framework
+        Сборка начата 10.05.2023 9:48:14.
         Included response file: C:\\Program Files\\Microsoft Visual Studio\\2022\\Community\\MSBuild\\Current\\Bin\\amd64\\MSBuild.rsp
         
-        Проект "C:\\test_win\\build\\onetbb-build\\CMakeFiles\\CMakeScratch\\TryCompile-nka2wd\\cmTC_8582d.vcxproj" в узле 1 (целевые объекты по умолчанию).
+        Проект "C:\\test_win\\build\\onetbb-build\\CMakeFiles\\CMakeScratch\\TryCompile-956z4o\\cmTC_9e398.vcxproj" в узле 1 (целевые объекты по умолчанию).
         PrepareForBuild:
-          Создание каталога "cmTC_8582d.dir\\Debug\\".
-          Создание каталога "C:\\test_win\\build\\onetbb-build\\CMakeFiles\\CMakeScratch\\TryCompile-nka2wd\\Debug\\".
-          Создание каталога "cmTC_8582d.dir\\Debug\\cmTC_8582d.tlog\\".
+          Создание каталога "cmTC_9e398.dir\\Debug\\".
+          Создание каталога "C:\\test_win\\build\\onetbb-build\\CMakeFiles\\CMakeScratch\\TryCompile-956z4o\\Debug\\".
+          Создание каталога "cmTC_9e398.dir\\Debug\\cmTC_9e398.tlog\\".
         InitializeBuildStatus:
-          Создание "cmTC_8582d.dir\\Debug\\cmTC_8582d.tlog\\unsuccessfulbuild", так как было задано "AlwaysCreate".
+          Создание "cmTC_9e398.dir\\Debug\\cmTC_9e398.tlog\\unsuccessfulbuild", так как было задано "AlwaysCreate".
         ClCompile:
-          C:\\Program Files\\Microsoft Visual Studio\\2022\\Community\\VC\\Tools\\MSVC\\14.35.32215\\bin\\HostX64\\x64\\CL.exe /c /Zi /W3 /WX- /diagnostics:column /Od /Ob0 /D _MBCS /D WIN32 /D _WINDOWS /D CHECK_FUNCTION_EXISTS=pthread_create /D "CMAKE_INTDIR=\\"Debug\\"" /Gm- /EHsc /RTC1 /MDd /GS /fp:precise /Zc:wchar_t /Zc:forScope /Zc:inline /GR /openmp /Fo"cmTC_8582d.dir\\Debug\\\\" /Fd"cmTC_8582d.dir\\Debug\\vc143.pdb" /external:W3 /Gd /TP /errorReport:queue "C:\\test_win\\build\\onetbb-build\\CMakeFiles\\CMakeScratch\\TryCompile-nka2wd\\CheckFunctionExists.cxx"
+          C:\\Program Files\\Microsoft Visual Studio\\2022\\Community\\VC\\Tools\\MSVC\\14.35.32215\\bin\\HostX64\\x64\\CL.exe /c /Zi /W3 /WX- /diagnostics:column /Od /Ob0 /D _MBCS /D WIN32 /D _WINDOWS /D CHECK_FUNCTION_EXISTS=pthread_create /D "CMAKE_INTDIR=\\"Debug\\"" /Gm- /EHsc /RTC1 /MDd /GS /fp:precise /Zc:wchar_t /Zc:forScope /Zc:inline /GR /openmp /Fo"cmTC_9e398.dir\\Debug\\\\" /Fd"cmTC_9e398.dir\\Debug\\vc143.pdb" /external:W3 /Gd /TP /errorReport:queue "C:\\test_win\\build\\onetbb-build\\CMakeFiles\\CMakeScratch\\TryCompile-956z4o\\CheckFunctionExists.cxx"
           Оптимизирующий компилятор Microsoft (R) C/C++ версии 19.35.32217.1 для x64
           CheckFunctionExists.cxx
           (C) Корпорация Майкрософт (Microsoft Corporation).  Все права защищены.
-          cl /c /Zi /W3 /WX- /diagnostics:column /Od /Ob0 /D _MBCS /D WIN32 /D _WINDOWS /D CHECK_FUNCTION_EXISTS=pthread_create /D "CMAKE_INTDIR=\\"Debug\\"" /Gm- /EHsc /RTC1 /MDd /GS /fp:precise /Zc:wchar_t /Zc:forScope /Zc:inline /GR /openmp /Fo"cmTC_8582d.dir\\Debug\\\\" /Fd"cmTC_8582d.dir\\Debug\\vc143.pdb" /external:W3 /Gd /TP /errorReport:queue "C:\\test_win\\build\\onetbb-build\\CMakeFiles\\CMakeScratch\\TryCompile-nka2wd\\CheckFunctionExists.cxx"
+          cl /c /Zi /W3 /WX- /diagnostics:column /Od /Ob0 /D _MBCS /D WIN32 /D _WINDOWS /D CHECK_FUNCTION_EXISTS=pthread_create /D "CMAKE_INTDIR=\\"Debug\\"" /Gm- /EHsc /RTC1 /MDd /GS /fp:precise /Zc:wchar_t /Zc:forScope /Zc:inline /GR /openmp /Fo"cmTC_9e398.dir\\Debug\\\\" /Fd"cmTC_9e398.dir\\Debug\\vc143.pdb" /external:W3 /Gd /TP /errorReport:queue "C:\\test_win\\build\\onetbb-build\\CMakeFiles\\CMakeScratch\\TryCompile-956z4o\\CheckFunctionExists.cxx"
         Link:
-          C:\\Program Files\\Microsoft Visual Studio\\2022\\Community\\VC\\Tools\\MSVC\\14.35.32215\\bin\\HostX64\\x64\\link.exe /ERRORREPORT:QUEUE /OUT:"C:\\test_win\\build\\onetbb-build\\CMakeFiles\\CMakeScratch\\TryCompile-nka2wd\\Debug\\cmTC_8582d.exe" /INCREMENTAL /ILK:"cmTC_8582d.dir\\Debug\\cmTC_8582d.ilk" /NOLOGO pthreads.lib kernel32.lib user32.lib gdi32.lib winspool.lib shell32.lib ole32.lib oleaut32.lib uuid.lib comdlg32.lib advapi32.lib /MANIFEST /MANIFESTUAC:"level='asInvoker' uiAccess='false'" /manifest:embed /DEBUG /PDB:"C:/test_win/build/onetbb-build/CMakeFiles/CMakeScratch/TryCompile-nka2wd/Debug/cmTC_8582d.pdb" /SUBSYSTEM:CONSOLE /TLBID:1 /DYNAMICBASE /NXCOMPAT /IMPLIB:"C:/test_win/build/onetbb-build/CMakeFiles/CMakeScratch/TryCompile-nka2wd/Debug/cmTC_8582d.lib" /MACHINE:X64  /machine:x64 cmTC_8582d.dir\\Debug\\CheckFunctionExists.obj
-        LINK : fatal error LNK1104: не удается открыть файл "pthreads.lib" [C:\\test_win\\build\\onetbb-build\\CMakeFiles\\CMakeScratch\\TryCompile-nka2wd\\cmTC_8582d.vcxproj]
-        Сборка проекта "C:\\test_win\\build\\onetbb-build\\CMakeFiles\\CMakeScratch\\TryCompile-nka2wd\\cmTC_8582d.vcxproj" завершена (целевые объекты по умолчанию) с ошибкой.
+          C:\\Program Files\\Microsoft Visual Studio\\2022\\Community\\VC\\Tools\\MSVC\\14.35.32215\\bin\\HostX64\\x64\\link.exe /ERRORREPORT:QUEUE /OUT:"C:\\test_win\\build\\onetbb-build\\CMakeFiles\\CMakeScratch\\TryCompile-956z4o\\Debug\\cmTC_9e398.exe" /INCREMENTAL /ILK:"cmTC_9e398.dir\\Debug\\cmTC_9e398.ilk" /NOLOGO pthreads.lib kernel32.lib user32.lib gdi32.lib winspool.lib shell32.lib ole32.lib oleaut32.lib uuid.lib comdlg32.lib advapi32.lib /MANIFEST /MANIFESTUAC:"level='asInvoker' uiAccess='false'" /manifest:embed /DEBUG /PDB:"C:/test_win/build/onetbb-build/CMakeFiles/CMakeScratch/TryCompile-956z4o/Debug/cmTC_9e398.pdb" /SUBSYSTEM:CONSOLE /TLBID:1 /DYNAMICBASE /NXCOMPAT /IMPLIB:"C:/test_win/build/onetbb-build/CMakeFiles/CMakeScratch/TryCompile-956z4o/Debug/cmTC_9e398.lib" /MACHINE:X64  /machine:x64 cmTC_9e398.dir\\Debug\\CheckFunctionExists.obj
+        LINK : fatal error LNK1104: не удается открыть файл "pthreads.lib" [C:\\test_win\\build\\onetbb-build\\CMakeFiles\\CMakeScratch\\TryCompile-956z4o\\cmTC_9e398.vcxproj]
+        Сборка проекта "C:\\test_win\\build\\onetbb-build\\CMakeFiles\\CMakeScratch\\TryCompile-956z4o\\cmTC_9e398.vcxproj" завершена (целевые объекты по умолчанию) с ошибкой.
         
         Ошибка сборки.
         
-        "C:\\test_win\\build\\onetbb-build\\CMakeFiles\\CMakeScratch\\TryCompile-nka2wd\\cmTC_8582d.vcxproj" (целевой объект по умолчанию) (1) ->
+        "C:\\test_win\\build\\onetbb-build\\CMakeFiles\\CMakeScratch\\TryCompile-956z4o\\cmTC_9e398.vcxproj" (целевой объект по умолчанию) (1) ->
         (Целевой объект Link) -> 
-          LINK : fatal error LNK1104: не удается открыть файл "pthreads.lib" [C:\\test_win\\build\\onetbb-build\\CMakeFiles\\CMakeScratch\\TryCompile-nka2wd\\cmTC_8582d.vcxproj]
+          LINK : fatal error LNK1104: не удается открыть файл "pthreads.lib" [C:\\test_win\\build\\onetbb-build\\CMakeFiles\\CMakeScratch\\TryCompile-956z4o\\cmTC_9e398.vcxproj]
         
             Предупреждений: 0
             Ошибок: 1
         
-        Прошло времени 00:00:00.67
+        Прошло времени 00:00:00.71
         
       exitCode: 1
   -
@@ -230,147 +230,50 @@ events:
     checks:
       - "Looking for pthread_create in pthread"
     directories:
-      source: "C:/test_win/build/onetbb-build/CMakeFiles/CMakeScratch/TryCompile-8cp3y3"
-      binary: "C:/test_win/build/onetbb-build/CMakeFiles/CMakeScratch/TryCompile-8cp3y3"
+      source: "C:/test_win/build/onetbb-build/CMakeFiles/CMakeScratch/TryCompile-dzfdf4"
+      binary: "C:/test_win/build/onetbb-build/CMakeFiles/CMakeScratch/TryCompile-dzfdf4"
     cmakeVariables:
       CMAKE_CXX_FLAGS: "/DWIN32 /D_WINDOWS /W3 /GR /EHsc -openmp"
     buildResult:
       variable: "CMAKE_HAVE_PTHREAD_CREATE"
       cached: true
       stdout: |
-        Change Dir: C:/test_win/build/onetbb-build/CMakeFiles/CMakeScratch/TryCompile-8cp3y3
+        Change Dir: C:/test_win/build/onetbb-build/CMakeFiles/CMakeScratch/TryCompile-dzfdf4
         
-        Run Build Command(s):C:/Program Files/Microsoft Visual Studio/2022/Community/MSBuild/Current/Bin/amd64/MSBuild.exe cmTC_b775f.vcxproj /p:Configuration=Debug /p:Platform=x64 /p:VisualStudioVersion=17.0 /v:n && MSBuild version 17.5.1+f6fdcf537 for .NET Framework
-        Сборка начата 10.05.2023 9:00:39.
+        Run Build Command(s):C:/Program Files/Microsoft Visual Studio/2022/Community/MSBuild/Current/Bin/amd64/MSBuild.exe cmTC_8c951.vcxproj /p:Configuration=Debug /p:Platform=x64 /p:VisualStudioVersion=17.0 /v:n && MSBuild version 17.5.1+f6fdcf537 for .NET Framework
+        Сборка начата 10.05.2023 9:48:15.
         Included response file: C:\\Program Files\\Microsoft Visual Studio\\2022\\Community\\MSBuild\\Current\\Bin\\amd64\\MSBuild.rsp
         
-        Проект "C:\\test_win\\build\\onetbb-build\\CMakeFiles\\CMakeScratch\\TryCompile-8cp3y3\\cmTC_b775f.vcxproj" в узле 1 (целевые объекты по умолчанию).
+        Проект "C:\\test_win\\build\\onetbb-build\\CMakeFiles\\CMakeScratch\\TryCompile-dzfdf4\\cmTC_8c951.vcxproj" в узле 1 (целевые объекты по умолчанию).
         PrepareForBuild:
-          Создание каталога "cmTC_b775f.dir\\Debug\\".
-          Создание каталога "C:\\test_win\\build\\onetbb-build\\CMakeFiles\\CMakeScratch\\TryCompile-8cp3y3\\Debug\\".
-          Создание каталога "cmTC_b775f.dir\\Debug\\cmTC_b775f.tlog\\".
+          Создание каталога "cmTC_8c951.dir\\Debug\\".
+          Создание каталога "C:\\test_win\\build\\onetbb-build\\CMakeFiles\\CMakeScratch\\TryCompile-dzfdf4\\Debug\\".
+          Создание каталога "cmTC_8c951.dir\\Debug\\cmTC_8c951.tlog\\".
         InitializeBuildStatus:
-          Создание "cmTC_b775f.dir\\Debug\\cmTC_b775f.tlog\\unsuccessfulbuild", так как было задано "AlwaysCreate".
+          Создание "cmTC_8c951.dir\\Debug\\cmTC_8c951.tlog\\unsuccessfulbuild", так как было задано "AlwaysCreate".
         ClCompile:
-          C:\\Program Files\\Microsoft Visual Studio\\2022\\Community\\VC\\Tools\\MSVC\\14.35.32215\\bin\\HostX64\\x64\\CL.exe /c /Zi /W3 /WX- /diagnostics:column /Od /Ob0 /D _MBCS /D WIN32 /D _WINDOWS /D CHECK_FUNCTION_EXISTS=pthread_create /D "CMAKE_INTDIR=\\"Debug\\"" /Gm- /EHsc /RTC1 /MDd /GS /fp:precise /Zc:wchar_t /Zc:forScope /Zc:inline /GR /openmp /Fo"cmTC_b775f.dir\\Debug\\\\" /Fd"cmTC_b775f.dir\\Debug\\vc143.pdb" /external:W3 /Gd /TP /errorReport:queue "C:\\test_win\\build\\onetbb-build\\CMakeFiles\\CMakeScratch\\TryCompile-8cp3y3\\CheckFunctionExists.cxx"
+          C:\\Program Files\\Microsoft Visual Studio\\2022\\Community\\VC\\Tools\\MSVC\\14.35.32215\\bin\\HostX64\\x64\\CL.exe /c /Zi /W3 /WX- /diagnostics:column /Od /Ob0 /D _MBCS /D WIN32 /D _WINDOWS /D CHECK_FUNCTION_EXISTS=pthread_create /D "CMAKE_INTDIR=\\"Debug\\"" /Gm- /EHsc /RTC1 /MDd /GS /fp:precise /Zc:wchar_t /Zc:forScope /Zc:inline /GR /openmp /Fo"cmTC_8c951.dir\\Debug\\\\" /Fd"cmTC_8c951.dir\\Debug\\vc143.pdb" /external:W3 /Gd /TP /errorReport:queue "C:\\test_win\\build\\onetbb-build\\CMakeFiles\\CMakeScratch\\TryCompile-dzfdf4\\CheckFunctionExists.cxx"
           Оптимизирующий компилятор Microsoft (R) C/C++ версии 19.35.32217.1 для x64
           CheckFunctionExists.cxx
           (C) Корпорация Майкрософт (Microsoft Corporation).  Все права защищены.
-          cl /c /Zi /W3 /WX- /diagnostics:column /Od /Ob0 /D _MBCS /D WIN32 /D _WINDOWS /D CHECK_FUNCTION_EXISTS=pthread_create /D "CMAKE_INTDIR=\\"Debug\\"" /Gm- /EHsc /RTC1 /MDd /GS /fp:precise /Zc:wchar_t /Zc:forScope /Zc:inline /GR /openmp /Fo"cmTC_b775f.dir\\Debug\\\\" /Fd"cmTC_b775f.dir\\Debug\\vc143.pdb" /external:W3 /Gd /TP /errorReport:queue "C:\\test_win\\build\\onetbb-build\\CMakeFiles\\CMakeScratch\\TryCompile-8cp3y3\\CheckFunctionExists.cxx"
+          cl /c /Zi /W3 /WX- /diagnostics:column /Od /Ob0 /D _MBCS /D WIN32 /D _WINDOWS /D CHECK_FUNCTION_EXISTS=pthread_create /D "CMAKE_INTDIR=\\"Debug\\"" /Gm- /EHsc /RTC1 /MDd /GS /fp:precise /Zc:wchar_t /Zc:forScope /Zc:inline /GR /openmp /Fo"cmTC_8c951.dir\\Debug\\\\" /Fd"cmTC_8c951.dir\\Debug\\vc143.pdb" /external:W3 /Gd /TP /errorReport:queue "C:\\test_win\\build\\onetbb-build\\CMakeFiles\\CMakeScratch\\TryCompile-dzfdf4\\CheckFunctionExists.cxx"
         Link:
-          C:\\Program Files\\Microsoft Visual Studio\\2022\\Community\\VC\\Tools\\MSVC\\14.35.32215\\bin\\HostX64\\x64\\link.exe /ERRORREPORT:QUEUE /OUT:"C:\\test_win\\build\\onetbb-build\\CMakeFiles\\CMakeScratch\\TryCompile-8cp3y3\\Debug\\cmTC_b775f.exe" /INCREMENTAL /ILK:"cmTC_b775f.dir\\Debug\\cmTC_b775f.ilk" /NOLOGO pthread.lib kernel32.lib user32.lib gdi32.lib winspool.lib shell32.lib ole32.lib oleaut32.lib uuid.lib comdlg32.lib advapi32.lib /MANIFEST /MANIFESTUAC:"level='asInvoker' uiAccess='false'" /manifest:embed /DEBUG /PDB:"C:/test_win/build/onetbb-build/CMakeFiles/CMakeScratch/TryCompile-8cp3y3/Debug/cmTC_b775f.pdb" /SUBSYSTEM:CONSOLE /TLBID:1 /DYNAMICBASE /NXCOMPAT /IMPLIB:"C:/test_win/build/onetbb-build/CMakeFiles/CMakeScratch/TryCompile-8cp3y3/Debug/cmTC_b775f.lib" /MACHINE:X64  /machine:x64 cmTC_b775f.dir\\Debug\\CheckFunctionExists.obj
-        LINK : fatal error LNK1104: не удается открыть файл "pthread.lib" [C:\\test_win\\build\\onetbb-build\\CMakeFiles\\CMakeScratch\\TryCompile-8cp3y3\\cmTC_b775f.vcxproj]
-        Сборка проекта "C:\\test_win\\build\\onetbb-build\\CMakeFiles\\CMakeScratch\\TryCompile-8cp3y3\\cmTC_b775f.vcxproj" завершена (целевые объекты по умолчанию) с ошибкой.
+          C:\\Program Files\\Microsoft Visual Studio\\2022\\Community\\VC\\Tools\\MSVC\\14.35.32215\\bin\\HostX64\\x64\\link.exe /ERRORREPORT:QUEUE /OUT:"C:\\test_win\\build\\onetbb-build\\CMakeFiles\\CMakeScratch\\TryCompile-dzfdf4\\Debug\\cmTC_8c951.exe" /INCREMENTAL /ILK:"cmTC_8c951.dir\\Debug\\cmTC_8c951.ilk" /NOLOGO pthread.lib kernel32.lib user32.lib gdi32.lib winspool.lib shell32.lib ole32.lib oleaut32.lib uuid.lib comdlg32.lib advapi32.lib /MANIFEST /MANIFESTUAC:"level='asInvoker' uiAccess='false'" /manifest:embed /DEBUG /PDB:"C:/test_win/build/onetbb-build/CMakeFiles/CMakeScratch/TryCompile-dzfdf4/Debug/cmTC_8c951.pdb" /SUBSYSTEM:CONSOLE /TLBID:1 /DYNAMICBASE /NXCOMPAT /IMPLIB:"C:/test_win/build/onetbb-build/CMakeFiles/CMakeScratch/TryCompile-dzfdf4/Debug/cmTC_8c951.lib" /MACHINE:X64  /machine:x64 cmTC_8c951.dir\\Debug\\CheckFunctionExists.obj
+        LINK : fatal error LNK1104: не удается открыть файл "pthread.lib" [C:\\test_win\\build\\onetbb-build\\CMakeFiles\\CMakeScratch\\TryCompile-dzfdf4\\cmTC_8c951.vcxproj]
+        Сборка проекта "C:\\test_win\\build\\onetbb-build\\CMakeFiles\\CMakeScratch\\TryCompile-dzfdf4\\cmTC_8c951.vcxproj" завершена (целевые объекты по умолчанию) с ошибкой.
         
         Ошибка сборки.
         
-        "C:\\test_win\\build\\onetbb-build\\CMakeFiles\\CMakeScratch\\TryCompile-8cp3y3\\cmTC_b775f.vcxproj" (целевой объект по умолчанию) (1) ->
+        "C:\\test_win\\build\\onetbb-build\\CMakeFiles\\CMakeScratch\\TryCompile-dzfdf4\\cmTC_8c951.vcxproj" (целевой объект по умолчанию) (1) ->
         (Целевой объект Link) -> 
-          LINK : fatal error LNK1104: не удается открыть файл "pthread.lib" [C:\\test_win\\build\\onetbb-build\\CMakeFiles\\CMakeScratch\\TryCompile-8cp3y3\\cmTC_b775f.vcxproj]
+          LINK : fatal error LNK1104: не удается открыть файл "pthread.lib" [C:\\test_win\\build\\onetbb-build\\CMakeFiles\\CMakeScratch\\TryCompile-dzfdf4\\cmTC_8c951.vcxproj]
         
             Предупреждений: 0
             Ошибок: 1
         
-        Прошло времени 00:00:00.70
+        Прошло времени 00:00:00.73
         
       exitCode: 1
-  -
-    kind: "try_compile-v1"
-    backtrace:
-      - "C:/Program Files/CMake/share/cmake-3.26/Modules/CheckIPOSupported.cmake:138 (try_compile)"
-      - "C:/Program Files/CMake/share/cmake-3.26/Modules/CheckIPOSupported.cmake:266 (_ipo_run_language_check)"
-      - "CMakeLists.txt:214 (check_ipo_supported)"
-    directories:
-      source: "C:/test_win/build/onetbb-build/CMakeFiles/_CMakeLTOTest-CXX/src"
-      binary: "C:/test_win/build/onetbb-build/CMakeFiles/_CMakeLTOTest-CXX/bin"
-    buildResult:
-      variable: "_IPO_LANGUAGE_CHECK_RESULT"
-      cached: true
-      stdout: |
-        Change Dir: C:/test_win/build/onetbb-build/CMakeFiles/_CMakeLTOTest-CXX/bin
-        
-        Run Build Command(s):C:/Program Files/Microsoft Visual Studio/2022/Community/MSBuild/Current/Bin/amd64/MSBuild.exe ALL_BUILD.vcxproj /p:Configuration=Debug /p:Platform=x64 /p:VisualStudioVersion=17.0 /v:n && MSBuild version 17.5.1+f6fdcf537 for .NET Framework
-        Сборка начата 10.05.2023 9:00:40.
-        Included response file: C:\\Program Files\\Microsoft Visual Studio\\2022\\Community\\MSBuild\\Current\\Bin\\amd64\\MSBuild.rsp
-        
-        Проект "C:\\test_win\\build\\onetbb-build\\CMakeFiles\\_CMakeLTOTest-CXX\\bin\\ALL_BUILD.vcxproj" в узле 1 (целевые объекты по умолчанию).
-        Проект "C:\\test_win\\build\\onetbb-build\\CMakeFiles\\_CMakeLTOTest-CXX\\bin\\ALL_BUILD.vcxproj" (1) выполняет сборку "C:\\test_win\\build\\onetbb-build\\CMakeFiles\\_CMakeLTOTest-CXX\\bin\\ZERO_CHECK.vcxproj" (2) в узле 1 (целевые объекты по умолчанию).
-        PrepareForBuild:
-          Создание каталога "x64\\Debug\\ZERO_CHECK\\".
-          Создание каталога "x64\\Debug\\ZERO_CHECK\\ZERO_CHECK.tlog\\".
-        InitializeBuildStatus:
-          Создание "x64\\Debug\\ZERO_CHECK\\ZERO_CHECK.tlog\\unsuccessfulbuild", так как было задано "AlwaysCreate".
-        CustomBuild:
-          Checking Build System
-        FinalizeBuildStatus:
-          Файл "x64\\Debug\\ZERO_CHECK\\ZERO_CHECK.tlog\\unsuccessfulbuild" удаляется.
-          Обращение к "x64\\Debug\\ZERO_CHECK\\ZERO_CHECK.tlog\\ZERO_CHECK.lastbuildstate".
-        Сборка проекта "C:\\test_win\\build\\onetbb-build\\CMakeFiles\\_CMakeLTOTest-CXX\\bin\\ZERO_CHECK.vcxproj" завершена (целевые объекты по умолчанию).
-        Проект "C:\\test_win\\build\\onetbb-build\\CMakeFiles\\_CMakeLTOTest-CXX\\bin\\ALL_BUILD.vcxproj" (1) выполняет сборку "C:\\test_win\\build\\onetbb-build\\CMakeFiles\\_CMakeLTOTest-CXX\\bin\\boo.vcxproj" (3) в узле 1 (целевые объекты по умолчанию).
-        Проект "C:\\test_win\\build\\onetbb-build\\CMakeFiles\\_CMakeLTOTest-CXX\\bin\\boo.vcxproj" (3) выполняет сборку "C:\\test_win\\build\\onetbb-build\\CMakeFiles\\_CMakeLTOTest-CXX\\bin\\foo.vcxproj" (4) в узле 1 (целевые объекты по умолчанию).
-        PrepareForBuild:
-          Создание каталога "foo.dir\\Debug\\".
-          Создание каталога "C:\\test_win\\build\\onetbb-build\\CMakeFiles\\_CMakeLTOTest-CXX\\bin\\Debug\\".
-          Создание каталога "foo.dir\\Debug\\foo.tlog\\".
-        InitializeBuildStatus:
-          Создание "foo.dir\\Debug\\foo.tlog\\unsuccessfulbuild", так как было задано "AlwaysCreate".
-        CustomBuild:
-          Building Custom Rule C:/test_win/build/onetbb-build/CMakeFiles/_CMakeLTOTest-CXX/src/CMakeLists.txt
-        ClCompile:
-          C:\\Program Files\\Microsoft Visual Studio\\2022\\Community\\VC\\Tools\\MSVC\\14.35.32215\\bin\\HostX64\\x64\\CL.exe /c /Zi /W1 /WX- /diagnostics:column /Od /Ob0 /GL /D _MBCS /D WIN32 /D _WINDOWS /D "CMAKE_INTDIR=\\"Debug\\"" /Gm- /EHsc /RTC1 /MDd /GS /fp:precise /Zc:wchar_t /Zc:forScope /Zc:inline /Fo"foo.dir\\Debug\\\\" /Fd"C:\\test_win\\build\\onetbb-build\\CMakeFiles\\_CMakeLTOTest-CXX\\bin\\Debug\\foo.pdb" /external:W1 /Gd /TP /errorReport:queue "C:\\test_win\\build\\onetbb-build\\CMakeFiles\\_CMakeLTOTest-CXX\\src\\foo.cpp"
-          Оптимизирующий компилятор Microsoft (R) C/C++ версии 19.35.32217.1 для x64
-          foo.cpp
-          (C) Корпорация Майкрософт (Microsoft Corporation).  Все права защищены.
-          cl /c /Zi /W1 /WX- /diagnostics:column /Od /Ob0 /GL /D _MBCS /D WIN32 /D _WINDOWS /D "CMAKE_INTDIR=\\"Debug\\"" /Gm- /EHsc /RTC1 /MDd /GS /fp:precise /Zc:wchar_t /Zc:forScope /Zc:inline /Fo"foo.dir\\Debug\\\\" /Fd"C:\\test_win\\build\\onetbb-build\\CMakeFiles\\_CMakeLTOTest-CXX\\bin\\Debug\\foo.pdb" /external:W1 /Gd /TP /errorReport:queue "C:\\test_win\\build\\onetbb-build\\CMakeFiles\\_CMakeLTOTest-CXX\\src\\foo.cpp"
-        Lib:
-          C:\\Program Files\\Microsoft Visual Studio\\2022\\Community\\VC\\Tools\\MSVC\\14.35.32215\\bin\\HostX64\\x64\\Lib.exe /OUT:"C:\\test_win\\build\\onetbb-build\\CMakeFiles\\_CMakeLTOTest-CXX\\bin\\Debug\\foo.lib" /NOLOGO /MACHINE:X64 /LTCG  /machine:x64 foo.dir\\Debug\\foo.obj
-          foo.vcxproj -> C:\\test_win\\build\\onetbb-build\\CMakeFiles\\_CMakeLTOTest-CXX\\bin\\Debug\\foo.lib
-        FinalizeBuildStatus:
-          Файл "foo.dir\\Debug\\foo.tlog\\unsuccessfulbuild" удаляется.
-          Обращение к "foo.dir\\Debug\\foo.tlog\\foo.lastbuildstate".
-        Сборка проекта "C:\\test_win\\build\\onetbb-build\\CMakeFiles\\_CMakeLTOTest-CXX\\bin\\foo.vcxproj" завершена (целевые объекты по умолчанию).
-        PrepareForBuild:
-          Создание каталога "boo.dir\\Debug\\".
-          Создание каталога "boo.dir\\Debug\\boo.tlog\\".
-        InitializeBuildStatus:
-          Создание "boo.dir\\Debug\\boo.tlog\\unsuccessfulbuild", так как было задано "AlwaysCreate".
-        CustomBuild:
-          Building Custom Rule C:/test_win/build/onetbb-build/CMakeFiles/_CMakeLTOTest-CXX/src/CMakeLists.txt
-        ClCompile:
-          C:\\Program Files\\Microsoft Visual Studio\\2022\\Community\\VC\\Tools\\MSVC\\14.35.32215\\bin\\HostX64\\x64\\CL.exe /c /Zi /W1 /WX- /diagnostics:column /Od /Ob0 /GL /D _MBCS /D WIN32 /D _WINDOWS /D "CMAKE_INTDIR=\\"Debug\\"" /Gm- /EHsc /RTC1 /MDd /GS /fp:precise /Zc:wchar_t /Zc:forScope /Zc:inline /Fo"boo.dir\\Debug\\\\" /Fd"boo.dir\\Debug\\vc143.pdb" /external:W1 /Gd /TP /errorReport:queue "C:\\test_win\\build\\onetbb-build\\CMakeFiles\\_CMakeLTOTest-CXX\\src\\main.cpp"
-          Оптимизирующий компилятор Microsoft (R) C/C++ версии 19.35.32217.1 для x64
-          (C) Корпорация Майкрософт (Microsoft Corporation).  Все права защищены.
-          cl /c /Zi /W1 /WX- /diagnostics:column /Od /Ob0 /GL /D _MBCS /D WIN32 /D _WINDOWS /D "CMAKE_INTDIR=\\"Debug\\"" /Gm- /EHsc /RTC1 /MDd /GS /fp:precise /Zc:wchar_t /Zc:forScope /Zc:inline /Fo"boo.dir\\Debug\\\\" /Fd"boo.dir\\Debug\\vc143.pdb" /external:W1 /Gd /TP /errorReport:queue "C:\\test_win\\build\\onetbb-build\\CMakeFiles\\_CMakeLTOTest-CXX\\src\\main.cpp"
-          main.cpp
-        Link:
-          C:\\Program Files\\Microsoft Visual Studio\\2022\\Community\\VC\\Tools\\MSVC\\14.35.32215\\bin\\HostX64\\x64\\link.exe /ERRORREPORT:QUEUE /OUT:"C:\\test_win\\build\\onetbb-build\\CMakeFiles\\_CMakeLTOTest-CXX\\bin\\Debug\\boo.exe" /NOLOGO Debug\\foo.lib kernel32.lib user32.lib gdi32.lib winspool.lib shell32.lib ole32.lib oleaut32.lib uuid.lib comdlg32.lib advapi32.lib /MANIFEST /MANIFESTUAC:"level='asInvoker' uiAccess='false'" /manifest:embed /DEBUG /PDB:"C:/test_win/build/onetbb-build/CMakeFiles/_CMakeLTOTest-CXX/bin/Debug/boo.pdb" /SUBSYSTEM:CONSOLE /LTCG:incremental /LTCGOUT:"boo.dir\\Debug\\boo.iobj" /TLBID:1 /DYNAMICBASE /NXCOMPAT /IMPLIB:"C:/test_win/build/onetbb-build/CMakeFiles/_CMakeLTOTest-CXX/bin/Debug/boo.lib" /MACHINE:X64  /machine:x64 boo.dir\\Debug\\main.obj
-          Создание кода
-          Not all modules are compiled with -Gy (function comdat), build without incremental LTCG.
-          Создание кода завершено
-          boo.vcxproj -> C:\\test_win\\build\\onetbb-build\\CMakeFiles\\_CMakeLTOTest-CXX\\bin\\Debug\\boo.exe
-        FinalizeBuildStatus:
-          Файл "boo.dir\\Debug\\boo.tlog\\unsuccessfulbuild" удаляется.
-          Обращение к "boo.dir\\Debug\\boo.tlog\\boo.lastbuildstate".
-        Сборка проекта "C:\\test_win\\build\\onetbb-build\\CMakeFiles\\_CMakeLTOTest-CXX\\bin\\boo.vcxproj" завершена (целевые объекты по умолчанию).
-        PrepareForBuild:
-          Создание каталога "x64\\Debug\\ALL_BUILD\\".
-          Создание каталога "x64\\Debug\\ALL_BUILD\\ALL_BUILD.tlog\\".
-        InitializeBuildStatus:
-          Создание "x64\\Debug\\ALL_BUILD\\ALL_BUILD.tlog\\unsuccessfulbuild", так как было задано "AlwaysCreate".
-        CustomBuild:
-          Building Custom Rule C:/test_win/build/onetbb-build/CMakeFiles/_CMakeLTOTest-CXX/src/CMakeLists.txt
-        FinalizeBuildStatus:
-          Файл "x64\\Debug\\ALL_BUILD\\ALL_BUILD.tlog\\unsuccessfulbuild" удаляется.
-          Обращение к "x64\\Debug\\ALL_BUILD\\ALL_BUILD.tlog\\ALL_BUILD.lastbuildstate".
-        Сборка проекта "C:\\test_win\\build\\onetbb-build\\CMakeFiles\\_CMakeLTOTest-CXX\\bin\\ALL_BUILD.vcxproj" завершена (целевые объекты по умолчанию).
-        
-        Сборка успешно завершена.
-            Предупреждений: 0
-            Ошибок: 0
-        
-        Прошло времени 00:00:01.70
-        
-      exitCode: 0
   -
     kind: "message-v1"
     backtrace:
@@ -387,7 +290,7 @@ events:
       The output was:
       0
       MSBuild version 17.5.1+f6fdcf537 for .NET Framework
-      Сборка начата 10.05.2023 9:00:42.
+      Сборка начата 10.05.2023 9:48:16.
       Included response file: C:\\Program Files\\Microsoft Visual Studio\\2022\\Community\\MSBuild\\Current\\Bin\\amd64\\MSBuild.rsp
       
       Проект "C:\\test_win\\build\\onetbb-build\\CMakeFiles\\3.26.3\\CompilerIdC\\CompilerIdC.vcxproj" в узле 1 (целевые объекты по умолчанию).
@@ -415,7 +318,7 @@ events:
           Предупреждений: 0
           Ошибок: 0
       
-      Прошло времени 00:00:00.82
+      Прошло времени 00:00:00.84
       
       
       Compilation of the C compiler identification source "CMakeCCompilerId.c" produced "CompilerIdC.exe"
@@ -434,450 +337,46 @@ events:
     checks:
       - "Detecting C compiler ABI info"
     directories:
-      source: "C:/test_win/build/onetbb-build/CMakeFiles/CMakeScratch/TryCompile-ek3k40"
-      binary: "C:/test_win/build/onetbb-build/CMakeFiles/CMakeScratch/TryCompile-ek3k40"
+      source: "C:/test_win/build/onetbb-build/CMakeFiles/CMakeScratch/TryCompile-aaginw"
+      binary: "C:/test_win/build/onetbb-build/CMakeFiles/CMakeScratch/TryCompile-aaginw"
     cmakeVariables:
       CMAKE_C_FLAGS: "/DWIN32 /D_WINDOWS /W3 -openmp"
     buildResult:
       variable: "CMAKE_C_ABI_COMPILED"
       cached: true
       stdout: |
-        Change Dir: C:/test_win/build/onetbb-build/CMakeFiles/CMakeScratch/TryCompile-ek3k40
+        Change Dir: C:/test_win/build/onetbb-build/CMakeFiles/CMakeScratch/TryCompile-aaginw
         
-        Run Build Command(s):C:/Program Files/Microsoft Visual Studio/2022/Community/MSBuild/Current/Bin/amd64/MSBuild.exe cmTC_b10e7.vcxproj /p:Configuration=Debug /p:Platform=x64 /p:VisualStudioVersion=17.0 /v:n && MSBuild version 17.5.1+f6fdcf537 for .NET Framework
-        Сборка начата 10.05.2023 9:00:43.
+        Run Build Command(s):C:/Program Files/Microsoft Visual Studio/2022/Community/MSBuild/Current/Bin/amd64/MSBuild.exe cmTC_c4bb3.vcxproj /p:Configuration=Debug /p:Platform=x64 /p:VisualStudioVersion=17.0 /v:n && MSBuild version 17.5.1+f6fdcf537 for .NET Framework
+        Сборка начата 10.05.2023 9:48:17.
         Included response file: C:\\Program Files\\Microsoft Visual Studio\\2022\\Community\\MSBuild\\Current\\Bin\\amd64\\MSBuild.rsp
         
-        Проект "C:\\test_win\\build\\onetbb-build\\CMakeFiles\\CMakeScratch\\TryCompile-ek3k40\\cmTC_b10e7.vcxproj" в узле 1 (целевые объекты по умолчанию).
+        Проект "C:\\test_win\\build\\onetbb-build\\CMakeFiles\\CMakeScratch\\TryCompile-aaginw\\cmTC_c4bb3.vcxproj" в узле 1 (целевые объекты по умолчанию).
         PrepareForBuild:
-          Создание каталога "cmTC_b10e7.dir\\Debug\\".
-          Создание каталога "C:\\test_win\\build\\onetbb-build\\CMakeFiles\\CMakeScratch\\TryCompile-ek3k40\\Debug\\".
-          Создание каталога "cmTC_b10e7.dir\\Debug\\cmTC_b10e7.tlog\\".
+          Создание каталога "cmTC_c4bb3.dir\\Debug\\".
+          Создание каталога "C:\\test_win\\build\\onetbb-build\\CMakeFiles\\CMakeScratch\\TryCompile-aaginw\\Debug\\".
+          Создание каталога "cmTC_c4bb3.dir\\Debug\\cmTC_c4bb3.tlog\\".
         InitializeBuildStatus:
-          Создание "cmTC_b10e7.dir\\Debug\\cmTC_b10e7.tlog\\unsuccessfulbuild", так как было задано "AlwaysCreate".
+          Создание "cmTC_c4bb3.dir\\Debug\\cmTC_c4bb3.tlog\\unsuccessfulbuild", так как было задано "AlwaysCreate".
         ClCompile:
-          C:\\Program Files\\Microsoft Visual Studio\\2022\\Community\\VC\\Tools\\MSVC\\14.35.32215\\bin\\HostX64\\x64\\CL.exe /c /Zi /W3 /WX- /diagnostics:column /Od /Ob0 /D _MBCS /D WIN32 /D _WINDOWS /D "CMAKE_INTDIR=\\"Debug\\"" /Gm- /RTC1 /MDd /GS /fp:precise /Zc:wchar_t /Zc:forScope /Zc:inline /openmp /Fo"cmTC_b10e7.dir\\Debug\\\\" /Fd"cmTC_b10e7.dir\\Debug\\vc143.pdb" /external:W3 /Gd /TC /errorReport:queue "C:\\Program Files\\CMake\\share\\cmake-3.26\\Modules\\CMakeCCompilerABI.c"
+          C:\\Program Files\\Microsoft Visual Studio\\2022\\Community\\VC\\Tools\\MSVC\\14.35.32215\\bin\\HostX64\\x64\\CL.exe /c /Zi /W3 /WX- /diagnostics:column /Od /Ob0 /D _MBCS /D WIN32 /D _WINDOWS /D "CMAKE_INTDIR=\\"Debug\\"" /Gm- /RTC1 /MDd /GS /fp:precise /Zc:wchar_t /Zc:forScope /Zc:inline /openmp /Fo"cmTC_c4bb3.dir\\Debug\\\\" /Fd"cmTC_c4bb3.dir\\Debug\\vc143.pdb" /external:W3 /Gd /TC /errorReport:queue "C:\\Program Files\\CMake\\share\\cmake-3.26\\Modules\\CMakeCCompilerABI.c"
           Оптимизирующий компилятор Microsoft (R) C/C++ версии 19.35.32217.1 для x64
           CMakeCCompilerABI.c
           (C) Корпорация Майкрософт (Microsoft Corporation).  Все права защищены.
-          cl /c /Zi /W3 /WX- /diagnostics:column /Od /Ob0 /D _MBCS /D WIN32 /D _WINDOWS /D "CMAKE_INTDIR=\\"Debug\\"" /Gm- /RTC1 /MDd /GS /fp:precise /Zc:wchar_t /Zc:forScope /Zc:inline /openmp /Fo"cmTC_b10e7.dir\\Debug\\\\" /Fd"cmTC_b10e7.dir\\Debug\\vc143.pdb" /external:W3 /Gd /TC /errorReport:queue "C:\\Program Files\\CMake\\share\\cmake-3.26\\Modules\\CMakeCCompilerABI.c"
+          cl /c /Zi /W3 /WX- /diagnostics:column /Od /Ob0 /D _MBCS /D WIN32 /D _WINDOWS /D "CMAKE_INTDIR=\\"Debug\\"" /Gm- /RTC1 /MDd /GS /fp:precise /Zc:wchar_t /Zc:forScope /Zc:inline /openmp /Fo"cmTC_c4bb3.dir\\Debug\\\\" /Fd"cmTC_c4bb3.dir\\Debug\\vc143.pdb" /external:W3 /Gd /TC /errorReport:queue "C:\\Program Files\\CMake\\share\\cmake-3.26\\Modules\\CMakeCCompilerABI.c"
         Link:
-          C:\\Program Files\\Microsoft Visual Studio\\2022\\Community\\VC\\Tools\\MSVC\\14.35.32215\\bin\\HostX64\\x64\\link.exe /ERRORREPORT:QUEUE /OUT:"C:\\test_win\\build\\onetbb-build\\CMakeFiles\\CMakeScratch\\TryCompile-ek3k40\\Debug\\cmTC_b10e7.exe" /INCREMENTAL /ILK:"cmTC_b10e7.dir\\Debug\\cmTC_b10e7.ilk" /NOLOGO kernel32.lib user32.lib gdi32.lib winspool.lib shell32.lib ole32.lib oleaut32.lib uuid.lib comdlg32.lib advapi32.lib /MANIFEST /MANIFESTUAC:"level='asInvoker' uiAccess='false'" /manifest:embed /DEBUG /PDB:"C:/test_win/build/onetbb-build/CMakeFiles/CMakeScratch/TryCompile-ek3k40/Debug/cmTC_b10e7.pdb" /SUBSYSTEM:CONSOLE /TLBID:1 /DYNAMICBASE /NXCOMPAT /IMPLIB:"C:/test_win/build/onetbb-build/CMakeFiles/CMakeScratch/TryCompile-ek3k40/Debug/cmTC_b10e7.lib" /MACHINE:X64  /machine:x64 cmTC_b10e7.dir\\Debug\\CMakeCCompilerABI.obj
-          cmTC_b10e7.vcxproj -> C:\\test_win\\build\\onetbb-build\\CMakeFiles\\CMakeScratch\\TryCompile-ek3k40\\Debug\\cmTC_b10e7.exe
+          C:\\Program Files\\Microsoft Visual Studio\\2022\\Community\\VC\\Tools\\MSVC\\14.35.32215\\bin\\HostX64\\x64\\link.exe /ERRORREPORT:QUEUE /OUT:"C:\\test_win\\build\\onetbb-build\\CMakeFiles\\CMakeScratch\\TryCompile-aaginw\\Debug\\cmTC_c4bb3.exe" /INCREMENTAL /ILK:"cmTC_c4bb3.dir\\Debug\\cmTC_c4bb3.ilk" /NOLOGO kernel32.lib user32.lib gdi32.lib winspool.lib shell32.lib ole32.lib oleaut32.lib uuid.lib comdlg32.lib advapi32.lib /MANIFEST /MANIFESTUAC:"level='asInvoker' uiAccess='false'" /manifest:embed /DEBUG /PDB:"C:/test_win/build/onetbb-build/CMakeFiles/CMakeScratch/TryCompile-aaginw/Debug/cmTC_c4bb3.pdb" /SUBSYSTEM:CONSOLE /TLBID:1 /DYNAMICBASE /NXCOMPAT /IMPLIB:"C:/test_win/build/onetbb-build/CMakeFiles/CMakeScratch/TryCompile-aaginw/Debug/cmTC_c4bb3.lib" /MACHINE:X64  /machine:x64 cmTC_c4bb3.dir\\Debug\\CMakeCCompilerABI.obj
+          cmTC_c4bb3.vcxproj -> C:\\test_win\\build\\onetbb-build\\CMakeFiles\\CMakeScratch\\TryCompile-aaginw\\Debug\\cmTC_c4bb3.exe
         FinalizeBuildStatus:
-          Файл "cmTC_b10e7.dir\\Debug\\cmTC_b10e7.tlog\\unsuccessfulbuild" удаляется.
-          Обращение к "cmTC_b10e7.dir\\Debug\\cmTC_b10e7.tlog\\cmTC_b10e7.lastbuildstate".
-        Сборка проекта "C:\\test_win\\build\\onetbb-build\\CMakeFiles\\CMakeScratch\\TryCompile-ek3k40\\cmTC_b10e7.vcxproj" завершена (целевые объекты по умолчанию).
+          Файл "cmTC_c4bb3.dir\\Debug\\cmTC_c4bb3.tlog\\unsuccessfulbuild" удаляется.
+          Обращение к "cmTC_c4bb3.dir\\Debug\\cmTC_c4bb3.tlog\\cmTC_c4bb3.lastbuildstate".
+        Сборка проекта "C:\\test_win\\build\\onetbb-build\\CMakeFiles\\CMakeScratch\\TryCompile-aaginw\\cmTC_c4bb3.vcxproj" завершена (целевые объекты по умолчанию).
         
         Сборка успешно завершена.
             Предупреждений: 0
             Ошибок: 0
         
-        Прошло времени 00:00:00.79
-        
-      exitCode: 0
-...
-
----
-events:
-  -
-    kind: "try_compile-v1"
-    backtrace:
-      - "C:/Program Files/CMake/share/cmake-3.26/Modules/CheckIPOSupported.cmake:138 (try_compile)"
-      - "C:/Program Files/CMake/share/cmake-3.26/Modules/CheckIPOSupported.cmake:266 (_ipo_run_language_check)"
-      - "CMakeLists.txt:214 (check_ipo_supported)"
-    directories:
-      source: "C:/test_win/build/onetbb-build/CMakeFiles/_CMakeLTOTest-CXX/src"
-      binary: "C:/test_win/build/onetbb-build/CMakeFiles/_CMakeLTOTest-CXX/bin"
-    buildResult:
-      variable: "_IPO_LANGUAGE_CHECK_RESULT"
-      cached: true
-      stdout: |
-        Change Dir: C:/test_win/build/onetbb-build/CMakeFiles/_CMakeLTOTest-CXX/bin
-        
-        Run Build Command(s):C:/Program Files/Microsoft Visual Studio/2022/Community/MSBuild/Current/Bin/amd64/MSBuild.exe ALL_BUILD.vcxproj /p:Configuration=Debug /p:Platform=x64 /p:VisualStudioVersion=17.0 /v:n && MSBuild version 17.5.1+f6fdcf537 for .NET Framework
-        Сборка начата 10.05.2023 9:03:16.
-        Included response file: C:\\Program Files\\Microsoft Visual Studio\\2022\\Community\\MSBuild\\Current\\Bin\\amd64\\MSBuild.rsp
-        
-        Проект "C:\\test_win\\build\\onetbb-build\\CMakeFiles\\_CMakeLTOTest-CXX\\bin\\ALL_BUILD.vcxproj" в узле 1 (целевые объекты по умолчанию).
-        Проект "C:\\test_win\\build\\onetbb-build\\CMakeFiles\\_CMakeLTOTest-CXX\\bin\\ALL_BUILD.vcxproj" (1) выполняет сборку "C:\\test_win\\build\\onetbb-build\\CMakeFiles\\_CMakeLTOTest-CXX\\bin\\ZERO_CHECK.vcxproj" (2) в узле 1 (целевые объекты по умолчанию).
-        PrepareForBuild:
-          Создание каталога "x64\\Debug\\ZERO_CHECK\\".
-          Создание каталога "x64\\Debug\\ZERO_CHECK\\ZERO_CHECK.tlog\\".
-        InitializeBuildStatus:
-          Создание "x64\\Debug\\ZERO_CHECK\\ZERO_CHECK.tlog\\unsuccessfulbuild", так как было задано "AlwaysCreate".
-        CustomBuild:
-          Checking Build System
-        FinalizeBuildStatus:
-          Файл "x64\\Debug\\ZERO_CHECK\\ZERO_CHECK.tlog\\unsuccessfulbuild" удаляется.
-          Обращение к "x64\\Debug\\ZERO_CHECK\\ZERO_CHECK.tlog\\ZERO_CHECK.lastbuildstate".
-        Сборка проекта "C:\\test_win\\build\\onetbb-build\\CMakeFiles\\_CMakeLTOTest-CXX\\bin\\ZERO_CHECK.vcxproj" завершена (целевые объекты по умолчанию).
-        Проект "C:\\test_win\\build\\onetbb-build\\CMakeFiles\\_CMakeLTOTest-CXX\\bin\\ALL_BUILD.vcxproj" (1) выполняет сборку "C:\\test_win\\build\\onetbb-build\\CMakeFiles\\_CMakeLTOTest-CXX\\bin\\boo.vcxproj" (3) в узле 1 (целевые объекты по умолчанию).
-        Проект "C:\\test_win\\build\\onetbb-build\\CMakeFiles\\_CMakeLTOTest-CXX\\bin\\boo.vcxproj" (3) выполняет сборку "C:\\test_win\\build\\onetbb-build\\CMakeFiles\\_CMakeLTOTest-CXX\\bin\\foo.vcxproj" (4) в узле 1 (целевые объекты по умолчанию).
-        PrepareForBuild:
-          Создание каталога "foo.dir\\Debug\\".
-          Создание каталога "C:\\test_win\\build\\onetbb-build\\CMakeFiles\\_CMakeLTOTest-CXX\\bin\\Debug\\".
-          Создание каталога "foo.dir\\Debug\\foo.tlog\\".
-        InitializeBuildStatus:
-          Создание "foo.dir\\Debug\\foo.tlog\\unsuccessfulbuild", так как было задано "AlwaysCreate".
-        CustomBuild:
-          Building Custom Rule C:/test_win/build/onetbb-build/CMakeFiles/_CMakeLTOTest-CXX/src/CMakeLists.txt
-        ClCompile:
-          C:\\Program Files\\Microsoft Visual Studio\\2022\\Community\\VC\\Tools\\MSVC\\14.35.32215\\bin\\HostX64\\x64\\CL.exe /c /Zi /W1 /WX- /diagnostics:column /Od /Ob0 /GL /D _MBCS /D WIN32 /D _WINDOWS /D "CMAKE_INTDIR=\\"Debug\\"" /Gm- /EHsc /RTC1 /MDd /GS /fp:precise /Zc:wchar_t /Zc:forScope /Zc:inline /Fo"foo.dir\\Debug\\\\" /Fd"C:\\test_win\\build\\onetbb-build\\CMakeFiles\\_CMakeLTOTest-CXX\\bin\\Debug\\foo.pdb" /external:W1 /Gd /TP /errorReport:queue "C:\\test_win\\build\\onetbb-build\\CMakeFiles\\_CMakeLTOTest-CXX\\src\\foo.cpp"
-          Оптимизирующий компилятор Microsoft (R) C/C++ версии 19.35.32217.1 для x64
-          foo.cpp
-          (C) Корпорация Майкрософт (Microsoft Corporation).  Все права защищены.
-          cl /c /Zi /W1 /WX- /diagnostics:column /Od /Ob0 /GL /D _MBCS /D WIN32 /D _WINDOWS /D "CMAKE_INTDIR=\\"Debug\\"" /Gm- /EHsc /RTC1 /MDd /GS /fp:precise /Zc:wchar_t /Zc:forScope /Zc:inline /Fo"foo.dir\\Debug\\\\" /Fd"C:\\test_win\\build\\onetbb-build\\CMakeFiles\\_CMakeLTOTest-CXX\\bin\\Debug\\foo.pdb" /external:W1 /Gd /TP /errorReport:queue "C:\\test_win\\build\\onetbb-build\\CMakeFiles\\_CMakeLTOTest-CXX\\src\\foo.cpp"
-        Lib:
-          C:\\Program Files\\Microsoft Visual Studio\\2022\\Community\\VC\\Tools\\MSVC\\14.35.32215\\bin\\HostX64\\x64\\Lib.exe /OUT:"C:\\test_win\\build\\onetbb-build\\CMakeFiles\\_CMakeLTOTest-CXX\\bin\\Debug\\foo.lib" /NOLOGO /MACHINE:X64 /LTCG  /machine:x64 foo.dir\\Debug\\foo.obj
-          foo.vcxproj -> C:\\test_win\\build\\onetbb-build\\CMakeFiles\\_CMakeLTOTest-CXX\\bin\\Debug\\foo.lib
-        FinalizeBuildStatus:
-          Файл "foo.dir\\Debug\\foo.tlog\\unsuccessfulbuild" удаляется.
-          Обращение к "foo.dir\\Debug\\foo.tlog\\foo.lastbuildstate".
-        Сборка проекта "C:\\test_win\\build\\onetbb-build\\CMakeFiles\\_CMakeLTOTest-CXX\\bin\\foo.vcxproj" завершена (целевые объекты по умолчанию).
-        PrepareForBuild:
-          Создание каталога "boo.dir\\Debug\\".
-          Создание каталога "boo.dir\\Debug\\boo.tlog\\".
-        InitializeBuildStatus:
-          Создание "boo.dir\\Debug\\boo.tlog\\unsuccessfulbuild", так как было задано "AlwaysCreate".
-        CustomBuild:
-          Building Custom Rule C:/test_win/build/onetbb-build/CMakeFiles/_CMakeLTOTest-CXX/src/CMakeLists.txt
-        ClCompile:
-          C:\\Program Files\\Microsoft Visual Studio\\2022\\Community\\VC\\Tools\\MSVC\\14.35.32215\\bin\\HostX64\\x64\\CL.exe /c /Zi /W1 /WX- /diagnostics:column /Od /Ob0 /GL /D _MBCS /D WIN32 /D _WINDOWS /D "CMAKE_INTDIR=\\"Debug\\"" /Gm- /EHsc /RTC1 /MDd /GS /fp:precise /Zc:wchar_t /Zc:forScope /Zc:inline /Fo"boo.dir\\Debug\\\\" /Fd"boo.dir\\Debug\\vc143.pdb" /external:W1 /Gd /TP /errorReport:queue "C:\\test_win\\build\\onetbb-build\\CMakeFiles\\_CMakeLTOTest-CXX\\src\\main.cpp"
-          Оптимизирующий компилятор Microsoft (R) C/C++ версии 19.35.32217.1 для x64
-          (C) Корпорация Майкрософт (Microsoft Corporation).  Все права защищены.
-          cl /c /Zi /W1 /WX- /diagnostics:column /Od /Ob0 /GL /D _MBCS /D WIN32 /D _WINDOWS /D "CMAKE_INTDIR=\\"Debug\\"" /Gm- /EHsc /RTC1 /MDd /GS /fp:precise /Zc:wchar_t /Zc:forScope /Zc:inline /Fo"boo.dir\\Debug\\\\" /Fd"boo.dir\\Debug\\vc143.pdb" /external:W1 /Gd /TP /errorReport:queue "C:\\test_win\\build\\onetbb-build\\CMakeFiles\\_CMakeLTOTest-CXX\\src\\main.cpp"
-          main.cpp
-        Link:
-          C:\\Program Files\\Microsoft Visual Studio\\2022\\Community\\VC\\Tools\\MSVC\\14.35.32215\\bin\\HostX64\\x64\\link.exe /ERRORREPORT:QUEUE /OUT:"C:\\test_win\\build\\onetbb-build\\CMakeFiles\\_CMakeLTOTest-CXX\\bin\\Debug\\boo.exe" /NOLOGO Debug\\foo.lib kernel32.lib user32.lib gdi32.lib winspool.lib shell32.lib ole32.lib oleaut32.lib uuid.lib comdlg32.lib advapi32.lib /MANIFEST /MANIFESTUAC:"level='asInvoker' uiAccess='false'" /manifest:embed /DEBUG /PDB:"C:/test_win/build/onetbb-build/CMakeFiles/_CMakeLTOTest-CXX/bin/Debug/boo.pdb" /SUBSYSTEM:CONSOLE /LTCG:incremental /LTCGOUT:"boo.dir\\Debug\\boo.iobj" /TLBID:1 /DYNAMICBASE /NXCOMPAT /IMPLIB:"C:/test_win/build/onetbb-build/CMakeFiles/_CMakeLTOTest-CXX/bin/Debug/boo.lib" /MACHINE:X64  /machine:x64 boo.dir\\Debug\\main.obj
-          Создание кода
-          Not all modules are compiled with -Gy (function comdat), build without incremental LTCG.
-          Создание кода завершено
-          boo.vcxproj -> C:\\test_win\\build\\onetbb-build\\CMakeFiles\\_CMakeLTOTest-CXX\\bin\\Debug\\boo.exe
-        FinalizeBuildStatus:
-          Файл "boo.dir\\Debug\\boo.tlog\\unsuccessfulbuild" удаляется.
-          Обращение к "boo.dir\\Debug\\boo.tlog\\boo.lastbuildstate".
-        Сборка проекта "C:\\test_win\\build\\onetbb-build\\CMakeFiles\\_CMakeLTOTest-CXX\\bin\\boo.vcxproj" завершена (целевые объекты по умолчанию).
-        PrepareForBuild:
-          Создание каталога "x64\\Debug\\ALL_BUILD\\".
-          Создание каталога "x64\\Debug\\ALL_BUILD\\ALL_BUILD.tlog\\".
-        InitializeBuildStatus:
-          Создание "x64\\Debug\\ALL_BUILD\\ALL_BUILD.tlog\\unsuccessfulbuild", так как было задано "AlwaysCreate".
-        CustomBuild:
-          Building Custom Rule C:/test_win/build/onetbb-build/CMakeFiles/_CMakeLTOTest-CXX/src/CMakeLists.txt
-        FinalizeBuildStatus:
-          Файл "x64\\Debug\\ALL_BUILD\\ALL_BUILD.tlog\\unsuccessfulbuild" удаляется.
-          Обращение к "x64\\Debug\\ALL_BUILD\\ALL_BUILD.tlog\\ALL_BUILD.lastbuildstate".
-        Сборка проекта "C:\\test_win\\build\\onetbb-build\\CMakeFiles\\_CMakeLTOTest-CXX\\bin\\ALL_BUILD.vcxproj" завершена (целевые объекты по умолчанию).
-        
-        Сборка успешно завершена.
-            Предупреждений: 0
-            Ошибок: 0
-        
-        Прошло времени 00:00:01.77
-        
-      exitCode: 0
-...
-
----
-events:
-  -
-    kind: "try_compile-v1"
-    backtrace:
-      - "C:/Program Files/CMake/share/cmake-3.26/Modules/CheckIPOSupported.cmake:138 (try_compile)"
-      - "C:/Program Files/CMake/share/cmake-3.26/Modules/CheckIPOSupported.cmake:266 (_ipo_run_language_check)"
-      - "CMakeLists.txt:214 (check_ipo_supported)"
-    directories:
-      source: "C:/test_win/build/onetbb-build/CMakeFiles/_CMakeLTOTest-CXX/src"
-      binary: "C:/test_win/build/onetbb-build/CMakeFiles/_CMakeLTOTest-CXX/bin"
-    buildResult:
-      variable: "_IPO_LANGUAGE_CHECK_RESULT"
-      cached: true
-      stdout: |
-        Change Dir: C:/test_win/build/onetbb-build/CMakeFiles/_CMakeLTOTest-CXX/bin
-        
-        Run Build Command(s):C:/Program Files/Microsoft Visual Studio/2022/Community/MSBuild/Current/Bin/amd64/MSBuild.exe ALL_BUILD.vcxproj /p:Configuration=Debug /p:Platform=x64 /p:VisualStudioVersion=17.0 /v:n && MSBuild version 17.5.1+f6fdcf537 for .NET Framework
-        Сборка начата 10.05.2023 9:04:32.
-        Included response file: C:\\Program Files\\Microsoft Visual Studio\\2022\\Community\\MSBuild\\Current\\Bin\\amd64\\MSBuild.rsp
-        
-        Проект "C:\\test_win\\build\\onetbb-build\\CMakeFiles\\_CMakeLTOTest-CXX\\bin\\ALL_BUILD.vcxproj" в узле 1 (целевые объекты по умолчанию).
-        Проект "C:\\test_win\\build\\onetbb-build\\CMakeFiles\\_CMakeLTOTest-CXX\\bin\\ALL_BUILD.vcxproj" (1) выполняет сборку "C:\\test_win\\build\\onetbb-build\\CMakeFiles\\_CMakeLTOTest-CXX\\bin\\ZERO_CHECK.vcxproj" (2) в узле 1 (целевые объекты по умолчанию).
-        PrepareForBuild:
-          Создание каталога "x64\\Debug\\ZERO_CHECK\\".
-          Создание каталога "x64\\Debug\\ZERO_CHECK\\ZERO_CHECK.tlog\\".
-        InitializeBuildStatus:
-          Создание "x64\\Debug\\ZERO_CHECK\\ZERO_CHECK.tlog\\unsuccessfulbuild", так как было задано "AlwaysCreate".
-        CustomBuild:
-          Checking Build System
-        FinalizeBuildStatus:
-          Файл "x64\\Debug\\ZERO_CHECK\\ZERO_CHECK.tlog\\unsuccessfulbuild" удаляется.
-          Обращение к "x64\\Debug\\ZERO_CHECK\\ZERO_CHECK.tlog\\ZERO_CHECK.lastbuildstate".
-        Сборка проекта "C:\\test_win\\build\\onetbb-build\\CMakeFiles\\_CMakeLTOTest-CXX\\bin\\ZERO_CHECK.vcxproj" завершена (целевые объекты по умолчанию).
-        Проект "C:\\test_win\\build\\onetbb-build\\CMakeFiles\\_CMakeLTOTest-CXX\\bin\\ALL_BUILD.vcxproj" (1) выполняет сборку "C:\\test_win\\build\\onetbb-build\\CMakeFiles\\_CMakeLTOTest-CXX\\bin\\boo.vcxproj" (3) в узле 1 (целевые объекты по умолчанию).
-        Проект "C:\\test_win\\build\\onetbb-build\\CMakeFiles\\_CMakeLTOTest-CXX\\bin\\boo.vcxproj" (3) выполняет сборку "C:\\test_win\\build\\onetbb-build\\CMakeFiles\\_CMakeLTOTest-CXX\\bin\\foo.vcxproj" (4) в узле 1 (целевые объекты по умолчанию).
-        PrepareForBuild:
-          Создание каталога "foo.dir\\Debug\\".
-          Создание каталога "C:\\test_win\\build\\onetbb-build\\CMakeFiles\\_CMakeLTOTest-CXX\\bin\\Debug\\".
-          Создание каталога "foo.dir\\Debug\\foo.tlog\\".
-        InitializeBuildStatus:
-          Создание "foo.dir\\Debug\\foo.tlog\\unsuccessfulbuild", так как было задано "AlwaysCreate".
-        CustomBuild:
-          Building Custom Rule C:/test_win/build/onetbb-build/CMakeFiles/_CMakeLTOTest-CXX/src/CMakeLists.txt
-        ClCompile:
-          C:\\Program Files\\Microsoft Visual Studio\\2022\\Community\\VC\\Tools\\MSVC\\14.35.32215\\bin\\HostX64\\x64\\CL.exe /c /Zi /W1 /WX- /diagnostics:column /Od /Ob0 /GL /D _MBCS /D WIN32 /D _WINDOWS /D "CMAKE_INTDIR=\\"Debug\\"" /Gm- /EHsc /RTC1 /MDd /GS /fp:precise /Zc:wchar_t /Zc:forScope /Zc:inline /Fo"foo.dir\\Debug\\\\" /Fd"C:\\test_win\\build\\onetbb-build\\CMakeFiles\\_CMakeLTOTest-CXX\\bin\\Debug\\foo.pdb" /external:W1 /Gd /TP /errorReport:queue "C:\\test_win\\build\\onetbb-build\\CMakeFiles\\_CMakeLTOTest-CXX\\src\\foo.cpp"
-          Оптимизирующий компилятор Microsoft (R) C/C++ версии 19.35.32217.1 для x64
-          foo.cpp
-          (C) Корпорация Майкрософт (Microsoft Corporation).  Все права защищены.
-          cl /c /Zi /W1 /WX- /diagnostics:column /Od /Ob0 /GL /D _MBCS /D WIN32 /D _WINDOWS /D "CMAKE_INTDIR=\\"Debug\\"" /Gm- /EHsc /RTC1 /MDd /GS /fp:precise /Zc:wchar_t /Zc:forScope /Zc:inline /Fo"foo.dir\\Debug\\\\" /Fd"C:\\test_win\\build\\onetbb-build\\CMakeFiles\\_CMakeLTOTest-CXX\\bin\\Debug\\foo.pdb" /external:W1 /Gd /TP /errorReport:queue "C:\\test_win\\build\\onetbb-build\\CMakeFiles\\_CMakeLTOTest-CXX\\src\\foo.cpp"
-        Lib:
-          C:\\Program Files\\Microsoft Visual Studio\\2022\\Community\\VC\\Tools\\MSVC\\14.35.32215\\bin\\HostX64\\x64\\Lib.exe /OUT:"C:\\test_win\\build\\onetbb-build\\CMakeFiles\\_CMakeLTOTest-CXX\\bin\\Debug\\foo.lib" /NOLOGO /MACHINE:X64 /LTCG  /machine:x64 foo.dir\\Debug\\foo.obj
-          foo.vcxproj -> C:\\test_win\\build\\onetbb-build\\CMakeFiles\\_CMakeLTOTest-CXX\\bin\\Debug\\foo.lib
-        FinalizeBuildStatus:
-          Файл "foo.dir\\Debug\\foo.tlog\\unsuccessfulbuild" удаляется.
-          Обращение к "foo.dir\\Debug\\foo.tlog\\foo.lastbuildstate".
-        Сборка проекта "C:\\test_win\\build\\onetbb-build\\CMakeFiles\\_CMakeLTOTest-CXX\\bin\\foo.vcxproj" завершена (целевые объекты по умолчанию).
-        PrepareForBuild:
-          Создание каталога "boo.dir\\Debug\\".
-          Создание каталога "boo.dir\\Debug\\boo.tlog\\".
-        InitializeBuildStatus:
-          Создание "boo.dir\\Debug\\boo.tlog\\unsuccessfulbuild", так как было задано "AlwaysCreate".
-        CustomBuild:
-          Building Custom Rule C:/test_win/build/onetbb-build/CMakeFiles/_CMakeLTOTest-CXX/src/CMakeLists.txt
-        ClCompile:
-          C:\\Program Files\\Microsoft Visual Studio\\2022\\Community\\VC\\Tools\\MSVC\\14.35.32215\\bin\\HostX64\\x64\\CL.exe /c /Zi /W1 /WX- /diagnostics:column /Od /Ob0 /GL /D _MBCS /D WIN32 /D _WINDOWS /D "CMAKE_INTDIR=\\"Debug\\"" /Gm- /EHsc /RTC1 /MDd /GS /fp:precise /Zc:wchar_t /Zc:forScope /Zc:inline /Fo"boo.dir\\Debug\\\\" /Fd"boo.dir\\Debug\\vc143.pdb" /external:W1 /Gd /TP /errorReport:queue "C:\\test_win\\build\\onetbb-build\\CMakeFiles\\_CMakeLTOTest-CXX\\src\\main.cpp"
-          Оптимизирующий компилятор Microsoft (R) C/C++ версии 19.35.32217.1 для x64
-          (C) Корпорация Майкрософт (Microsoft Corporation).  Все права защищены.
-          cl /c /Zi /W1 /WX- /diagnostics:column /Od /Ob0 /GL /D _MBCS /D WIN32 /D _WINDOWS /D "CMAKE_INTDIR=\\"Debug\\"" /Gm- /EHsc /RTC1 /MDd /GS /fp:precise /Zc:wchar_t /Zc:forScope /Zc:inline /Fo"boo.dir\\Debug\\\\" /Fd"boo.dir\\Debug\\vc143.pdb" /external:W1 /Gd /TP /errorReport:queue "C:\\test_win\\build\\onetbb-build\\CMakeFiles\\_CMakeLTOTest-CXX\\src\\main.cpp"
-          main.cpp
-        Link:
-          C:\\Program Files\\Microsoft Visual Studio\\2022\\Community\\VC\\Tools\\MSVC\\14.35.32215\\bin\\HostX64\\x64\\link.exe /ERRORREPORT:QUEUE /OUT:"C:\\test_win\\build\\onetbb-build\\CMakeFiles\\_CMakeLTOTest-CXX\\bin\\Debug\\boo.exe" /NOLOGO Debug\\foo.lib kernel32.lib user32.lib gdi32.lib winspool.lib shell32.lib ole32.lib oleaut32.lib uuid.lib comdlg32.lib advapi32.lib /MANIFEST /MANIFESTUAC:"level='asInvoker' uiAccess='false'" /manifest:embed /DEBUG /PDB:"C:/test_win/build/onetbb-build/CMakeFiles/_CMakeLTOTest-CXX/bin/Debug/boo.pdb" /SUBSYSTEM:CONSOLE /LTCG:incremental /LTCGOUT:"boo.dir\\Debug\\boo.iobj" /TLBID:1 /DYNAMICBASE /NXCOMPAT /IMPLIB:"C:/test_win/build/onetbb-build/CMakeFiles/_CMakeLTOTest-CXX/bin/Debug/boo.lib" /MACHINE:X64  /machine:x64 boo.dir\\Debug\\main.obj
-          Создание кода
-          Not all modules are compiled with -Gy (function comdat), build without incremental LTCG.
-          Создание кода завершено
-          boo.vcxproj -> C:\\test_win\\build\\onetbb-build\\CMakeFiles\\_CMakeLTOTest-CXX\\bin\\Debug\\boo.exe
-        FinalizeBuildStatus:
-          Файл "boo.dir\\Debug\\boo.tlog\\unsuccessfulbuild" удаляется.
-          Обращение к "boo.dir\\Debug\\boo.tlog\\boo.lastbuildstate".
-        Сборка проекта "C:\\test_win\\build\\onetbb-build\\CMakeFiles\\_CMakeLTOTest-CXX\\bin\\boo.vcxproj" завершена (целевые объекты по умолчанию).
-        PrepareForBuild:
-          Создание каталога "x64\\Debug\\ALL_BUILD\\".
-          Создание каталога "x64\\Debug\\ALL_BUILD\\ALL_BUILD.tlog\\".
-        InitializeBuildStatus:
-          Создание "x64\\Debug\\ALL_BUILD\\ALL_BUILD.tlog\\unsuccessfulbuild", так как было задано "AlwaysCreate".
-        CustomBuild:
-          Building Custom Rule C:/test_win/build/onetbb-build/CMakeFiles/_CMakeLTOTest-CXX/src/CMakeLists.txt
-        FinalizeBuildStatus:
-          Файл "x64\\Debug\\ALL_BUILD\\ALL_BUILD.tlog\\unsuccessfulbuild" удаляется.
-          Обращение к "x64\\Debug\\ALL_BUILD\\ALL_BUILD.tlog\\ALL_BUILD.lastbuildstate".
-        Сборка проекта "C:\\test_win\\build\\onetbb-build\\CMakeFiles\\_CMakeLTOTest-CXX\\bin\\ALL_BUILD.vcxproj" завершена (целевые объекты по умолчанию).
-        
-        Сборка успешно завершена.
-            Предупреждений: 0
-            Ошибок: 0
-        
-        Прошло времени 00:00:02.31
-        
-      exitCode: 0
-...
-
----
-events:
-  -
-    kind: "try_compile-v1"
-    backtrace:
-      - "C:/Program Files/CMake/share/cmake-3.26/Modules/CheckIPOSupported.cmake:138 (try_compile)"
-      - "C:/Program Files/CMake/share/cmake-3.26/Modules/CheckIPOSupported.cmake:266 (_ipo_run_language_check)"
-      - "CMakeLists.txt:214 (check_ipo_supported)"
-    directories:
-      source: "C:/test_win/build/onetbb-build/CMakeFiles/_CMakeLTOTest-CXX/src"
-      binary: "C:/test_win/build/onetbb-build/CMakeFiles/_CMakeLTOTest-CXX/bin"
-    buildResult:
-      variable: "_IPO_LANGUAGE_CHECK_RESULT"
-      cached: true
-      stdout: |
-        Change Dir: C:/test_win/build/onetbb-build/CMakeFiles/_CMakeLTOTest-CXX/bin
-        
-        Run Build Command(s):C:/Program Files/Microsoft Visual Studio/2022/Community/MSBuild/Current/Bin/amd64/MSBuild.exe ALL_BUILD.vcxproj /p:Configuration=Debug /p:Platform=x64 /p:VisualStudioVersion=17.0 /v:n && MSBuild version 17.5.1+f6fdcf537 for .NET Framework
-        Сборка начата 10.05.2023 9:04:48.
-        Included response file: C:\\Program Files\\Microsoft Visual Studio\\2022\\Community\\MSBuild\\Current\\Bin\\amd64\\MSBuild.rsp
-        
-        Проект "C:\\test_win\\build\\onetbb-build\\CMakeFiles\\_CMakeLTOTest-CXX\\bin\\ALL_BUILD.vcxproj" в узле 1 (целевые объекты по умолчанию).
-        Проект "C:\\test_win\\build\\onetbb-build\\CMakeFiles\\_CMakeLTOTest-CXX\\bin\\ALL_BUILD.vcxproj" (1) выполняет сборку "C:\\test_win\\build\\onetbb-build\\CMakeFiles\\_CMakeLTOTest-CXX\\bin\\ZERO_CHECK.vcxproj" (2) в узле 1 (целевые объекты по умолчанию).
-        PrepareForBuild:
-          Создание каталога "x64\\Debug\\ZERO_CHECK\\".
-          Создание каталога "x64\\Debug\\ZERO_CHECK\\ZERO_CHECK.tlog\\".
-        InitializeBuildStatus:
-          Создание "x64\\Debug\\ZERO_CHECK\\ZERO_CHECK.tlog\\unsuccessfulbuild", так как было задано "AlwaysCreate".
-        CustomBuild:
-          Checking Build System
-        FinalizeBuildStatus:
-          Файл "x64\\Debug\\ZERO_CHECK\\ZERO_CHECK.tlog\\unsuccessfulbuild" удаляется.
-          Обращение к "x64\\Debug\\ZERO_CHECK\\ZERO_CHECK.tlog\\ZERO_CHECK.lastbuildstate".
-        Сборка проекта "C:\\test_win\\build\\onetbb-build\\CMakeFiles\\_CMakeLTOTest-CXX\\bin\\ZERO_CHECK.vcxproj" завершена (целевые объекты по умолчанию).
-        Проект "C:\\test_win\\build\\onetbb-build\\CMakeFiles\\_CMakeLTOTest-CXX\\bin\\ALL_BUILD.vcxproj" (1) выполняет сборку "C:\\test_win\\build\\onetbb-build\\CMakeFiles\\_CMakeLTOTest-CXX\\bin\\boo.vcxproj" (3) в узле 1 (целевые объекты по умолчанию).
-        Проект "C:\\test_win\\build\\onetbb-build\\CMakeFiles\\_CMakeLTOTest-CXX\\bin\\boo.vcxproj" (3) выполняет сборку "C:\\test_win\\build\\onetbb-build\\CMakeFiles\\_CMakeLTOTest-CXX\\bin\\foo.vcxproj" (4) в узле 1 (целевые объекты по умолчанию).
-        PrepareForBuild:
-          Создание каталога "foo.dir\\Debug\\".
-          Создание каталога "C:\\test_win\\build\\onetbb-build\\CMakeFiles\\_CMakeLTOTest-CXX\\bin\\Debug\\".
-          Создание каталога "foo.dir\\Debug\\foo.tlog\\".
-        InitializeBuildStatus:
-          Создание "foo.dir\\Debug\\foo.tlog\\unsuccessfulbuild", так как было задано "AlwaysCreate".
-        CustomBuild:
-          Building Custom Rule C:/test_win/build/onetbb-build/CMakeFiles/_CMakeLTOTest-CXX/src/CMakeLists.txt
-        ClCompile:
-          C:\\Program Files\\Microsoft Visual Studio\\2022\\Community\\VC\\Tools\\MSVC\\14.35.32215\\bin\\HostX64\\x64\\CL.exe /c /Zi /W1 /WX- /diagnostics:column /Od /Ob0 /GL /D _MBCS /D WIN32 /D _WINDOWS /D "CMAKE_INTDIR=\\"Debug\\"" /Gm- /EHsc /RTC1 /MDd /GS /fp:precise /Zc:wchar_t /Zc:forScope /Zc:inline /Fo"foo.dir\\Debug\\\\" /Fd"C:\\test_win\\build\\onetbb-build\\CMakeFiles\\_CMakeLTOTest-CXX\\bin\\Debug\\foo.pdb" /external:W1 /Gd /TP /errorReport:queue "C:\\test_win\\build\\onetbb-build\\CMakeFiles\\_CMakeLTOTest-CXX\\src\\foo.cpp"
-          Оптимизирующий компилятор Microsoft (R) C/C++ версии 19.35.32217.1 для x64
-          foo.cpp
-          (C) Корпорация Майкрософт (Microsoft Corporation).  Все права защищены.
-          cl /c /Zi /W1 /WX- /diagnostics:column /Od /Ob0 /GL /D _MBCS /D WIN32 /D _WINDOWS /D "CMAKE_INTDIR=\\"Debug\\"" /Gm- /EHsc /RTC1 /MDd /GS /fp:precise /Zc:wchar_t /Zc:forScope /Zc:inline /Fo"foo.dir\\Debug\\\\" /Fd"C:\\test_win\\build\\onetbb-build\\CMakeFiles\\_CMakeLTOTest-CXX\\bin\\Debug\\foo.pdb" /external:W1 /Gd /TP /errorReport:queue "C:\\test_win\\build\\onetbb-build\\CMakeFiles\\_CMakeLTOTest-CXX\\src\\foo.cpp"
-        Lib:
-          C:\\Program Files\\Microsoft Visual Studio\\2022\\Community\\VC\\Tools\\MSVC\\14.35.32215\\bin\\HostX64\\x64\\Lib.exe /OUT:"C:\\test_win\\build\\onetbb-build\\CMakeFiles\\_CMakeLTOTest-CXX\\bin\\Debug\\foo.lib" /NOLOGO /MACHINE:X64 /LTCG  /machine:x64 foo.dir\\Debug\\foo.obj
-          foo.vcxproj -> C:\\test_win\\build\\onetbb-build\\CMakeFiles\\_CMakeLTOTest-CXX\\bin\\Debug\\foo.lib
-        FinalizeBuildStatus:
-          Файл "foo.dir\\Debug\\foo.tlog\\unsuccessfulbuild" удаляется.
-          Обращение к "foo.dir\\Debug\\foo.tlog\\foo.lastbuildstate".
-        Сборка проекта "C:\\test_win\\build\\onetbb-build\\CMakeFiles\\_CMakeLTOTest-CXX\\bin\\foo.vcxproj" завершена (целевые объекты по умолчанию).
-        PrepareForBuild:
-          Создание каталога "boo.dir\\Debug\\".
-          Создание каталога "boo.dir\\Debug\\boo.tlog\\".
-        InitializeBuildStatus:
-          Создание "boo.dir\\Debug\\boo.tlog\\unsuccessfulbuild", так как было задано "AlwaysCreate".
-        CustomBuild:
-          Building Custom Rule C:/test_win/build/onetbb-build/CMakeFiles/_CMakeLTOTest-CXX/src/CMakeLists.txt
-        ClCompile:
-          C:\\Program Files\\Microsoft Visual Studio\\2022\\Community\\VC\\Tools\\MSVC\\14.35.32215\\bin\\HostX64\\x64\\CL.exe /c /Zi /W1 /WX- /diagnostics:column /Od /Ob0 /GL /D _MBCS /D WIN32 /D _WINDOWS /D "CMAKE_INTDIR=\\"Debug\\"" /Gm- /EHsc /RTC1 /MDd /GS /fp:precise /Zc:wchar_t /Zc:forScope /Zc:inline /Fo"boo.dir\\Debug\\\\" /Fd"boo.dir\\Debug\\vc143.pdb" /external:W1 /Gd /TP /errorReport:queue "C:\\test_win\\build\\onetbb-build\\CMakeFiles\\_CMakeLTOTest-CXX\\src\\main.cpp"
-          Оптимизирующий компилятор Microsoft (R) C/C++ версии 19.35.32217.1 для x64
-          (C) Корпорация Майкрософт (Microsoft Corporation).  Все права защищены.
-          cl /c /Zi /W1 /WX- /diagnostics:column /Od /Ob0 /GL /D _MBCS /D WIN32 /D _WINDOWS /D "CMAKE_INTDIR=\\"Debug\\"" /Gm- /EHsc /RTC1 /MDd /GS /fp:precise /Zc:wchar_t /Zc:forScope /Zc:inline /Fo"boo.dir\\Debug\\\\" /Fd"boo.dir\\Debug\\vc143.pdb" /external:W1 /Gd /TP /errorReport:queue "C:\\test_win\\build\\onetbb-build\\CMakeFiles\\_CMakeLTOTest-CXX\\src\\main.cpp"
-          main.cpp
-        Link:
-          C:\\Program Files\\Microsoft Visual Studio\\2022\\Community\\VC\\Tools\\MSVC\\14.35.32215\\bin\\HostX64\\x64\\link.exe /ERRORREPORT:QUEUE /OUT:"C:\\test_win\\build\\onetbb-build\\CMakeFiles\\_CMakeLTOTest-CXX\\bin\\Debug\\boo.exe" /NOLOGO Debug\\foo.lib kernel32.lib user32.lib gdi32.lib winspool.lib shell32.lib ole32.lib oleaut32.lib uuid.lib comdlg32.lib advapi32.lib /MANIFEST /MANIFESTUAC:"level='asInvoker' uiAccess='false'" /manifest:embed /DEBUG /PDB:"C:/test_win/build/onetbb-build/CMakeFiles/_CMakeLTOTest-CXX/bin/Debug/boo.pdb" /SUBSYSTEM:CONSOLE /LTCG:incremental /LTCGOUT:"boo.dir\\Debug\\boo.iobj" /TLBID:1 /DYNAMICBASE /NXCOMPAT /IMPLIB:"C:/test_win/build/onetbb-build/CMakeFiles/_CMakeLTOTest-CXX/bin/Debug/boo.lib" /MACHINE:X64  /machine:x64 boo.dir\\Debug\\main.obj
-          Создание кода
-          Not all modules are compiled with -Gy (function comdat), build without incremental LTCG.
-          Создание кода завершено
-          boo.vcxproj -> C:\\test_win\\build\\onetbb-build\\CMakeFiles\\_CMakeLTOTest-CXX\\bin\\Debug\\boo.exe
-        FinalizeBuildStatus:
-          Файл "boo.dir\\Debug\\boo.tlog\\unsuccessfulbuild" удаляется.
-          Обращение к "boo.dir\\Debug\\boo.tlog\\boo.lastbuildstate".
-        Сборка проекта "C:\\test_win\\build\\onetbb-build\\CMakeFiles\\_CMakeLTOTest-CXX\\bin\\boo.vcxproj" завершена (целевые объекты по умолчанию).
-        PrepareForBuild:
-          Создание каталога "x64\\Debug\\ALL_BUILD\\".
-          Создание каталога "x64\\Debug\\ALL_BUILD\\ALL_BUILD.tlog\\".
-        InitializeBuildStatus:
-          Создание "x64\\Debug\\ALL_BUILD\\ALL_BUILD.tlog\\unsuccessfulbuild", так как было задано "AlwaysCreate".
-        CustomBuild:
-          Building Custom Rule C:/test_win/build/onetbb-build/CMakeFiles/_CMakeLTOTest-CXX/src/CMakeLists.txt
-        FinalizeBuildStatus:
-          Файл "x64\\Debug\\ALL_BUILD\\ALL_BUILD.tlog\\unsuccessfulbuild" удаляется.
-          Обращение к "x64\\Debug\\ALL_BUILD\\ALL_BUILD.tlog\\ALL_BUILD.lastbuildstate".
-        Сборка проекта "C:\\test_win\\build\\onetbb-build\\CMakeFiles\\_CMakeLTOTest-CXX\\bin\\ALL_BUILD.vcxproj" завершена (целевые объекты по умолчанию).
-        
-        Сборка успешно завершена.
-            Предупреждений: 0
-            Ошибок: 0
-        
-        Прошло времени 00:00:02.06
-        
-      exitCode: 0
-...
-
----
-events:
-  -
-    kind: "try_compile-v1"
-    backtrace:
-      - "C:/Program Files/CMake/share/cmake-3.26/Modules/CheckIPOSupported.cmake:138 (try_compile)"
-      - "C:/Program Files/CMake/share/cmake-3.26/Modules/CheckIPOSupported.cmake:266 (_ipo_run_language_check)"
-      - "CMakeLists.txt:214 (check_ipo_supported)"
-    directories:
-      source: "C:/test_win/build/onetbb-build/CMakeFiles/_CMakeLTOTest-CXX/src"
-      binary: "C:/test_win/build/onetbb-build/CMakeFiles/_CMakeLTOTest-CXX/bin"
-    buildResult:
-      variable: "_IPO_LANGUAGE_CHECK_RESULT"
-      cached: true
-      stdout: |
-        Change Dir: C:/test_win/build/onetbb-build/CMakeFiles/_CMakeLTOTest-CXX/bin
-        
-        Run Build Command(s):C:/Program Files/Microsoft Visual Studio/2022/Community/MSBuild/Current/Bin/amd64/MSBuild.exe ALL_BUILD.vcxproj /p:Configuration=Debug /p:Platform=x64 /p:VisualStudioVersion=17.0 /v:n && MSBuild version 17.5.1+f6fdcf537 for .NET Framework
-        Сборка начата 10.05.2023 9:06:18.
-        Included response file: C:\\Program Files\\Microsoft Visual Studio\\2022\\Community\\MSBuild\\Current\\Bin\\amd64\\MSBuild.rsp
-        
-        Проект "C:\\test_win\\build\\onetbb-build\\CMakeFiles\\_CMakeLTOTest-CXX\\bin\\ALL_BUILD.vcxproj" в узле 1 (целевые объекты по умолчанию).
-        Проект "C:\\test_win\\build\\onetbb-build\\CMakeFiles\\_CMakeLTOTest-CXX\\bin\\ALL_BUILD.vcxproj" (1) выполняет сборку "C:\\test_win\\build\\onetbb-build\\CMakeFiles\\_CMakeLTOTest-CXX\\bin\\ZERO_CHECK.vcxproj" (2) в узле 1 (целевые объекты по умолчанию).
-        PrepareForBuild:
-          Создание каталога "x64\\Debug\\ZERO_CHECK\\".
-          Создание каталога "x64\\Debug\\ZERO_CHECK\\ZERO_CHECK.tlog\\".
-        InitializeBuildStatus:
-          Создание "x64\\Debug\\ZERO_CHECK\\ZERO_CHECK.tlog\\unsuccessfulbuild", так как было задано "AlwaysCreate".
-        CustomBuild:
-          Checking Build System
-        FinalizeBuildStatus:
-          Файл "x64\\Debug\\ZERO_CHECK\\ZERO_CHECK.tlog\\unsuccessfulbuild" удаляется.
-          Обращение к "x64\\Debug\\ZERO_CHECK\\ZERO_CHECK.tlog\\ZERO_CHECK.lastbuildstate".
-        Сборка проекта "C:\\test_win\\build\\onetbb-build\\CMakeFiles\\_CMakeLTOTest-CXX\\bin\\ZERO_CHECK.vcxproj" завершена (целевые объекты по умолчанию).
-        Проект "C:\\test_win\\build\\onetbb-build\\CMakeFiles\\_CMakeLTOTest-CXX\\bin\\ALL_BUILD.vcxproj" (1) выполняет сборку "C:\\test_win\\build\\onetbb-build\\CMakeFiles\\_CMakeLTOTest-CXX\\bin\\boo.vcxproj" (3) в узле 1 (целевые объекты по умолчанию).
-        Проект "C:\\test_win\\build\\onetbb-build\\CMakeFiles\\_CMakeLTOTest-CXX\\bin\\boo.vcxproj" (3) выполняет сборку "C:\\test_win\\build\\onetbb-build\\CMakeFiles\\_CMakeLTOTest-CXX\\bin\\foo.vcxproj" (4) в узле 1 (целевые объекты по умолчанию).
-        PrepareForBuild:
-          Создание каталога "foo.dir\\Debug\\".
-          Создание каталога "C:\\test_win\\build\\onetbb-build\\CMakeFiles\\_CMakeLTOTest-CXX\\bin\\Debug\\".
-          Создание каталога "foo.dir\\Debug\\foo.tlog\\".
-        InitializeBuildStatus:
-          Создание "foo.dir\\Debug\\foo.tlog\\unsuccessfulbuild", так как было задано "AlwaysCreate".
-        CustomBuild:
-          Building Custom Rule C:/test_win/build/onetbb-build/CMakeFiles/_CMakeLTOTest-CXX/src/CMakeLists.txt
-        ClCompile:
-          C:\\Program Files\\Microsoft Visual Studio\\2022\\Community\\VC\\Tools\\MSVC\\14.35.32215\\bin\\HostX64\\x64\\CL.exe /c /Zi /W1 /WX- /diagnostics:column /Od /Ob0 /GL /D _MBCS /D WIN32 /D _WINDOWS /D "CMAKE_INTDIR=\\"Debug\\"" /Gm- /EHsc /RTC1 /MDd /GS /fp:precise /Zc:wchar_t /Zc:forScope /Zc:inline /Fo"foo.dir\\Debug\\\\" /Fd"C:\\test_win\\build\\onetbb-build\\CMakeFiles\\_CMakeLTOTest-CXX\\bin\\Debug\\foo.pdb" /external:W1 /Gd /TP /errorReport:queue "C:\\test_win\\build\\onetbb-build\\CMakeFiles\\_CMakeLTOTest-CXX\\src\\foo.cpp"
-          Оптимизирующий компилятор Microsoft (R) C/C++ версии 19.35.32217.1 для x64
-          foo.cpp
-          (C) Корпорация Майкрософт (Microsoft Corporation).  Все права защищены.
-          cl /c /Zi /W1 /WX- /diagnostics:column /Od /Ob0 /GL /D _MBCS /D WIN32 /D _WINDOWS /D "CMAKE_INTDIR=\\"Debug\\"" /Gm- /EHsc /RTC1 /MDd /GS /fp:precise /Zc:wchar_t /Zc:forScope /Zc:inline /Fo"foo.dir\\Debug\\\\" /Fd"C:\\test_win\\build\\onetbb-build\\CMakeFiles\\_CMakeLTOTest-CXX\\bin\\Debug\\foo.pdb" /external:W1 /Gd /TP /errorReport:queue "C:\\test_win\\build\\onetbb-build\\CMakeFiles\\_CMakeLTOTest-CXX\\src\\foo.cpp"
-        Lib:
-          C:\\Program Files\\Microsoft Visual Studio\\2022\\Community\\VC\\Tools\\MSVC\\14.35.32215\\bin\\HostX64\\x64\\Lib.exe /OUT:"C:\\test_win\\build\\onetbb-build\\CMakeFiles\\_CMakeLTOTest-CXX\\bin\\Debug\\foo.lib" /NOLOGO /MACHINE:X64 /LTCG  /machine:x64 foo.dir\\Debug\\foo.obj
-          foo.vcxproj -> C:\\test_win\\build\\onetbb-build\\CMakeFiles\\_CMakeLTOTest-CXX\\bin\\Debug\\foo.lib
-        FinalizeBuildStatus:
-          Файл "foo.dir\\Debug\\foo.tlog\\unsuccessfulbuild" удаляется.
-          Обращение к "foo.dir\\Debug\\foo.tlog\\foo.lastbuildstate".
-        Сборка проекта "C:\\test_win\\build\\onetbb-build\\CMakeFiles\\_CMakeLTOTest-CXX\\bin\\foo.vcxproj" завершена (целевые объекты по умолчанию).
-        PrepareForBuild:
-          Создание каталога "boo.dir\\Debug\\".
-          Создание каталога "boo.dir\\Debug\\boo.tlog\\".
-        InitializeBuildStatus:
-          Создание "boo.dir\\Debug\\boo.tlog\\unsuccessfulbuild", так как было задано "AlwaysCreate".
-        CustomBuild:
-          Building Custom Rule C:/test_win/build/onetbb-build/CMakeFiles/_CMakeLTOTest-CXX/src/CMakeLists.txt
-        ClCompile:
-          C:\\Program Files\\Microsoft Visual Studio\\2022\\Community\\VC\\Tools\\MSVC\\14.35.32215\\bin\\HostX64\\x64\\CL.exe /c /Zi /W1 /WX- /diagnostics:column /Od /Ob0 /GL /D _MBCS /D WIN32 /D _WINDOWS /D "CMAKE_INTDIR=\\"Debug\\"" /Gm- /EHsc /RTC1 /MDd /GS /fp:precise /Zc:wchar_t /Zc:forScope /Zc:inline /Fo"boo.dir\\Debug\\\\" /Fd"boo.dir\\Debug\\vc143.pdb" /external:W1 /Gd /TP /errorReport:queue "C:\\test_win\\build\\onetbb-build\\CMakeFiles\\_CMakeLTOTest-CXX\\src\\main.cpp"
-          Оптимизирующий компилятор Microsoft (R) C/C++ версии 19.35.32217.1 для x64
-          (C) Корпорация Майкрософт (Microsoft Corporation).  Все права защищены.
-          cl /c /Zi /W1 /WX- /diagnostics:column /Od /Ob0 /GL /D _MBCS /D WIN32 /D _WINDOWS /D "CMAKE_INTDIR=\\"Debug\\"" /Gm- /EHsc /RTC1 /MDd /GS /fp:precise /Zc:wchar_t /Zc:forScope /Zc:inline /Fo"boo.dir\\Debug\\\\" /Fd"boo.dir\\Debug\\vc143.pdb" /external:W1 /Gd /TP /errorReport:queue "C:\\test_win\\build\\onetbb-build\\CMakeFiles\\_CMakeLTOTest-CXX\\src\\main.cpp"
-          main.cpp
-        Link:
-          C:\\Program Files\\Microsoft Visual Studio\\2022\\Community\\VC\\Tools\\MSVC\\14.35.32215\\bin\\HostX64\\x64\\link.exe /ERRORREPORT:QUEUE /OUT:"C:\\test_win\\build\\onetbb-build\\CMakeFiles\\_CMakeLTOTest-CXX\\bin\\Debug\\boo.exe" /NOLOGO Debug\\foo.lib kernel32.lib user32.lib gdi32.lib winspool.lib shell32.lib ole32.lib oleaut32.lib uuid.lib comdlg32.lib advapi32.lib /MANIFEST /MANIFESTUAC:"level='asInvoker' uiAccess='false'" /manifest:embed /DEBUG /PDB:"C:/test_win/build/onetbb-build/CMakeFiles/_CMakeLTOTest-CXX/bin/Debug/boo.pdb" /SUBSYSTEM:CONSOLE /LTCG:incremental /LTCGOUT:"boo.dir\\Debug\\boo.iobj" /TLBID:1 /DYNAMICBASE /NXCOMPAT /IMPLIB:"C:/test_win/build/onetbb-build/CMakeFiles/_CMakeLTOTest-CXX/bin/Debug/boo.lib" /MACHINE:X64  /machine:x64 boo.dir\\Debug\\main.obj
-          Создание кода
-          Not all modules are compiled with -Gy (function comdat), build without incremental LTCG.
-          Создание кода завершено
-          boo.vcxproj -> C:\\test_win\\build\\onetbb-build\\CMakeFiles\\_CMakeLTOTest-CXX\\bin\\Debug\\boo.exe
-        FinalizeBuildStatus:
-          Файл "boo.dir\\Debug\\boo.tlog\\unsuccessfulbuild" удаляется.
-          Обращение к "boo.dir\\Debug\\boo.tlog\\boo.lastbuildstate".
-        Сборка проекта "C:\\test_win\\build\\onetbb-build\\CMakeFiles\\_CMakeLTOTest-CXX\\bin\\boo.vcxproj" завершена (целевые объекты по умолчанию).
-        PrepareForBuild:
-          Создание каталога "x64\\Debug\\ALL_BUILD\\".
-          Создание каталога "x64\\Debug\\ALL_BUILD\\ALL_BUILD.tlog\\".
-        InitializeBuildStatus:
-          Создание "x64\\Debug\\ALL_BUILD\\ALL_BUILD.tlog\\unsuccessfulbuild", так как было задано "AlwaysCreate".
-        CustomBuild:
-          Building Custom Rule C:/test_win/build/onetbb-build/CMakeFiles/_CMakeLTOTest-CXX/src/CMakeLists.txt
-        FinalizeBuildStatus:
-          Файл "x64\\Debug\\ALL_BUILD\\ALL_BUILD.tlog\\unsuccessfulbuild" удаляется.
-          Обращение к "x64\\Debug\\ALL_BUILD\\ALL_BUILD.tlog\\ALL_BUILD.lastbuildstate".
-        Сборка проекта "C:\\test_win\\build\\onetbb-build\\CMakeFiles\\_CMakeLTOTest-CXX\\bin\\ALL_BUILD.vcxproj" завершена (целевые объекты по умолчанию).
-        
-        Сборка успешно завершена.
-            Предупреждений: 0
-            Ошибок: 0
-        
-        Прошло времени 00:00:01.77
+        Прошло времени 00:00:00.81
         
       exitCode: 0
 ...
