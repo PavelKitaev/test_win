@@ -138,6 +138,7 @@ void ParallelAlgHybrid(double* matrix, int size, double eps, int num_omp_th)
   int j = 0;
   double d, temp;
   int q = 0;
+  
   do
   {
     q++;

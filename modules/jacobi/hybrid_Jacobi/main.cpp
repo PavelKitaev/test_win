@@ -76,7 +76,7 @@ void ParallelAlgHybrid(double* matrix, int size, double eps, int num_omp_th) {
     MPI_Scatter(&end_temp[0], 1, MPI_INT, &end, 1, MPI_INT, 0, MPI_COMM_WORLD);
     
     int q = 0;
-    double dmax = 0;
+    double dmax, temp, d;
     double temp_dmax = 0;
     double dm = 0;
     
@@ -84,17 +84,16 @@ void ParallelAlgHybrid(double* matrix, int size, double eps, int num_omp_th) {
         q++;
         dmax = 0;
         dm = 0;
-#pragma omp parallel for num_threads(num_omp_th)
+#pragma omp parallel for private(d, temp) num_threads(num_omp_th)
         for (int i = begin; i < end; i++ ) {
-            
             for (int j = 1; j < size - 1; j++ ) {
-                double temp = matrix[size * i + j];
+                dtemp = matrix[size * i + j];
                 matrix_temp[size * i + j] = 0.25 * (matrix[size * (i - 1) + j] +
                                                matrix[size * (i + 1) + j] +
                                                matrix[size * i + (j - 1)] +
                                                matrix[size * i + (j + 1)] );
                 
-                double d = fabs(temp-matrix_temp[size * i + j]);
+                d = fabs(temp-matrix_temp[size * i + j]);
                 if (dm < d)
                     dm = d;
             }

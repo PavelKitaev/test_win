@@ -12,11 +12,8 @@ if( USE_MPI AND USE_OMP )
 
     file(GLOB_RECURSE ALL_SOURCE_FILES *.cpp *.h)
 
-    set(PACK_LIB "${ProjectId}_mpi_lib")
+    set(PACK_LIB "${ProjectId}_lib")
     add_library(${PACK_LIB} STATIC ${ALL_SOURCE_FILES} )
-
-    set(PACK_LIB_omp "${ProjectId}_omp_lib")
-    add_library(${PACK_LIB_omp} STATIC ${ALL_SOURCE_FILES} )
 
     if (CMAKE_CXX_COMPILER_ID STREQUAL "Clang")
         set(CMAKE_CXX_FLAGS "${CMAKE_CXX_FLAGS} -fopenmp")
@@ -29,7 +26,6 @@ if( USE_MPI AND USE_OMP )
     add_executable( ${ProjectId} ${ALL_SOURCE_FILES} )
 
     target_link_libraries(${ProjectId} ${PACK_LIB})
-    target_link_libraries(${ProjectId} ${PACK_LIB_omp})
 
     target_link_libraries(${ProjectId} ${OpenMP_libomp_LIBRARY})
 
