@@ -14,6 +14,7 @@ if ( USE_TBB )
 
     target_link_libraries(${ProjectId} ${PACK_LIB})
     target_link_directories(${ProjectId} PUBLIC ${CMAKE_BINARY_DIR}/onetbb-install/lib)
+    target_link_libraries(${ProjectId} tbb)
 
 else( USE_TBB )
     message( STATUS "-- ${ProjectId} - NOT BUILD!"  )
