@@ -124,7 +124,7 @@ int main(int argc, char **argv)
     std::ofstream out;            // поток для записи
     std::string filename = "Wave_tbb.txt";
     out.open(filename, std::ios::app);         // открываем файл для записи
-    out << "Size: " << size << ", ProcNum: " << procNum << ", Time: " << time_mpi << std::endl;
+    out << "Size: " << size << ", ProcNum: " << procNum << ", Time: " << time_tbb << std::endl;
     out.close();
 
     return 0;

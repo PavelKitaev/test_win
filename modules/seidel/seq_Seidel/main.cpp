@@ -85,7 +85,7 @@ int main(int argc, char **argv)
     std::ofstream out;            // поток для записи
     std::string filename = "Seidel_seq.txt";
     out.open(filename, std::ios::app);         // открываем файл для записи
-    out << "Size: " << size << ", Time: " << time_mpi << std::endl;
+    out << "Size: " << size << ", Time: " << time_seq << std::endl;
     out.close();
     return 0;
 }
