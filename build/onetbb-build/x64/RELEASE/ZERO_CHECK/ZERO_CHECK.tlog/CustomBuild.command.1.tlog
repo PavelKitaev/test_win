@@ -1,0 +1,10 @@
+^C:\TEST_WIN\BUILD\ONETBB-BUILD\CMAKEFILES\FF2A119868480E54DD8F028908730598\GENERATE.STAMP.RULE
+setlocal
+"C:\Program Files\CMake\bin\cmake.exe" -SC:/test_win/3rdparty/onetbb -BC:/test_win/build/onetbb-build --check-stamp-list CMakeFiles/generate.stamp.list --vs-solution-file C:/test_win/build/onetbb-build/TBB.sln
+if %errorlevel% neq 0 goto :cmEnd
+:cmEnd
+endlocal & call :cmErrorLevel %errorlevel% & goto :cmDone
+:cmErrorLevel
+exit /b %1
+:cmDone
+if %errorlevel% neq 0 goto :VCEnd

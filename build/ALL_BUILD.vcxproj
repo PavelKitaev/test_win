@@ -1,0 +1,336 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project DefaultTargets="Build" ToolsVersion="17.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <PropertyGroup>
+    <PreferredToolArchitecture>x64</PreferredToolArchitecture>
+  </PropertyGroup>
+  <PropertyGroup>
+    <ResolveNugetPackages>false</ResolveNugetPackages>
+  </PropertyGroup>
+  <ItemGroup Label="ProjectConfigurations">
+    <ProjectConfiguration Include="Debug|x64">
+      <Configuration>Debug</Configuration>
+      <Platform>x64</Platform>
+    </ProjectConfiguration>
+    <ProjectConfiguration Include="Release|x64">
+      <Configuration>Release</Configuration>
+      <Platform>x64</Platform>
+    </ProjectConfiguration>
+    <ProjectConfiguration Include="MinSizeRel|x64">
+      <Configuration>MinSizeRel</Configuration>
+      <Platform>x64</Platform>
+    </ProjectConfiguration>
+    <ProjectConfiguration Include="RelWithDebInfo|x64">
+      <Configuration>RelWithDebInfo</Configuration>
+      <Platform>x64</Platform>
+    </ProjectConfiguration>
+  </ItemGroup>
+  <PropertyGroup Label="Globals">
+    <ProjectGuid>{44725285-DD42-3251-9AC7-2C5168B80E68}</ProjectGuid>
+    <Keyword>Win32Proj</Keyword>
+    <WindowsTargetPlatformVersion>10.0.22000.0</WindowsTargetPlatformVersion>
+    <Platform>x64</Platform>
+    <ProjectName>ALL_BUILD</ProjectName>
+    <VCProjectUpgraderObjectName>NoUpgrade</VCProjectUpgraderObjectName>
+  </PropertyGroup>
+  <Import Project="$(VCTargetsPath)\Microsoft.Cpp.Default.props" />
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Debug|x64'" Label="Configuration">
+    <ConfigurationType>Utility</ConfigurationType>
+    <CharacterSet>MultiByte</CharacterSet>
+    <PlatformToolset>v143</PlatformToolset>
+  </PropertyGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Release|x64'" Label="Configuration">
+    <ConfigurationType>Utility</ConfigurationType>
+    <CharacterSet>MultiByte</CharacterSet>
+    <PlatformToolset>v143</PlatformToolset>
+  </PropertyGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|x64'" Label="Configuration">
+    <ConfigurationType>Utility</ConfigurationType>
+    <CharacterSet>MultiByte</CharacterSet>
+    <PlatformToolset>v143</PlatformToolset>
+  </PropertyGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|x64'" Label="Configuration">
+    <ConfigurationType>Utility</ConfigurationType>
+    <CharacterSet>MultiByte</CharacterSet>
+    <PlatformToolset>v143</PlatformToolset>
+  </PropertyGroup>
+  <Import Project="$(VCTargetsPath)\Microsoft.Cpp.props" />
+  <ImportGroup Label="ExtensionSettings">
+  </ImportGroup>
+  <ImportGroup Label="PropertySheets">
+    <Import Project="$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props" Condition="exists('$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props')" Label="LocalAppDataPlatform" />
+  </ImportGroup>
+  <PropertyGroup Label="UserMacros" />
+  <PropertyGroup>
+    <_ProjectFileVersion>10.0.20506.1</_ProjectFileVersion>
+    <IntDir Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">$(Platform)\$(Configuration)\$(ProjectName)\</IntDir>
+    <IntDir Condition="'$(Configuration)|$(Platform)'=='Release|x64'">$(Platform)\$(Configuration)\$(ProjectName)\</IntDir>
+    <IntDir Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|x64'">$(Platform)\$(Configuration)\$(ProjectName)\</IntDir>
+    <IntDir Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|x64'">$(Platform)\$(Configuration)\$(ProjectName)\</IntDir>
+  </PropertyGroup>
+  <ItemDefinitionGroup Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">
+    <Midl>
+      <AdditionalIncludeDirectories>C:\Program Files (x86)\Microsoft SDKs\MPI\Include;C:\test_win\build\onetbb-install\include;C:\test_win\3rdparty\unapproved;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+      <OutputDirectory>$(ProjectDir)/$(IntDir)</OutputDirectory>
+      <HeaderFileName>%(Filename).h</HeaderFileName>
+      <TypeLibraryName>%(Filename).tlb</TypeLibraryName>
+      <InterfaceIdentifierFileName>%(Filename)_i.c</InterfaceIdentifierFileName>
+      <ProxyFileName>%(Filename)_p.c</ProxyFileName>
+    </Midl>
+  </ItemDefinitionGroup>
+  <ItemDefinitionGroup Condition="'$(Configuration)|$(Platform)'=='Release|x64'">
+    <Midl>
+      <AdditionalIncludeDirectories>C:\Program Files (x86)\Microsoft SDKs\MPI\Include;C:\test_win\build\onetbb-install\include;C:\test_win\3rdparty\unapproved;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+      <OutputDirectory>$(ProjectDir)/$(IntDir)</OutputDirectory>
+      <HeaderFileName>%(Filename).h</HeaderFileName>
+      <TypeLibraryName>%(Filename).tlb</TypeLibraryName>
+      <InterfaceIdentifierFileName>%(Filename)_i.c</InterfaceIdentifierFileName>
+      <ProxyFileName>%(Filename)_p.c</ProxyFileName>
+    </Midl>
+  </ItemDefinitionGroup>
+  <ItemDefinitionGroup Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|x64'">
+    <Midl>
+      <AdditionalIncludeDirectories>C:\Program Files (x86)\Microsoft SDKs\MPI\Include;C:\test_win\build\onetbb-install\include;C:\test_win\3rdparty\unapproved;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+      <OutputDirectory>$(ProjectDir)/$(IntDir)</OutputDirectory>
+      <HeaderFileName>%(Filename).h</HeaderFileName>
+      <TypeLibraryName>%(Filename).tlb</TypeLibraryName>
+      <InterfaceIdentifierFileName>%(Filename)_i.c</InterfaceIdentifierFileName>
+      <ProxyFileName>%(Filename)_p.c</ProxyFileName>
+    </Midl>
+  </ItemDefinitionGroup>
+  <ItemDefinitionGroup Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|x64'">
+    <Midl>
+      <AdditionalIncludeDirectories>C:\Program Files (x86)\Microsoft SDKs\MPI\Include;C:\test_win\build\onetbb-install\include;C:\test_win\3rdparty\unapproved;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+      <OutputDirectory>$(ProjectDir)/$(IntDir)</OutputDirectory>
+      <HeaderFileName>%(Filename).h</HeaderFileName>
+      <TypeLibraryName>%(Filename).tlb</TypeLibraryName>
+      <InterfaceIdentifierFileName>%(Filename)_i.c</InterfaceIdentifierFileName>
+      <ProxyFileName>%(Filename)_p.c</ProxyFileName>
+    </Midl>
+  </ItemDefinitionGroup>
+  <ItemGroup>
+    <CustomBuild Include="C:\test_win\CMakeLists.txt">
+      <UseUtf8Encoding>Always</UseUtf8Encoding>
+      <Message Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">Building Custom Rule C:/test_win/CMakeLists.txt</Message>
+      <Command Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">setlocal
+"C:\Program Files\CMake\bin\cmake.exe" -SC:/test_win -BC:/test_win/build --check-stamp-file C:/test_win/build/CMakeFiles/generate.stamp
+if %errorlevel% neq 0 goto :cmEnd
+:cmEnd
+endlocal &amp; call :cmErrorLevel %errorlevel% &amp; goto :cmDone
+:cmErrorLevel
+exit /b %1
+:cmDone
+if %errorlevel% neq 0 goto :VCEnd</Command>
+      <AdditionalInputs Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">C:\Program Files\CMake\share\cmake-3.26\Modules\CMakeCInformation.cmake;C:\Program Files\CMake\share\cmake-3.26\Modules\CMakeCXXInformation.cmake;C:\Program Files\CMake\share\cmake-3.26\Modules\CMakeCommonLanguageInclude.cmake;C:\Program Files\CMake\share\cmake-3.26\Modules\CMakeGenericSystem.cmake;C:\Program Files\CMake\share\cmake-3.26\Modules\CMakeInitializeConfigs.cmake;C:\Program Files\CMake\share\cmake-3.26\Modules\CMakeLanguageInformation.cmake;C:\Program Files\CMake\share\cmake-3.26\Modules\CMakeParseImplicitLinkInfo.cmake;C:\Program Files\CMake\share\cmake-3.26\Modules\CMakeRCInformation.cmake;C:\Program Files\CMake\share\cmake-3.26\Modules\CMakeSystemSpecificInformation.cmake;C:\Program Files\CMake\share\cmake-3.26\Modules\CMakeSystemSpecificInitialize.cmake;C:\Program Files\CMake\share\cmake-3.26\Modules\CheckCSourceCompiles.cmake;C:\Program Files\CMake\share\cmake-3.26\Modules\CheckIncludeFile.cmake;C:\Program Files\CMake\share\cmake-3.26\Modules\CheckLibraryExists.cmake;C:\Program Files\CMake\share\cmake-3.26\Modules\Compiler\CMakeCommonCompilerMacros.cmake;C:\Program Files\CMake\share\cmake-3.26\Modules\Compiler\MSVC-C.cmake;C:\Program Files\CMake\share\cmake-3.26\Modules\Compiler\MSVC-CXX.cmake;C:\Program Files\CMake\share\cmake-3.26\Modules\Compiler\MSVC.cmake;C:\Program Files\CMake\share\cmake-3.26\Modules\FindMPI.cmake;C:\Program Files\CMake\share\cmake-3.26\Modules\FindOpenMP.cmake;C:\Program Files\CMake\share\cmake-3.26\Modules\FindPackageHandleStandardArgs.cmake;C:\Program Files\CMake\share\cmake-3.26\Modules\FindPackageMessage.cmake;C:\Program Files\CMake\share\cmake-3.26\Modules\FindPkgConfig.cmake;C:\Program Files\CMake\share\cmake-3.26\Modules\FindThreads.cmake;C:\Program Files\CMake\share\cmake-3.26\Modules\Internal\CheckSourceCompiles.cmake;C:\Program Files\CMake\share\cmake-3.26\Modules\Platform\Windows-MSVC-C.cmake;C:\Program Files\CMake\share\cmake-3.26\Modules\Platform\Windows-MSVC-CXX.cmake;C:\Program Files\CMake\share\cmake-3.26\Modules\Platform\Windows-MSVC.cmake;C:\Program Files\CMake\share\cmake-3.26\Modules\Platform\Windows.cmake;C:\Program Files\CMake\share\cmake-3.26\Modules\Platform\WindowsPaths.cmake;C:\test_win\build\CMakeFiles\3.26.3\CMakeCCompiler.cmake;C:\test_win\build\CMakeFiles\3.26.3\CMakeCXXCompiler.cmake;C:\test_win\build\CMakeFiles\3.26.3\CMakeRCCompiler.cmake;C:\test_win\build\CMakeFiles\3.26.3\CMakeSystem.cmake;C:\test_win\cmake\configure.cmake;C:\test_win\cmake\onetbb.cmake;%(AdditionalInputs)</AdditionalInputs>
+      <Outputs Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">C:\test_win\build\CMakeFiles\generate.stamp</Outputs>
+      <LinkObjects Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">false</LinkObjects>
+      <Message Condition="'$(Configuration)|$(Platform)'=='Release|x64'">Building Custom Rule C:/test_win/CMakeLists.txt</Message>
+      <Command Condition="'$(Configuration)|$(Platform)'=='Release|x64'">setlocal
+"C:\Program Files\CMake\bin\cmake.exe" -SC:/test_win -BC:/test_win/build --check-stamp-file C:/test_win/build/CMakeFiles/generate.stamp
+if %errorlevel% neq 0 goto :cmEnd
+:cmEnd
+endlocal &amp; call :cmErrorLevel %errorlevel% &amp; goto :cmDone
+:cmErrorLevel
+exit /b %1
+:cmDone
+if %errorlevel% neq 0 goto :VCEnd</Command>
+      <AdditionalInputs Condition="'$(Configuration)|$(Platform)'=='Release|x64'">C:\Program Files\CMake\share\cmake-3.26\Modules\CMakeCInformation.cmake;C:\Program Files\CMake\share\cmake-3.26\Modules\CMakeCXXInformation.cmake;C:\Program Files\CMake\share\cmake-3.26\Modules\CMakeCommonLanguageInclude.cmake;C:\Program Files\CMake\share\cmake-3.26\Modules\CMakeGenericSystem.cmake;C:\Program Files\CMake\share\cmake-3.26\Modules\CMakeInitializeConfigs.cmake;C:\Program Files\CMake\share\cmake-3.26\Modules\CMakeLanguageInformation.cmake;C:\Program Files\CMake\share\cmake-3.26\Modules\CMakeParseImplicitLinkInfo.cmake;C:\Program Files\CMake\share\cmake-3.26\Modules\CMakeRCInformation.cmake;C:\Program Files\CMake\share\cmake-3.26\Modules\CMakeSystemSpecificInformation.cmake;C:\Program Files\CMake\share\cmake-3.26\Modules\CMakeSystemSpecificInitialize.cmake;C:\Program Files\CMake\share\cmake-3.26\Modules\CheckCSourceCompiles.cmake;C:\Program Files\CMake\share\cmake-3.26\Modules\CheckIncludeFile.cmake;C:\Program Files\CMake\share\cmake-3.26\Modules\CheckLibraryExists.cmake;C:\Program Files\CMake\share\cmake-3.26\Modules\Compiler\CMakeCommonCompilerMacros.cmake;C:\Program Files\CMake\share\cmake-3.26\Modules\Compiler\MSVC-C.cmake;C:\Program Files\CMake\share\cmake-3.26\Modules\Compiler\MSVC-CXX.cmake;C:\Program Files\CMake\share\cmake-3.26\Modules\Compiler\MSVC.cmake;C:\Program Files\CMake\share\cmake-3.26\Modules\FindMPI.cmake;C:\Program Files\CMake\share\cmake-3.26\Modules\FindOpenMP.cmake;C:\Program Files\CMake\share\cmake-3.26\Modules\FindPackageHandleStandardArgs.cmake;C:\Program Files\CMake\share\cmake-3.26\Modules\FindPackageMessage.cmake;C:\Program Files\CMake\share\cmake-3.26\Modules\FindPkgConfig.cmake;C:\Program Files\CMake\share\cmake-3.26\Modules\FindThreads.cmake;C:\Program Files\CMake\share\cmake-3.26\Modules\Internal\CheckSourceCompiles.cmake;C:\Program Files\CMake\share\cmake-3.26\Modules\Platform\Windows-MSVC-C.cmake;C:\Program Files\CMake\share\cmake-3.26\Modules\Platform\Windows-MSVC-CXX.cmake;C:\Program Files\CMake\share\cmake-3.26\Modules\Platform\Windows-MSVC.cmake;C:\Program Files\CMake\share\cmake-3.26\Modules\Platform\Windows.cmake;C:\Program Files\CMake\share\cmake-3.26\Modules\Platform\WindowsPaths.cmake;C:\test_win\build\CMakeFiles\3.26.3\CMakeCCompiler.cmake;C:\test_win\build\CMakeFiles\3.26.3\CMakeCXXCompiler.cmake;C:\test_win\build\CMakeFiles\3.26.3\CMakeRCCompiler.cmake;C:\test_win\build\CMakeFiles\3.26.3\CMakeSystem.cmake;C:\test_win\cmake\configure.cmake;C:\test_win\cmake\onetbb.cmake;%(AdditionalInputs)</AdditionalInputs>
+      <Outputs Condition="'$(Configuration)|$(Platform)'=='Release|x64'">C:\test_win\build\CMakeFiles\generate.stamp</Outputs>
+      <LinkObjects Condition="'$(Configuration)|$(Platform)'=='Release|x64'">false</LinkObjects>
+      <Message Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|x64'">Building Custom Rule C:/test_win/CMakeLists.txt</Message>
+      <Command Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|x64'">setlocal
+"C:\Program Files\CMake\bin\cmake.exe" -SC:/test_win -BC:/test_win/build --check-stamp-file C:/test_win/build/CMakeFiles/generate.stamp
+if %errorlevel% neq 0 goto :cmEnd
+:cmEnd
+endlocal &amp; call :cmErrorLevel %errorlevel% &amp; goto :cmDone
+:cmErrorLevel
+exit /b %1
+:cmDone
+if %errorlevel% neq 0 goto :VCEnd</Command>
+      <AdditionalInputs Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|x64'">C:\Program Files\CMake\share\cmake-3.26\Modules\CMakeCInformation.cmake;C:\Program Files\CMake\share\cmake-3.26\Modules\CMakeCXXInformation.cmake;C:\Program Files\CMake\share\cmake-3.26\Modules\CMakeCommonLanguageInclude.cmake;C:\Program Files\CMake\share\cmake-3.26\Modules\CMakeGenericSystem.cmake;C:\Program Files\CMake\share\cmake-3.26\Modules\CMakeInitializeConfigs.cmake;C:\Program Files\CMake\share\cmake-3.26\Modules\CMakeLanguageInformation.cmake;C:\Program Files\CMake\share\cmake-3.26\Modules\CMakeParseImplicitLinkInfo.cmake;C:\Program Files\CMake\share\cmake-3.26\Modules\CMakeRCInformation.cmake;C:\Program Files\CMake\share\cmake-3.26\Modules\CMakeSystemSpecificInformation.cmake;C:\Program Files\CMake\share\cmake-3.26\Modules\CMakeSystemSpecificInitialize.cmake;C:\Program Files\CMake\share\cmake-3.26\Modules\CheckCSourceCompiles.cmake;C:\Program Files\CMake\share\cmake-3.26\Modules\CheckIncludeFile.cmake;C:\Program Files\CMake\share\cmake-3.26\Modules\CheckLibraryExists.cmake;C:\Program Files\CMake\share\cmake-3.26\Modules\Compiler\CMakeCommonCompilerMacros.cmake;C:\Program Files\CMake\share\cmake-3.26\Modules\Compiler\MSVC-C.cmake;C:\Program Files\CMake\share\cmake-3.26\Modules\Compiler\MSVC-CXX.cmake;C:\Program Files\CMake\share\cmake-3.26\Modules\Compiler\MSVC.cmake;C:\Program Files\CMake\share\cmake-3.26\Modules\FindMPI.cmake;C:\Program Files\CMake\share\cmake-3.26\Modules\FindOpenMP.cmake;C:\Program Files\CMake\share\cmake-3.26\Modules\FindPackageHandleStandardArgs.cmake;C:\Program Files\CMake\share\cmake-3.26\Modules\FindPackageMessage.cmake;C:\Program Files\CMake\share\cmake-3.26\Modules\FindPkgConfig.cmake;C:\Program Files\CMake\share\cmake-3.26\Modules\FindThreads.cmake;C:\Program Files\CMake\share\cmake-3.26\Modules\Internal\CheckSourceCompiles.cmake;C:\Program Files\CMake\share\cmake-3.26\Modules\Platform\Windows-MSVC-C.cmake;C:\Program Files\CMake\share\cmake-3.26\Modules\Platform\Windows-MSVC-CXX.cmake;C:\Program Files\CMake\share\cmake-3.26\Modules\Platform\Windows-MSVC.cmake;C:\Program Files\CMake\share\cmake-3.26\Modules\Platform\Windows.cmake;C:\Program Files\CMake\share\cmake-3.26\Modules\Platform\WindowsPaths.cmake;C:\test_win\build\CMakeFiles\3.26.3\CMakeCCompiler.cmake;C:\test_win\build\CMakeFiles\3.26.3\CMakeCXXCompiler.cmake;C:\test_win\build\CMakeFiles\3.26.3\CMakeRCCompiler.cmake;C:\test_win\build\CMakeFiles\3.26.3\CMakeSystem.cmake;C:\test_win\cmake\configure.cmake;C:\test_win\cmake\onetbb.cmake;%(AdditionalInputs)</AdditionalInputs>
+      <Outputs Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|x64'">C:\test_win\build\CMakeFiles\generate.stamp</Outputs>
+      <LinkObjects Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|x64'">false</LinkObjects>
+      <Message Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|x64'">Building Custom Rule C:/test_win/CMakeLists.txt</Message>
+      <Command Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|x64'">setlocal
+"C:\Program Files\CMake\bin\cmake.exe" -SC:/test_win -BC:/test_win/build --check-stamp-file C:/test_win/build/CMakeFiles/generate.stamp
+if %errorlevel% neq 0 goto :cmEnd
+:cmEnd
+endlocal &amp; call :cmErrorLevel %errorlevel% &amp; goto :cmDone
+:cmErrorLevel
+exit /b %1
+:cmDone
+if %errorlevel% neq 0 goto :VCEnd</Command>
+      <AdditionalInputs Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|x64'">C:\Program Files\CMake\share\cmake-3.26\Modules\CMakeCInformation.cmake;C:\Program Files\CMake\share\cmake-3.26\Modules\CMakeCXXInformation.cmake;C:\Program Files\CMake\share\cmake-3.26\Modules\CMakeCommonLanguageInclude.cmake;C:\Program Files\CMake\share\cmake-3.26\Modules\CMakeGenericSystem.cmake;C:\Program Files\CMake\share\cmake-3.26\Modules\CMakeInitializeConfigs.cmake;C:\Program Files\CMake\share\cmake-3.26\Modules\CMakeLanguageInformation.cmake;C:\Program Files\CMake\share\cmake-3.26\Modules\CMakeParseImplicitLinkInfo.cmake;C:\Program Files\CMake\share\cmake-3.26\Modules\CMakeRCInformation.cmake;C:\Program Files\CMake\share\cmake-3.26\Modules\CMakeSystemSpecificInformation.cmake;C:\Program Files\CMake\share\cmake-3.26\Modules\CMakeSystemSpecificInitialize.cmake;C:\Program Files\CMake\share\cmake-3.26\Modules\CheckCSourceCompiles.cmake;C:\Program Files\CMake\share\cmake-3.26\Modules\CheckIncludeFile.cmake;C:\Program Files\CMake\share\cmake-3.26\Modules\CheckLibraryExists.cmake;C:\Program Files\CMake\share\cmake-3.26\Modules\Compiler\CMakeCommonCompilerMacros.cmake;C:\Program Files\CMake\share\cmake-3.26\Modules\Compiler\MSVC-C.cmake;C:\Program Files\CMake\share\cmake-3.26\Modules\Compiler\MSVC-CXX.cmake;C:\Program Files\CMake\share\cmake-3.26\Modules\Compiler\MSVC.cmake;C:\Program Files\CMake\share\cmake-3.26\Modules\FindMPI.cmake;C:\Program Files\CMake\share\cmake-3.26\Modules\FindOpenMP.cmake;C:\Program Files\CMake\share\cmake-3.26\Modules\FindPackageHandleStandardArgs.cmake;C:\Program Files\CMake\share\cmake-3.26\Modules\FindPackageMessage.cmake;C:\Program Files\CMake\share\cmake-3.26\Modules\FindPkgConfig.cmake;C:\Program Files\CMake\share\cmake-3.26\Modules\FindThreads.cmake;C:\Program Files\CMake\share\cmake-3.26\Modules\Internal\CheckSourceCompiles.cmake;C:\Program Files\CMake\share\cmake-3.26\Modules\Platform\Windows-MSVC-C.cmake;C:\Program Files\CMake\share\cmake-3.26\Modules\Platform\Windows-MSVC-CXX.cmake;C:\Program Files\CMake\share\cmake-3.26\Modules\Platform\Windows-MSVC.cmake;C:\Program Files\CMake\share\cmake-3.26\Modules\Platform\Windows.cmake;C:\Program Files\CMake\share\cmake-3.26\Modules\Platform\WindowsPaths.cmake;C:\test_win\build\CMakeFiles\3.26.3\CMakeCCompiler.cmake;C:\test_win\build\CMakeFiles\3.26.3\CMakeCXXCompiler.cmake;C:\test_win\build\CMakeFiles\3.26.3\CMakeRCCompiler.cmake;C:\test_win\build\CMakeFiles\3.26.3\CMakeSystem.cmake;C:\test_win\cmake\configure.cmake;C:\test_win\cmake\onetbb.cmake;%(AdditionalInputs)</AdditionalInputs>
+      <Outputs Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|x64'">C:\test_win\build\CMakeFiles\generate.stamp</Outputs>
+      <LinkObjects Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|x64'">false</LinkObjects>
+    </CustomBuild>
+  </ItemGroup>
+  <ItemGroup>
+  </ItemGroup>
+  <ItemGroup>
+    <ProjectReference Include="C:\test_win\build\ZERO_CHECK.vcxproj">
+      <Project>{64DE4486-5F54-3058-803A-A21FCC499641}</Project>
+      <Name>ZERO_CHECK</Name>
+      <ReferenceOutputAssembly>false</ReferenceOutputAssembly>
+      <CopyToOutputDirectory>Never</CopyToOutputDirectory>
+    </ProjectReference>
+    <ProjectReference Include="C:\test_win\build\modules\jacobi\hybrid_Jacobi\hybrid_Jacobi_hybrid.vcxproj">
+      <Project>{4218A34A-79BC-3D47-AF4D-E7C8B1EBA718}</Project>
+      <Name>hybrid_Jacobi_hybrid</Name>
+    </ProjectReference>
+    <ProjectReference Include="C:\test_win\build\modules\jacobi\hybrid_Jacobi\hybrid_Jacobi_hybrid_mpi_lib.vcxproj">
+      <Project>{D92CB49C-5FD0-346D-A37E-75B8EB746E9D}</Project>
+      <Name>hybrid_Jacobi_hybrid_mpi_lib</Name>
+    </ProjectReference>
+    <ProjectReference Include="C:\test_win\build\modules\jacobi\hybrid_Jacobi\hybrid_Jacobi_hybrid_omp_lib.vcxproj">
+      <Project>{067E9A80-70D2-3053-997C-9BD16CA8BD72}</Project>
+      <Name>hybrid_Jacobi_hybrid_omp_lib</Name>
+    </ProjectReference>
+    <ProjectReference Include="C:\test_win\build\modules\seidel\hybrid_Seidel\hybrid_Seidel_hybrid.vcxproj">
+      <Project>{9324048E-29E3-3840-9284-F58530FED1DA}</Project>
+      <Name>hybrid_Seidel_hybrid</Name>
+    </ProjectReference>
+    <ProjectReference Include="C:\test_win\build\modules\seidel\hybrid_Seidel\hybrid_Seidel_hybrid_mpi_lib.vcxproj">
+      <Project>{C6AF520E-90B4-355C-A138-BB154170912E}</Project>
+      <Name>hybrid_Seidel_hybrid_mpi_lib</Name>
+    </ProjectReference>
+    <ProjectReference Include="C:\test_win\build\modules\seidel\hybrid_Seidel\hybrid_Seidel_hybrid_omp_lib.vcxproj">
+      <Project>{DB4BC0F8-A4B3-3946-BE17-335E6566873C}</Project>
+      <Name>hybrid_Seidel_hybrid_omp_lib</Name>
+    </ProjectReference>
+    <ProjectReference Include="C:\test_win\build\modules\wave\hybrid_Wave\hybrid_Wave_hybrid.vcxproj">
+      <Project>{CEADC3C9-6F2B-364C-9525-C31CFF7CC45E}</Project>
+      <Name>hybrid_Wave_hybrid</Name>
+    </ProjectReference>
+    <ProjectReference Include="C:\test_win\build\modules\wave\hybrid_Wave\hybrid_Wave_hybrid_mpi_lib.vcxproj">
+      <Project>{84661574-B59A-365D-A633-43CC0DE725DF}</Project>
+      <Name>hybrid_Wave_hybrid_mpi_lib</Name>
+    </ProjectReference>
+    <ProjectReference Include="C:\test_win\build\modules\wave\hybrid_Wave\hybrid_Wave_hybrid_omp_lib.vcxproj">
+      <Project>{009D783E-6FB7-3600-B21A-6E5DB35F2895}</Project>
+      <Name>hybrid_Wave_hybrid_omp_lib</Name>
+    </ProjectReference>
+    <ProjectReference Include="C:\test_win\build\modules\jacobi\mpi_Jacobi\mpi_Jacobi_mpi.vcxproj">
+      <Project>{043B9809-146B-3010-85E9-E2A8CB7EDBCA}</Project>
+      <Name>mpi_Jacobi_mpi</Name>
+    </ProjectReference>
+    <ProjectReference Include="C:\test_win\build\modules\jacobi\mpi_Jacobi\mpi_Jacobi_mpi_lib.vcxproj">
+      <Project>{DCF6D6AF-E861-33E6-8825-297C8D1473C5}</Project>
+      <Name>mpi_Jacobi_mpi_lib</Name>
+    </ProjectReference>
+    <ProjectReference Include="C:\test_win\build\modules\seidel\mpi_Seidel\mpi_Seidel_mpi.vcxproj">
+      <Project>{0E41F360-1675-37CE-9E60-062479272776}</Project>
+      <Name>mpi_Seidel_mpi</Name>
+    </ProjectReference>
+    <ProjectReference Include="C:\test_win\build\modules\seidel\mpi_Seidel\mpi_Seidel_mpi_lib.vcxproj">
+      <Project>{E9B8FA65-6708-3000-BE44-3F1994610BCF}</Project>
+      <Name>mpi_Seidel_mpi_lib</Name>
+    </ProjectReference>
+    <ProjectReference Include="C:\test_win\build\modules\wave\mpi_Wave\mpi_Wave_mpi.vcxproj">
+      <Project>{94038124-FE3D-3E78-B8DC-93A4FEAD46A6}</Project>
+      <Name>mpi_Wave_mpi</Name>
+    </ProjectReference>
+    <ProjectReference Include="C:\test_win\build\modules\wave\mpi_Wave\mpi_Wave_mpi_lib.vcxproj">
+      <Project>{2EC9B3AB-F1DB-3956-8712-1D89AC941B61}</Project>
+      <Name>mpi_Wave_mpi_lib</Name>
+    </ProjectReference>
+    <ProjectReference Include="C:\test_win\build\modules\jacobi\omp_Jacobi\omp_Jacobi_omp.vcxproj">
+      <Project>{F3B23170-F37C-35B8-A81D-F136B4201C20}</Project>
+      <Name>omp_Jacobi_omp</Name>
+    </ProjectReference>
+    <ProjectReference Include="C:\test_win\build\modules\jacobi\omp_Jacobi\omp_Jacobi_omp_lib.vcxproj">
+      <Project>{E68E00BD-54F6-3E05-9062-8AD45C516F67}</Project>
+      <Name>omp_Jacobi_omp_lib</Name>
+    </ProjectReference>
+    <ProjectReference Include="C:\test_win\build\modules\seidel\omp_Seidel\omp_Seidel_omp.vcxproj">
+      <Project>{9690201C-5108-350B-9A63-B305FFA908CC}</Project>
+      <Name>omp_Seidel_omp</Name>
+    </ProjectReference>
+    <ProjectReference Include="C:\test_win\build\modules\seidel\omp_Seidel\omp_Seidel_omp_lib.vcxproj">
+      <Project>{FEFEC02B-225B-3BEF-9AF6-CD4A57E5709A}</Project>
+      <Name>omp_Seidel_omp_lib</Name>
+    </ProjectReference>
+    <ProjectReference Include="C:\test_win\build\modules\wave\omp_Wave\omp_Wave_omp.vcxproj">
+      <Project>{E5B4647F-1795-310F-891C-709CF680EB07}</Project>
+      <Name>omp_Wave_omp</Name>
+    </ProjectReference>
+    <ProjectReference Include="C:\test_win\build\modules\wave\omp_Wave\omp_Wave_omp_lib.vcxproj">
+      <Project>{162C9A8C-0C51-3EAB-8416-3EE6CC7B299C}</Project>
+      <Name>omp_Wave_omp_lib</Name>
+    </ProjectReference>
+    <ProjectReference Include="C:\test_win\build\modules\jacobi\seq_Jacobi\seq_Jacobi_seq.vcxproj">
+      <Project>{5B4E526F-5D6F-3E68-92B2-511686B3780B}</Project>
+      <Name>seq_Jacobi_seq</Name>
+    </ProjectReference>
+    <ProjectReference Include="C:\test_win\build\modules\jacobi\seq_Jacobi\seq_Jacobi_seq_lib.vcxproj">
+      <Project>{D58487B8-D589-3D0A-8BB8-2E9547E1405C}</Project>
+      <Name>seq_Jacobi_seq_lib</Name>
+    </ProjectReference>
+    <ProjectReference Include="C:\test_win\build\modules\seidel\seq_Seidel\seq_Seidel_seq.vcxproj">
+      <Project>{2FA69BBC-34CF-3E08-BDAF-3FEADD6B2145}</Project>
+      <Name>seq_Seidel_seq</Name>
+    </ProjectReference>
+    <ProjectReference Include="C:\test_win\build\modules\seidel\seq_Seidel\seq_Seidel_seq_lib.vcxproj">
+      <Project>{7710EB34-131A-37B6-9E41-25EAE4C4AFAF}</Project>
+      <Name>seq_Seidel_seq_lib</Name>
+    </ProjectReference>
+    <ProjectReference Include="C:\test_win\build\modules\wave\seq_Wave\seq_Wave_seq.vcxproj">
+      <Project>{28C38765-BE7E-303F-BCFB-DA634AD859CB}</Project>
+      <Name>seq_Wave_seq</Name>
+    </ProjectReference>
+    <ProjectReference Include="C:\test_win\build\modules\wave\seq_Wave\seq_Wave_seq_lib.vcxproj">
+      <Project>{4BE77D5E-2E28-36BD-87D4-341F41F1029E}</Project>
+      <Name>seq_Wave_seq_lib</Name>
+    </ProjectReference>
+    <ProjectReference Include="C:\test_win\build\modules\jacobi\std_Jacobi\std_Jacobi_std.vcxproj">
+      <Project>{A4FE731F-29AD-3E6A-AAAF-03D274E20016}</Project>
+      <Name>std_Jacobi_std</Name>
+    </ProjectReference>
+    <ProjectReference Include="C:\test_win\build\modules\jacobi\std_Jacobi\std_Jacobi_std_lib.vcxproj">
+      <Project>{F0234091-DC69-3293-8659-A4DE8B4ECDAB}</Project>
+      <Name>std_Jacobi_std_lib</Name>
+    </ProjectReference>
+    <ProjectReference Include="C:\test_win\build\modules\seidel\std_Seidel\std_Seidel_std.vcxproj">
+      <Project>{90B0C1C5-7610-38A7-9C19-EE04BBEBD5EA}</Project>
+      <Name>std_Seidel_std</Name>
+    </ProjectReference>
+    <ProjectReference Include="C:\test_win\build\modules\seidel\std_Seidel\std_Seidel_std_lib.vcxproj">
+      <Project>{B9FB3A0B-7D80-3A53-BF22-AA1B088A18C1}</Project>
+      <Name>std_Seidel_std_lib</Name>
+    </ProjectReference>
+    <ProjectReference Include="C:\test_win\build\modules\wave\std_Wave\std_Wave_std.vcxproj">
+      <Project>{AFF1E461-235F-3820-9D48-0A67A1046494}</Project>
+      <Name>std_Wave_std</Name>
+    </ProjectReference>
+    <ProjectReference Include="C:\test_win\build\modules\wave\std_Wave\std_Wave_std_lib.vcxproj">
+      <Project>{AD2BFE19-8FDE-3EA8-9B5B-BB1602344220}</Project>
+      <Name>std_Wave_std_lib</Name>
+    </ProjectReference>
+    <ProjectReference Include="C:\test_win\build\modules\jacobi\tbb_Jacobi\tbb_Jacobi_tbb.vcxproj">
+      <Project>{7E55A94B-6D10-3160-AE92-6BC0B02E86CB}</Project>
+      <Name>tbb_Jacobi_tbb</Name>
+    </ProjectReference>
+    <ProjectReference Include="C:\test_win\build\modules\jacobi\tbb_Jacobi\tbb_Jacobi_tbb_lib.vcxproj">
+      <Project>{D1CB171D-9946-3618-BD7E-5893261EF698}</Project>
+      <Name>tbb_Jacobi_tbb_lib</Name>
+    </ProjectReference>
+    <ProjectReference Include="C:\test_win\build\modules\seidel\tbb_Seidel\tbb_Seidel_tbb.vcxproj">
+      <Project>{4270AFBF-4C6E-3142-B56B-2A3048E5527E}</Project>
+      <Name>tbb_Seidel_tbb</Name>
+    </ProjectReference>
+    <ProjectReference Include="C:\test_win\build\modules\seidel\tbb_Seidel\tbb_Seidel_tbb_lib.vcxproj">
+      <Project>{4FA9F245-C0F1-33CD-801C-52247B9B35B4}</Project>
+      <Name>tbb_Seidel_tbb_lib</Name>
+    </ProjectReference>
+    <ProjectReference Include="C:\test_win\build\modules\wave\tbb_Wave\tbb_Wave_tbb.vcxproj">
+      <Project>{D315D657-D164-3EA5-9E2A-1840FCB4256E}</Project>
+      <Name>tbb_Wave_tbb</Name>
+    </ProjectReference>
+    <ProjectReference Include="C:\test_win\build\modules\wave\tbb_Wave\tbb_Wave_tbb_lib.vcxproj">
+      <Project>{5C527B42-7745-32C2-9173-05ED31E54128}</Project>
+      <Name>tbb_Wave_tbb_lib</Name>
+    </ProjectReference>
+  </ItemGroup>
+  <Import Project="$(VCTargetsPath)\Microsoft.Cpp.targets" />
+  <ImportGroup Label="ExtensionTargets">
+  </ImportGroup>
+</Project>

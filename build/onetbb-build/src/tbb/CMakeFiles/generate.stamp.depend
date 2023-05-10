@@ -1,0 +1,3 @@
+# CMake generation dependency list for this directory.
+C:/test_win/3rdparty/onetbb/integration/pkg-config/tbb.pc.in
+C:/test_win/3rdparty/onetbb/src/tbb/CMakeLists.txt

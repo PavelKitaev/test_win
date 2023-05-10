@@ -1,0 +1,10 @@
+^C:\TEST_WIN\BUILD\ONETBB-BUILD\CMAKEFILES\_CMAKELTOTEST-CXX\SRC\CMAKELISTS.TXT
+setlocal
+"C:\Program Files\CMake\bin\cmake.exe" -SC:/test_win/build/onetbb-build/CMakeFiles/_CMakeLTOTest-CXX/src -BC:/test_win/build/onetbb-build/CMakeFiles/_CMakeLTOTest-CXX/bin --check-stamp-file C:/test_win/build/onetbb-build/CMakeFiles/_CMakeLTOTest-CXX/bin/CMakeFiles/generate.stamp
+if %errorlevel% neq 0 goto :cmEnd
+:cmEnd
+endlocal & call :cmErrorLevel %errorlevel% & goto :cmDone
+:cmErrorLevel
+exit /b %1
+:cmDone
+if %errorlevel% neq 0 goto :VCEnd

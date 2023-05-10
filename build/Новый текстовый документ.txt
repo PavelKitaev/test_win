@@ -1,0 +1,297 @@
+-- Building for: Visual Studio 17 2022
+-- Selecting Windows SDK version 10.0.22000.0 to target Windows 10.0.17763.
+-- The C compiler identification is MSVC 19.35.32217.1
+-- The CXX compiler identification is MSVC 19.35.32217.1
+-- Detecting C compiler ABI info
+-- Detecting C compiler ABI info - done
+-- Check for working C compiler: C:/Program Files/Microsoft Visual Studio/2022/Community/VC/Tools/MSVC/14.35.32215/bin/Hostx64/x64/cl.exe - skipped
+-- Detecting C compile features
+-- Detecting C compile features - done
+-- Detecting CXX compiler ABI info
+-- Detecting CXX compiler ABI info - done
+-- Check for working CXX compiler: C:/Program Files/Microsoft Visual Studio/2022/Community/VC/Tools/MSVC/14.35.32215/bin/Hostx64/x64/cl.exe - skipped
+-- Detecting CXX compile features
+-- Detecting CXX compile features - done
+-- Parallel Programming Course
+-- Found MPI_C: C:/Program Files (x86)/Microsoft SDKs/MPI/Lib/x64/msmpi.lib (found version "2.0")
+-- Found MPI_CXX: C:/Program Files (x86)/Microsoft SDKs/MPI/Lib/x64/msmpi.lib (found version "2.0")
+-- Found MPI: TRUE (found version "2.0")
+-- Found OpenMP_C: -openmp (found version "2.0")
+-- Found OpenMP_CXX: -openmp (found version "2.0")
+-- Found OpenMP: TRUE (found version "2.0")
+-- Performing Test CMAKE_HAVE_LIBC_PTHREAD
+-- Performing Test CMAKE_HAVE_LIBC_PTHREAD - Failed
+-- Looking for pthread_create in pthreads
+-- Looking for pthread_create in pthreads - not found
+-- Looking for pthread_create in pthread
+-- Looking for pthread_create in pthread - not found
+-- Found Threads: TRUE
+-- Selecting Windows SDK version 10.0.22000.0 to target Windows 10.0.17763.
+-- The CXX compiler identification is MSVC 19.35.32217.1
+-- Detecting CXX compiler ABI info
+-- Detecting CXX compiler ABI info - done
+-- Check for working CXX compiler: C:/Program Files/Microsoft Visual Studio/2022/Community/VC/Tools/MSVC/14.35.32215/bin/Hostx64/x64/cl.exe - skipped
+-- Detecting CXX compile features
+-- Detecting CXX compile features - done
+-- Performing Test CMAKE_HAVE_LIBC_PTHREAD
+-- Performing Test CMAKE_HAVE_LIBC_PTHREAD - Failed
+-- Looking for pthread_create in pthreads
+-- Looking for pthread_create in pthreads - not found
+-- Looking for pthread_create in pthread
+-- Looking for pthread_create in pthread - not found
+-- Found Threads: TRUE
+-- IPO enabled
+-- The C compiler identification is MSVC 19.35.32217.1
+-- Detecting C compiler ABI info
+-- Detecting C compiler ABI info - done
+-- Check for working C compiler: C:/Program Files/Microsoft Visual Studio/2022/Community/VC/Tools/MSVC/14.35.32215/bin/Hostx64/x64/cl.exe - skipped
+-- Detecting C compile features
+-- Detecting C compile features - done
+-- HWLOC target HWLOC::hwloc_1_11 doesn't exist. The tbbbind target cannot be created
+-- HWLOC target HWLOC::hwloc_2 doesn't exist. The tbbbind_2_0 target cannot be created
+-- HWLOC target HWLOC::hwloc_2_5 doesn't exist. The tbbbind_2_5 target cannot be created
+-- Configuring done (9.2s)
+-- Generating done (0.2s)
+-- Build files have been written to: C:/test_win/build/onetbb-build
+MSBuild version 17.5.1+f6fdcf537 for .NET Framework
+
+  Checking Build System
+  Building Custom Rule C:/test_win/3rdparty/onetbb/src/tbb/CMakeLists.txt
+  Building Custom Rule C:/test_win/3rdparty/onetbb/src/tbbmalloc/CMakeLists.txt
+  backend.cpp
+  address_waiter.cpp
+  backref.cpp
+  frontend.cpp
+  allocator.cpp
+  large_objects.cpp
+  arena.cpp
+  tbbmalloc.cpp
+  itt_notify.cpp
+  arena_slot.cpp
+     Создается библиотека C:/test_win/build/onetbb-build/msvc_19.35_cxx_64_md_release/tbbmalloc.lib и объект C:/test_win/build/onetbb-build/msvc_19.35_cxx_64_md_release/tbbmalloc.exp
+  Создание кода
+  Previous IPDB not found, fall back to full compilation.
+  concurrent_bounded_queue.cpp
+  All 853 functions were compiled because no usable IPDB/IOBJ from previous compilation was found.
+  Создание кода завершено
+  tbbmalloc.vcxproj -> C:\test_win\build\onetbb-build\msvc_19.35_cxx_64_md_release\tbbmalloc.dll
+  Building Custom Rule C:/test_win/3rdparty/onetbb/src/tbbmalloc_proxy/CMakeLists.txt
+  function_replacement.cpp
+  dynamic_link.cpp
+  proxy.cpp
+  exception.cpp
+  governor.cpp
+  Создание кода...
+     Создается библиотека C:/test_win/build/onetbb-build/msvc_19.35_cxx_64_md_release/tbbmalloc_proxy.lib и объект C:/test_win/build/onetbb-build/msvc_19.35_cxx_64_md_release/tbbmalloc_proxy.exp
+  tbbmalloc_proxy.vcxproj -> C:\test_win\build\onetbb-build\msvc_19.35_cxx_64_md_release\tbbmalloc_proxy.dll
+  global_control.cpp
+  itt_notify.cpp
+  main.cpp
+  market.cpp
+  misc.cpp
+  misc_ex.cpp
+  observer_proxy.cpp
+  parallel_pipeline.cpp
+  private_server.cpp
+  profiling.cpp
+  rml_tbb.cpp
+  rtm_mutex.cpp
+  Компиляция...
+  rtm_rw_mutex.cpp
+  semaphore.cpp
+  small_object_pool.cpp
+  task.cpp
+  task_dispatcher.cpp
+  task_group_context.cpp
+  version.cpp
+  queuing_rw_mutex.cpp
+     Создается библиотека C:/test_win/build/onetbb-build/msvc_19.35_cxx_64_md_release/tbb12.lib и объект C:/test_win/build/onetbb-build/msvc_19.35_cxx_64_md_release/tbb12.exp
+  Создание кода
+  Previous IPDB not found, fall back to full compilation.
+  All 2170 functions were compiled because no usable IPDB/IOBJ from previous compilation was found.
+  Создание кода завершено
+  tbb.vcxproj -> C:\test_win\build\onetbb-build\msvc_19.35_cxx_64_md_release\tbb12.dll
+  Building Custom Rule C:/test_win/3rdparty/onetbb/CMakeLists.txt
+-- Install configuration: "Release"
+-- Installing: C:/test_win/build/onetbb-install/include
+-- Installing: C:/test_win/build/onetbb-install/include/oneapi
+-- Installing: C:/test_win/build/onetbb-install/include/oneapi/tbb
+-- Installing: C:/test_win/build/onetbb-install/include/oneapi/tbb/blocked_range.h
+-- Installing: C:/test_win/build/onetbb-install/include/oneapi/tbb/blocked_range2d.h
+-- Installing: C:/test_win/build/onetbb-install/include/oneapi/tbb/blocked_range3d.h
+-- Installing: C:/test_win/build/onetbb-install/include/oneapi/tbb/blocked_rangeNd.h
+-- Installing: C:/test_win/build/onetbb-install/include/oneapi/tbb/cache_aligned_allocator.h
+-- Installing: C:/test_win/build/onetbb-install/include/oneapi/tbb/collaborative_call_once.h
+-- Installing: C:/test_win/build/onetbb-install/include/oneapi/tbb/combinable.h
+-- Installing: C:/test_win/build/onetbb-install/include/oneapi/tbb/concurrent_hash_map.h
+-- Installing: C:/test_win/build/onetbb-install/include/oneapi/tbb/concurrent_lru_cache.h
+-- Installing: C:/test_win/build/onetbb-install/include/oneapi/tbb/concurrent_map.h
+-- Installing: C:/test_win/build/onetbb-install/include/oneapi/tbb/concurrent_priority_queue.h
+-- Installing: C:/test_win/build/onetbb-install/include/oneapi/tbb/concurrent_queue.h
+-- Installing: C:/test_win/build/onetbb-install/include/oneapi/tbb/concurrent_set.h
+-- Installing: C:/test_win/build/onetbb-install/include/oneapi/tbb/concurrent_unordered_map.h
+-- Installing: C:/test_win/build/onetbb-install/include/oneapi/tbb/concurrent_unordered_set.h
+-- Installing: C:/test_win/build/onetbb-install/include/oneapi/tbb/concurrent_vector.h
+-- Installing: C:/test_win/build/onetbb-install/include/oneapi/tbb/detail
+-- Installing: C:/test_win/build/onetbb-install/include/oneapi/tbb/detail/_aggregator.h
+-- Installing: C:/test_win/build/onetbb-install/include/oneapi/tbb/detail/_aligned_space.h
+-- Installing: C:/test_win/build/onetbb-install/include/oneapi/tbb/detail/_allocator_traits.h
+-- Installing: C:/test_win/build/onetbb-install/include/oneapi/tbb/detail/_assert.h
+-- Installing: C:/test_win/build/onetbb-install/include/oneapi/tbb/detail/_attach.h
+-- Installing: C:/test_win/build/onetbb-install/include/oneapi/tbb/detail/_concurrent_queue_base.h
+-- Installing: C:/test_win/build/onetbb-install/include/oneapi/tbb/detail/_concurrent_skip_list.h
+-- Installing: C:/test_win/build/onetbb-install/include/oneapi/tbb/detail/_concurrent_unordered_base.h
+-- Installing: C:/test_win/build/onetbb-install/include/oneapi/tbb/detail/_config.h
+-- Installing: C:/test_win/build/onetbb-install/include/oneapi/tbb/detail/_containers_helpers.h
+-- Installing: C:/test_win/build/onetbb-install/include/oneapi/tbb/detail/_exception.h
+-- Installing: C:/test_win/build/onetbb-install/include/oneapi/tbb/detail/_export.h
+-- Installing: C:/test_win/build/onetbb-install/include/oneapi/tbb/detail/_flow_graph_body_impl.h
+-- Installing: C:/test_win/build/onetbb-install/include/oneapi/tbb/detail/_flow_graph_cache_impl.h
+-- Installing: C:/test_win/build/onetbb-install/include/oneapi/tbb/detail/_flow_graph_impl.h
+-- Installing: C:/test_win/build/onetbb-install/include/oneapi/tbb/detail/_flow_graph_indexer_impl.h
+-- Installing: C:/test_win/build/onetbb-install/include/oneapi/tbb/detail/_flow_graph_item_buffer_impl.h
+-- Installing: C:/test_win/build/onetbb-install/include/oneapi/tbb/detail/_flow_graph_join_impl.h
+-- Installing: C:/test_win/build/onetbb-install/include/oneapi/tbb/detail/_flow_graph_nodes_deduction.h
+-- Installing: C:/test_win/build/onetbb-install/include/oneapi/tbb/detail/_flow_graph_node_impl.h
+-- Installing: C:/test_win/build/onetbb-install/include/oneapi/tbb/detail/_flow_graph_node_set_impl.h
+-- Installing: C:/test_win/build/onetbb-install/include/oneapi/tbb/detail/_flow_graph_tagged_buffer_impl.h
+-- Installing: C:/test_win/build/onetbb-install/include/oneapi/tbb/detail/_flow_graph_trace_impl.h
+-- Installing: C:/test_win/build/onetbb-install/include/oneapi/tbb/detail/_flow_graph_types_impl.h
+-- Installing: C:/test_win/build/onetbb-install/include/oneapi/tbb/detail/_hash_compare.h
+-- Installing: C:/test_win/build/onetbb-install/include/oneapi/tbb/detail/_intrusive_list_node.h
+-- Installing: C:/test_win/build/onetbb-install/include/oneapi/tbb/detail/_machine.h
+-- Installing: C:/test_win/build/onetbb-install/include/oneapi/tbb/detail/_mutex_common.h
+-- Installing: C:/test_win/build/onetbb-install/include/oneapi/tbb/detail/_namespace_injection.h
+-- Installing: C:/test_win/build/onetbb-install/include/oneapi/tbb/detail/_node_handle.h
+-- Installing: C:/test_win/build/onetbb-install/include/oneapi/tbb/detail/_pipeline_filters.h
+-- Installing: C:/test_win/build/onetbb-install/include/oneapi/tbb/detail/_pipeline_filters_deduction.h
+-- Installing: C:/test_win/build/onetbb-install/include/oneapi/tbb/detail/_range_common.h
+-- Installing: C:/test_win/build/onetbb-install/include/oneapi/tbb/detail/_rtm_mutex.h
+-- Installing: C:/test_win/build/onetbb-install/include/oneapi/tbb/detail/_rtm_rw_mutex.h
+-- Installing: C:/test_win/build/onetbb-install/include/oneapi/tbb/detail/_scoped_lock.h
+-- Installing: C:/test_win/build/onetbb-install/include/oneapi/tbb/detail/_segment_table.h
+-- Installing: C:/test_win/build/onetbb-install/include/oneapi/tbb/detail/_small_object_pool.h
+-- Installing: C:/test_win/build/onetbb-install/include/oneapi/tbb/detail/_string_resource.h
+-- Installing: C:/test_win/build/onetbb-install/include/oneapi/tbb/detail/_task.h
+-- Installing: C:/test_win/build/onetbb-install/include/oneapi/tbb/detail/_task_handle.h
+-- Installing: C:/test_win/build/onetbb-install/include/oneapi/tbb/detail/_template_helpers.h
+-- Installing: C:/test_win/build/onetbb-install/include/oneapi/tbb/detail/_utils.h
+-- Installing: C:/test_win/build/onetbb-install/include/oneapi/tbb/detail/_waitable_atomic.h
+-- Installing: C:/test_win/build/onetbb-install/include/oneapi/tbb/enumerable_thread_specific.h
+-- Installing: C:/test_win/build/onetbb-install/include/oneapi/tbb/flow_graph.h
+-- Installing: C:/test_win/build/onetbb-install/include/oneapi/tbb/flow_graph_abstractions.h
+-- Installing: C:/test_win/build/onetbb-install/include/oneapi/tbb/global_control.h
+-- Installing: C:/test_win/build/onetbb-install/include/oneapi/tbb/info.h
+-- Installing: C:/test_win/build/onetbb-install/include/oneapi/tbb/memory_pool.h
+-- Installing: C:/test_win/build/onetbb-install/include/oneapi/tbb/mutex.h
+-- Installing: C:/test_win/build/onetbb-install/include/oneapi/tbb/null_mutex.h
+-- Installing: C:/test_win/build/onetbb-install/include/oneapi/tbb/null_rw_mutex.h
+-- Installing: C:/test_win/build/onetbb-install/include/oneapi/tbb/parallel_for.h
+-- Installing: C:/test_win/build/onetbb-install/include/oneapi/tbb/parallel_for_each.h
+-- Installing: C:/test_win/build/onetbb-install/include/oneapi/tbb/parallel_invoke.h
+-- Installing: C:/test_win/build/onetbb-install/include/oneapi/tbb/parallel_pipeline.h
+-- Installing: C:/test_win/build/onetbb-install/include/oneapi/tbb/parallel_reduce.h
+-- Installing: C:/test_win/build/onetbb-install/include/oneapi/tbb/parallel_scan.h
+-- Installing: C:/test_win/build/onetbb-install/include/oneapi/tbb/parallel_sort.h
+-- Installing: C:/test_win/build/onetbb-install/include/oneapi/tbb/partitioner.h
+-- Installing: C:/test_win/build/onetbb-install/include/oneapi/tbb/profiling.h
+-- Installing: C:/test_win/build/onetbb-install/include/oneapi/tbb/queuing_mutex.h
+-- Installing: C:/test_win/build/onetbb-install/include/oneapi/tbb/queuing_rw_mutex.h
+-- Installing: C:/test_win/build/onetbb-install/include/oneapi/tbb/rw_mutex.h
+-- Installing: C:/test_win/build/onetbb-install/include/oneapi/tbb/scalable_allocator.h
+-- Installing: C:/test_win/build/onetbb-install/include/oneapi/tbb/spin_mutex.h
+-- Installing: C:/test_win/build/onetbb-install/include/oneapi/tbb/spin_rw_mutex.h
+-- Installing: C:/test_win/build/onetbb-install/include/oneapi/tbb/task.h
+-- Installing: C:/test_win/build/onetbb-install/include/oneapi/tbb/task_arena.h
+-- Installing: C:/test_win/build/onetbb-install/include/oneapi/tbb/task_group.h
+-- Installing: C:/test_win/build/onetbb-install/include/oneapi/tbb/task_scheduler_observer.h
+-- Installing: C:/test_win/build/onetbb-install/include/oneapi/tbb/tbbmalloc_proxy.h
+-- Installing: C:/test_win/build/onetbb-install/include/oneapi/tbb/tbb_allocator.h
+-- Installing: C:/test_win/build/onetbb-install/include/oneapi/tbb/tick_count.h
+-- Installing: C:/test_win/build/onetbb-install/include/oneapi/tbb/version.h
+-- Installing: C:/test_win/build/onetbb-install/include/oneapi/tbb.h
+-- Installing: C:/test_win/build/onetbb-install/include/tbb
+-- Installing: C:/test_win/build/onetbb-install/include/tbb/blocked_range.h
+-- Installing: C:/test_win/build/onetbb-install/include/tbb/blocked_range2d.h
+-- Installing: C:/test_win/build/onetbb-install/include/tbb/blocked_range3d.h
+-- Installing: C:/test_win/build/onetbb-install/include/tbb/blocked_rangeNd.h
+-- Installing: C:/test_win/build/onetbb-install/include/tbb/cache_aligned_allocator.h
+-- Installing: C:/test_win/build/onetbb-install/include/tbb/collaborative_call_once.h
+-- Installing: C:/test_win/build/onetbb-install/include/tbb/combinable.h
+-- Installing: C:/test_win/build/onetbb-install/include/tbb/concurrent_hash_map.h
+-- Installing: C:/test_win/build/onetbb-install/include/tbb/concurrent_lru_cache.h
+-- Installing: C:/test_win/build/onetbb-install/include/tbb/concurrent_map.h
+-- Installing: C:/test_win/build/onetbb-install/include/tbb/concurrent_priority_queue.h
+-- Installing: C:/test_win/build/onetbb-install/include/tbb/concurrent_queue.h
+-- Installing: C:/test_win/build/onetbb-install/include/tbb/concurrent_set.h
+-- Installing: C:/test_win/build/onetbb-install/include/tbb/concurrent_unordered_map.h
+-- Installing: C:/test_win/build/onetbb-install/include/tbb/concurrent_unordered_set.h
+-- Installing: C:/test_win/build/onetbb-install/include/tbb/concurrent_vector.h
+-- Installing: C:/test_win/build/onetbb-install/include/tbb/enumerable_thread_specific.h
+-- Installing: C:/test_win/build/onetbb-install/include/tbb/flow_graph.h
+-- Installing: C:/test_win/build/onetbb-install/include/tbb/flow_graph_abstractions.h
+-- Installing: C:/test_win/build/onetbb-install/include/tbb/global_control.h
+-- Installing: C:/test_win/build/onetbb-install/include/tbb/info.h
+-- Installing: C:/test_win/build/onetbb-install/include/tbb/memory_pool.h
+-- Installing: C:/test_win/build/onetbb-install/include/tbb/null_mutex.h
+-- Installing: C:/test_win/build/onetbb-install/include/tbb/null_rw_mutex.h
+-- Installing: C:/test_win/build/onetbb-install/include/tbb/parallel_for.h
+-- Installing: C:/test_win/build/onetbb-install/include/tbb/parallel_for_each.h
+-- Installing: C:/test_win/build/onetbb-install/include/tbb/parallel_invoke.h
+-- Installing: C:/test_win/build/onetbb-install/include/tbb/parallel_pipeline.h
+-- Installing: C:/test_win/build/onetbb-install/include/tbb/parallel_reduce.h
+-- Installing: C:/test_win/build/onetbb-install/include/tbb/parallel_scan.h
+-- Installing: C:/test_win/build/onetbb-install/include/tbb/parallel_sort.h
+-- Installing: C:/test_win/build/onetbb-install/include/tbb/partitioner.h
+-- Installing: C:/test_win/build/onetbb-install/include/tbb/profiling.h
+-- Installing: C:/test_win/build/onetbb-install/include/tbb/queuing_mutex.h
+-- Installing: C:/test_win/build/onetbb-install/include/tbb/queuing_rw_mutex.h
+-- Installing: C:/test_win/build/onetbb-install/include/tbb/scalable_allocator.h
+-- Installing: C:/test_win/build/onetbb-install/include/tbb/spin_mutex.h
+-- Installing: C:/test_win/build/onetbb-install/include/tbb/spin_rw_mutex.h
+-- Installing: C:/test_win/build/onetbb-install/include/tbb/task.h
+-- Installing: C:/test_win/build/onetbb-install/include/tbb/task_arena.h
+-- Installing: C:/test_win/build/onetbb-install/include/tbb/task_group.h
+-- Installing: C:/test_win/build/onetbb-install/include/tbb/task_scheduler_observer.h
+-- Installing: C:/test_win/build/onetbb-install/include/tbb/tbb.h
+-- Installing: C:/test_win/build/onetbb-install/include/tbb/tbbmalloc_proxy.h
+-- Installing: C:/test_win/build/onetbb-install/include/tbb/tbb_allocator.h
+-- Installing: C:/test_win/build/onetbb-install/include/tbb/tick_count.h
+-- Installing: C:/test_win/build/onetbb-install/include/tbb/version.h
+-- Installing: C:/test_win/build/onetbb-install/lib/cmake/TBB/TBBTargets.cmake
+-- Installing: C:/test_win/build/onetbb-install/lib/cmake/TBB/TBBTargets-release.cmake
+-- Installing: C:/test_win/build/onetbb-install/lib/cmake/TBB/TBBConfig.cmake
+-- Installing: C:/test_win/build/onetbb-install/lib/cmake/TBB/TBBConfigVersion.cmake
+-- Installing: C:/test_win/build/onetbb-install/share/doc/TBB/README.md
+-- Installing: C:/test_win/build/onetbb-install/lib/tbb12.lib
+-- Installing: C:/test_win/build/onetbb-install/bin/tbb12.dll
+-- Installing: C:/test_win/build/onetbb-install/lib/tbb.lib
+-- Installing: C:/test_win/build/onetbb-install/lib/pkgconfig/tbb.pc
+-- Installing: C:/test_win/build/onetbb-install/lib/tbbmalloc.lib
+-- Installing: C:/test_win/build/onetbb-install/bin/tbbmalloc.dll
+-- Installing: C:/test_win/build/onetbb-install/lib/tbbmalloc_proxy.lib
+-- Installing: C:/test_win/build/onetbb-install/bin/tbbmalloc_proxy.dll
+-- Gauss-Jacobi
+-- -- hybrid_Jacobi_hybrid
+-- -- mpi_Jacobi_mpi
+-- -- omp_Jacobi_omp
+-- -- seq_Jacobi_seq
+-- -- std_Jacobi_std
+-- -- tbb_Jacobi_tbb
+-- Gauss-Seidel
+-- -- hybrid_Seidel_hybrid
+-- -- mpi_Seidel_mpi
+-- -- omp_Seidel_omp
+-- -- seq_Seidel_seq
+-- -- std_Seidel_std
+-- -- tbb_Seidel_tbb
+-- Wave
+-- -- hybrid_Wave_hybrid
+-- -- mpi_Wave_mpi
+-- -- omp_Wave_omp
+-- -- seq_Wave_seq
+-- -- std_Wave_std
+-- -- tbb_Wave_tbb
+-- Configuring done (60.0s)
+-- Generating done (0.6s)
+-- Build files have been written to: C:/test_win/build

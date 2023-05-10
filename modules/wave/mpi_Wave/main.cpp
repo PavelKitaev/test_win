@@ -58,7 +58,6 @@ void ParallelAlgMPI(double* matrix, int size, double eps)
 
   if (procRank == 0)
   {
-    q++;
     const int delta = size / procNum;
     int residue = size % procNum;
 
@@ -139,6 +138,7 @@ void ParallelAlgMPI(double* matrix, int size, double eps)
   MPI_Barrier(MPI_COMM_WORLD);
   do
   {
+	  q++;
     for (int wave = start_inc; wave < end_inc; wave++) {
       dm[wave - 1] = 0;
       for (int i = 1; i < wave + 1; i++) {

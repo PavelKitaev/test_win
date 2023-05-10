@@ -1,0 +1,10 @@
+^C:\TEST_WIN\BUILD\ONETBB-BUILD\CMAKEFILES\_CMAKELTOTEST-CXX\BIN\CMAKEFILES\90F480F0B2CD57C37E6768F0C77C2EEA\GENERATE.STAMP.RULE
+setlocal
+"C:\Program Files\CMake\bin\cmake.exe" -SC:/test_win/build/onetbb-build/CMakeFiles/_CMakeLTOTest-CXX/src -BC:/test_win/build/onetbb-build/CMakeFiles/_CMakeLTOTest-CXX/bin --check-stamp-list CMakeFiles/generate.stamp.list --vs-solution-file C:/test_win/build/onetbb-build/CMakeFiles/_CMakeLTOTest-CXX/bin/lto-test.sln
+if %errorlevel% neq 0 goto :cmEnd
+:cmEnd
+endlocal & call :cmErrorLevel %errorlevel% & goto :cmDone
+:cmErrorLevel
+exit /b %1
+:cmDone
+if %errorlevel% neq 0 goto :VCEnd

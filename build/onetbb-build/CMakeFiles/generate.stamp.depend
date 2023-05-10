@@ -1,0 +1,50 @@
+# CMake generation dependency list for this directory.
+C:/Program Files/CMake/share/cmake-3.26/Modules/BasicConfigVersion-AnyNewerVersion.cmake.in
+C:/Program Files/CMake/share/cmake-3.26/Modules/CMakeCXXInformation.cmake
+C:/Program Files/CMake/share/cmake-3.26/Modules/CMakeCheckCompilerFlagCommonPatterns.cmake
+C:/Program Files/CMake/share/cmake-3.26/Modules/CMakeCommonLanguageInclude.cmake
+C:/Program Files/CMake/share/cmake-3.26/Modules/CMakeDependentOption.cmake
+C:/Program Files/CMake/share/cmake-3.26/Modules/CMakeGenericSystem.cmake
+C:/Program Files/CMake/share/cmake-3.26/Modules/CMakeInitializeConfigs.cmake
+C:/Program Files/CMake/share/cmake-3.26/Modules/CMakeLanguageInformation.cmake
+C:/Program Files/CMake/share/cmake-3.26/Modules/CMakePackageConfigHelpers.cmake
+C:/Program Files/CMake/share/cmake-3.26/Modules/CMakeParseArguments.cmake
+C:/Program Files/CMake/share/cmake-3.26/Modules/CMakeRCInformation.cmake
+C:/Program Files/CMake/share/cmake-3.26/Modules/CMakeSystemSpecificInformation.cmake
+C:/Program Files/CMake/share/cmake-3.26/Modules/CMakeSystemSpecificInitialize.cmake
+C:/Program Files/CMake/share/cmake-3.26/Modules/CPack.cmake
+C:/Program Files/CMake/share/cmake-3.26/Modules/CPackComponent.cmake
+C:/Program Files/CMake/share/cmake-3.26/Modules/CheckCXXCompilerFlag.cmake
+C:/Program Files/CMake/share/cmake-3.26/Modules/CheckCXXSourceCompiles.cmake
+C:/Program Files/CMake/share/cmake-3.26/Modules/CheckIncludeFileCXX.cmake
+C:/Program Files/CMake/share/cmake-3.26/Modules/CheckLibraryExists.cmake
+C:/Program Files/CMake/share/cmake-3.26/Modules/Compiler/CMakeCommonCompilerMacros.cmake
+C:/Program Files/CMake/share/cmake-3.26/Modules/Compiler/MSVC-CXX.cmake
+C:/Program Files/CMake/share/cmake-3.26/Modules/Compiler/MSVC.cmake
+C:/Program Files/CMake/share/cmake-3.26/Modules/FindPackageHandleStandardArgs.cmake
+C:/Program Files/CMake/share/cmake-3.26/Modules/FindPackageMessage.cmake
+C:/Program Files/CMake/share/cmake-3.26/Modules/FindPkgConfig.cmake
+C:/Program Files/CMake/share/cmake-3.26/Modules/FindThreads.cmake
+C:/Program Files/CMake/share/cmake-3.26/Modules/GNUInstallDirs.cmake
+C:/Program Files/CMake/share/cmake-3.26/Modules/Internal/CheckCompilerFlag.cmake
+C:/Program Files/CMake/share/cmake-3.26/Modules/Internal/CheckFlagCommonConfig.cmake
+C:/Program Files/CMake/share/cmake-3.26/Modules/Internal/CheckSourceCompiles.cmake
+C:/Program Files/CMake/share/cmake-3.26/Modules/Platform/Windows-MSVC-CXX.cmake
+C:/Program Files/CMake/share/cmake-3.26/Modules/Platform/Windows-MSVC.cmake
+C:/Program Files/CMake/share/cmake-3.26/Modules/Platform/Windows.cmake
+C:/Program Files/CMake/share/cmake-3.26/Modules/Platform/WindowsPaths.cmake
+C:/Program Files/CMake/share/cmake-3.26/Modules/WriteBasicConfigVersionFile.cmake
+C:/Program Files/CMake/share/cmake-3.26/Templates/CPackConfig.cmake.in
+C:/test_win/3rdparty/onetbb/CMakeLists.txt
+C:/test_win/3rdparty/onetbb/cmake/compilers/MSVC.cmake
+C:/test_win/3rdparty/onetbb/cmake/config_generation.cmake
+C:/test_win/3rdparty/onetbb/cmake/hwloc_detection.cmake
+C:/test_win/3rdparty/onetbb/cmake/memcheck.cmake
+C:/test_win/3rdparty/onetbb/cmake/packaging.cmake
+C:/test_win/3rdparty/onetbb/cmake/sanitize.cmake
+C:/test_win/3rdparty/onetbb/cmake/test_spec.cmake
+C:/test_win/3rdparty/onetbb/cmake/utils.cmake
+C:/test_win/3rdparty/onetbb/cmake/vars_utils.cmake
+C:/test_win/build/onetbb-build/CMakeFiles/3.26.3/CMakeCXXCompiler.cmake
+C:/test_win/build/onetbb-build/CMakeFiles/3.26.3/CMakeRCCompiler.cmake
+C:/test_win/build/onetbb-build/CMakeFiles/3.26.3/CMakeSystem.cmake

@@ -1,0 +1,174 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project DefaultTargets="Build" ToolsVersion="17.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <PropertyGroup>
+    <PreferredToolArchitecture>x64</PreferredToolArchitecture>
+  </PropertyGroup>
+  <PropertyGroup>
+    <ResolveNugetPackages>false</ResolveNugetPackages>
+  </PropertyGroup>
+  <ItemGroup Label="ProjectConfigurations">
+    <ProjectConfiguration Include="Debug|x64">
+      <Configuration>Debug</Configuration>
+      <Platform>x64</Platform>
+    </ProjectConfiguration>
+    <ProjectConfiguration Include="Release|x64">
+      <Configuration>Release</Configuration>
+      <Platform>x64</Platform>
+    </ProjectConfiguration>
+    <ProjectConfiguration Include="MinSizeRel|x64">
+      <Configuration>MinSizeRel</Configuration>
+      <Platform>x64</Platform>
+    </ProjectConfiguration>
+    <ProjectConfiguration Include="RelWithDebInfo|x64">
+      <Configuration>RelWithDebInfo</Configuration>
+      <Platform>x64</Platform>
+    </ProjectConfiguration>
+  </ItemGroup>
+  <PropertyGroup Label="Globals">
+    <ProjectGuid>{6B73B59F-74AD-3DD1-A3BA-7C10069A27DA}</ProjectGuid>
+    <Keyword>Win32Proj</Keyword>
+    <WindowsTargetPlatformVersion>10.0.22000.0</WindowsTargetPlatformVersion>
+    <Platform>x64</Platform>
+    <ProjectName>ZERO_CHECK</ProjectName>
+    <VCProjectUpgraderObjectName>NoUpgrade</VCProjectUpgraderObjectName>
+  </PropertyGroup>
+  <Import Project="$(VCTargetsPath)\Microsoft.Cpp.Default.props" />
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Debug|x64'" Label="Configuration">
+    <ConfigurationType>Utility</ConfigurationType>
+    <CharacterSet>MultiByte</CharacterSet>
+    <PlatformToolset>v143</PlatformToolset>
+  </PropertyGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Release|x64'" Label="Configuration">
+    <ConfigurationType>Utility</ConfigurationType>
+    <CharacterSet>MultiByte</CharacterSet>
+    <PlatformToolset>v143</PlatformToolset>
+  </PropertyGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|x64'" Label="Configuration">
+    <ConfigurationType>Utility</ConfigurationType>
+    <CharacterSet>MultiByte</CharacterSet>
+    <PlatformToolset>v143</PlatformToolset>
+  </PropertyGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|x64'" Label="Configuration">
+    <ConfigurationType>Utility</ConfigurationType>
+    <CharacterSet>MultiByte</CharacterSet>
+    <PlatformToolset>v143</PlatformToolset>
+  </PropertyGroup>
+  <Import Project="$(VCTargetsPath)\Microsoft.Cpp.props" />
+  <ImportGroup Label="ExtensionSettings">
+  </ImportGroup>
+  <ImportGroup Label="PropertySheets">
+    <Import Project="$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props" Condition="exists('$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props')" Label="LocalAppDataPlatform" />
+  </ImportGroup>
+  <PropertyGroup Label="UserMacros" />
+  <PropertyGroup>
+    <_ProjectFileVersion>10.0.20506.1</_ProjectFileVersion>
+    <IntDir Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">$(Platform)\$(Configuration)\$(ProjectName)\</IntDir>
+    <IntDir Condition="'$(Configuration)|$(Platform)'=='Release|x64'">$(Platform)\$(Configuration)\$(ProjectName)\</IntDir>
+    <IntDir Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|x64'">$(Platform)\$(Configuration)\$(ProjectName)\</IntDir>
+    <IntDir Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|x64'">$(Platform)\$(Configuration)\$(ProjectName)\</IntDir>
+  </PropertyGroup>
+  <ItemDefinitionGroup Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">
+    <Midl>
+      <AdditionalIncludeDirectories>%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+      <OutputDirectory>$(ProjectDir)/$(IntDir)</OutputDirectory>
+      <HeaderFileName>%(Filename).h</HeaderFileName>
+      <TypeLibraryName>%(Filename).tlb</TypeLibraryName>
+      <InterfaceIdentifierFileName>%(Filename)_i.c</InterfaceIdentifierFileName>
+      <ProxyFileName>%(Filename)_p.c</ProxyFileName>
+    </Midl>
+  </ItemDefinitionGroup>
+  <ItemDefinitionGroup Condition="'$(Configuration)|$(Platform)'=='Release|x64'">
+    <Midl>
+      <AdditionalIncludeDirectories>%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+      <OutputDirectory>$(ProjectDir)/$(IntDir)</OutputDirectory>
+      <HeaderFileName>%(Filename).h</HeaderFileName>
+      <TypeLibraryName>%(Filename).tlb</TypeLibraryName>
+      <InterfaceIdentifierFileName>%(Filename)_i.c</InterfaceIdentifierFileName>
+      <ProxyFileName>%(Filename)_p.c</ProxyFileName>
+    </Midl>
+  </ItemDefinitionGroup>
+  <ItemDefinitionGroup Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|x64'">
+    <Midl>
+      <AdditionalIncludeDirectories>%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+      <OutputDirectory>$(ProjectDir)/$(IntDir)</OutputDirectory>
+      <HeaderFileName>%(Filename).h</HeaderFileName>
+      <TypeLibraryName>%(Filename).tlb</TypeLibraryName>
+      <InterfaceIdentifierFileName>%(Filename)_i.c</InterfaceIdentifierFileName>
+      <ProxyFileName>%(Filename)_p.c</ProxyFileName>
+    </Midl>
+  </ItemDefinitionGroup>
+  <ItemDefinitionGroup Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|x64'">
+    <Midl>
+      <AdditionalIncludeDirectories>%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+      <OutputDirectory>$(ProjectDir)/$(IntDir)</OutputDirectory>
+      <HeaderFileName>%(Filename).h</HeaderFileName>
+      <TypeLibraryName>%(Filename).tlb</TypeLibraryName>
+      <InterfaceIdentifierFileName>%(Filename)_i.c</InterfaceIdentifierFileName>
+      <ProxyFileName>%(Filename)_p.c</ProxyFileName>
+    </Midl>
+  </ItemDefinitionGroup>
+  <ItemGroup>
+    <CustomBuild Include="C:\test_win\build\onetbb-build\CMakeFiles\ff2a119868480e54dd8f028908730598\generate.stamp.rule">
+      <UseUtf8Encoding>Always</UseUtf8Encoding>
+      <Message Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">Checking Build System</Message>
+      <Command Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">setlocal
+"C:\Program Files\CMake\bin\cmake.exe" -SC:/test_win/3rdparty/onetbb -BC:/test_win/build/onetbb-build --check-stamp-list CMakeFiles/generate.stamp.list --vs-solution-file C:/test_win/build/onetbb-build/TBB.sln
+if %errorlevel% neq 0 goto :cmEnd
+:cmEnd
+endlocal &amp; call :cmErrorLevel %errorlevel% &amp; goto :cmDone
+:cmErrorLevel
+exit /b %1
+:cmDone
+if %errorlevel% neq 0 goto :VCEnd</Command>
+      <AdditionalInputs Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">C:\Program Files\CMake\share\cmake-3.26\Modules\BasicConfigVersion-AnyNewerVersion.cmake.in;C:\Program Files\CMake\share\cmake-3.26\Modules\CMakeCInformation.cmake;C:\Program Files\CMake\share\cmake-3.26\Modules\CMakeCXXInformation.cmake;C:\Program Files\CMake\share\cmake-3.26\Modules\CMakeCheckCompilerFlagCommonPatterns.cmake;C:\Program Files\CMake\share\cmake-3.26\Modules\CMakeCommonLanguageInclude.cmake;C:\Program Files\CMake\share\cmake-3.26\Modules\CMakeDependentOption.cmake;C:\Program Files\CMake\share\cmake-3.26\Modules\CMakeGenericSystem.cmake;C:\Program Files\CMake\share\cmake-3.26\Modules\CMakeInitializeConfigs.cmake;C:\Program Files\CMake\share\cmake-3.26\Modules\CMakeLanguageInformation.cmake;C:\Program Files\CMake\share\cmake-3.26\Modules\CMakePackageConfigHelpers.cmake;C:\Program Files\CMake\share\cmake-3.26\Modules\CMakeParseArguments.cmake;C:\Program Files\CMake\share\cmake-3.26\Modules\CMakeRCInformation.cmake;C:\Program Files\CMake\share\cmake-3.26\Modules\CMakeSystemSpecificInformation.cmake;C:\Program Files\CMake\share\cmake-3.26\Modules\CMakeSystemSpecificInitialize.cmake;C:\Program Files\CMake\share\cmake-3.26\Modules\CPack.cmake;C:\Program Files\CMake\share\cmake-3.26\Modules\CPackComponent.cmake;C:\Program Files\CMake\share\cmake-3.26\Modules\CheckCXXCompilerFlag.cmake;C:\Program Files\CMake\share\cmake-3.26\Modules\CheckCXXSourceCompiles.cmake;C:\Program Files\CMake\share\cmake-3.26\Modules\CheckIncludeFileCXX.cmake;C:\Program Files\CMake\share\cmake-3.26\Modules\CheckLibraryExists.cmake;C:\Program Files\CMake\share\cmake-3.26\Modules\Compiler\CMakeCommonCompilerMacros.cmake;C:\Program Files\CMake\share\cmake-3.26\Modules\Compiler\MSVC-C.cmake;C:\Program Files\CMake\share\cmake-3.26\Modules\Compiler\MSVC-CXX.cmake;C:\Program Files\CMake\share\cmake-3.26\Modules\Compiler\MSVC.cmake;C:\Program Files\CMake\share\cmake-3.26\Modules\FindPackageHandleStandardArgs.cmake;C:\Program Files\CMake\share\cmake-3.26\Modules\FindPackageMessage.cmake;C:\Program Files\CMake\share\cmake-3.26\Modules\FindPkgConfig.cmake;C:\Program Files\CMake\share\cmake-3.26\Modules\FindThreads.cmake;C:\Program Files\CMake\share\cmake-3.26\Modules\GNUInstallDirs.cmake;C:\Program Files\CMake\share\cmake-3.26\Modules\Internal\CheckCompilerFlag.cmake;C:\Program Files\CMake\share\cmake-3.26\Modules\Internal\CheckFlagCommonConfig.cmake;C:\Program Files\CMake\share\cmake-3.26\Modules\Internal\CheckSourceCompiles.cmake;C:\Program Files\CMake\share\cmake-3.26\Modules\Platform\Windows-MSVC-C.cmake;C:\Program Files\CMake\share\cmake-3.26\Modules\Platform\Windows-MSVC-CXX.cmake;C:\Program Files\CMake\share\cmake-3.26\Modules\Platform\Windows-MSVC.cmake;C:\Program Files\CMake\share\cmake-3.26\Modules\Platform\Windows.cmake;C:\Program Files\CMake\share\cmake-3.26\Modules\Platform\WindowsPaths.cmake;C:\Program Files\CMake\share\cmake-3.26\Modules\WriteBasicConfigVersionFile.cmake;C:\Program Files\CMake\share\cmake-3.26\Templates\CPackConfig.cmake.in;C:\test_win\3rdparty\onetbb\CMakeLists.txt;C:\test_win\3rdparty\onetbb\cmake\compilers\MSVC.cmake;C:\test_win\3rdparty\onetbb\cmake\config_generation.cmake;C:\test_win\3rdparty\onetbb\cmake\hwloc_detection.cmake;C:\test_win\3rdparty\onetbb\cmake\memcheck.cmake;C:\test_win\3rdparty\onetbb\cmake\packaging.cmake;C:\test_win\3rdparty\onetbb\cmake\post_install\CMakeLists.txt;C:\test_win\3rdparty\onetbb\cmake\sanitize.cmake;C:\test_win\3rdparty\onetbb\cmake\test_spec.cmake;C:\test_win\3rdparty\onetbb\cmake\utils.cmake;C:\test_win\3rdparty\onetbb\cmake\vars_utils.cmake;C:\test_win\3rdparty\onetbb\integration\pkg-config\tbb.pc.in;C:\test_win\3rdparty\onetbb\src\tbb\CMakeLists.txt;C:\test_win\3rdparty\onetbb\src\tbbbind\CMakeLists.txt;C:\test_win\3rdparty\onetbb\src\tbbmalloc\CMakeLists.txt;C:\test_win\3rdparty\onetbb\src\tbbmalloc_proxy\CMakeLists.txt;C:\test_win\build\onetbb-build\CMakeFiles\3.26.3\CMakeCCompiler.cmake;C:\test_win\build\onetbb-build\CMakeFiles\3.26.3\CMakeCXXCompiler.cmake;C:\test_win\build\onetbb-build\CMakeFiles\3.26.3\CMakeRCCompiler.cmake;C:\test_win\build\onetbb-build\CMakeFiles\3.26.3\CMakeSystem.cmake;%(AdditionalInputs)</AdditionalInputs>
+      <Outputs Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">C:\test_win\build\onetbb-build\CMakeFiles\generate.stamp;C:\test_win\build\onetbb-build\src\tbb\CMakeFiles\generate.stamp;C:\test_win\build\onetbb-build\src\tbbmalloc\CMakeFiles\generate.stamp;C:\test_win\build\onetbb-build\src\tbbmalloc_proxy\CMakeFiles\generate.stamp;C:\test_win\build\onetbb-build\src\tbbbind\CMakeFiles\generate.stamp;C:\test_win\build\onetbb-build\cmake\post_install\CMakeFiles\generate.stamp</Outputs>
+      <LinkObjects Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">false</LinkObjects>
+      <Message Condition="'$(Configuration)|$(Platform)'=='Release|x64'">Checking Build System</Message>
+      <Command Condition="'$(Configuration)|$(Platform)'=='Release|x64'">setlocal
+"C:\Program Files\CMake\bin\cmake.exe" -SC:/test_win/3rdparty/onetbb -BC:/test_win/build/onetbb-build --check-stamp-list CMakeFiles/generate.stamp.list --vs-solution-file C:/test_win/build/onetbb-build/TBB.sln
+if %errorlevel% neq 0 goto :cmEnd
+:cmEnd
+endlocal &amp; call :cmErrorLevel %errorlevel% &amp; goto :cmDone
+:cmErrorLevel
+exit /b %1
+:cmDone
+if %errorlevel% neq 0 goto :VCEnd</Command>
+      <AdditionalInputs Condition="'$(Configuration)|$(Platform)'=='Release|x64'">C:\Program Files\CMake\share\cmake-3.26\Modules\BasicConfigVersion-AnyNewerVersion.cmake.in;C:\Program Files\CMake\share\cmake-3.26\Modules\CMakeCInformation.cmake;C:\Program Files\CMake\share\cmake-3.26\Modules\CMakeCXXInformation.cmake;C:\Program Files\CMake\share\cmake-3.26\Modules\CMakeCheckCompilerFlagCommonPatterns.cmake;C:\Program Files\CMake\share\cmake-3.26\Modules\CMakeCommonLanguageInclude.cmake;C:\Program Files\CMake\share\cmake-3.26\Modules\CMakeDependentOption.cmake;C:\Program Files\CMake\share\cmake-3.26\Modules\CMakeGenericSystem.cmake;C:\Program Files\CMake\share\cmake-3.26\Modules\CMakeInitializeConfigs.cmake;C:\Program Files\CMake\share\cmake-3.26\Modules\CMakeLanguageInformation.cmake;C:\Program Files\CMake\share\cmake-3.26\Modules\CMakePackageConfigHelpers.cmake;C:\Program Files\CMake\share\cmake-3.26\Modules\CMakeParseArguments.cmake;C:\Program Files\CMake\share\cmake-3.26\Modules\CMakeRCInformation.cmake;C:\Program Files\CMake\share\cmake-3.26\Modules\CMakeSystemSpecificInformation.cmake;C:\Program Files\CMake\share\cmake-3.26\Modules\CMakeSystemSpecificInitialize.cmake;C:\Program Files\CMake\share\cmake-3.26\Modules\CPack.cmake;C:\Program Files\CMake\share\cmake-3.26\Modules\CPackComponent.cmake;C:\Program Files\CMake\share\cmake-3.26\Modules\CheckCXXCompilerFlag.cmake;C:\Program Files\CMake\share\cmake-3.26\Modules\CheckCXXSourceCompiles.cmake;C:\Program Files\CMake\share\cmake-3.26\Modules\CheckIncludeFileCXX.cmake;C:\Program Files\CMake\share\cmake-3.26\Modules\CheckLibraryExists.cmake;C:\Program Files\CMake\share\cmake-3.26\Modules\Compiler\CMakeCommonCompilerMacros.cmake;C:\Program Files\CMake\share\cmake-3.26\Modules\Compiler\MSVC-C.cmake;C:\Program Files\CMake\share\cmake-3.26\Modules\Compiler\MSVC-CXX.cmake;C:\Program Files\CMake\share\cmake-3.26\Modules\Compiler\MSVC.cmake;C:\Program Files\CMake\share\cmake-3.26\Modules\FindPackageHandleStandardArgs.cmake;C:\Program Files\CMake\share\cmake-3.26\Modules\FindPackageMessage.cmake;C:\Program Files\CMake\share\cmake-3.26\Modules\FindPkgConfig.cmake;C:\Program Files\CMake\share\cmake-3.26\Modules\FindThreads.cmake;C:\Program Files\CMake\share\cmake-3.26\Modules\GNUInstallDirs.cmake;C:\Program Files\CMake\share\cmake-3.26\Modules\Internal\CheckCompilerFlag.cmake;C:\Program Files\CMake\share\cmake-3.26\Modules\Internal\CheckFlagCommonConfig.cmake;C:\Program Files\CMake\share\cmake-3.26\Modules\Internal\CheckSourceCompiles.cmake;C:\Program Files\CMake\share\cmake-3.26\Modules\Platform\Windows-MSVC-C.cmake;C:\Program Files\CMake\share\cmake-3.26\Modules\Platform\Windows-MSVC-CXX.cmake;C:\Program Files\CMake\share\cmake-3.26\Modules\Platform\Windows-MSVC.cmake;C:\Program Files\CMake\share\cmake-3.26\Modules\Platform\Windows.cmake;C:\Program Files\CMake\share\cmake-3.26\Modules\Platform\WindowsPaths.cmake;C:\Program Files\CMake\share\cmake-3.26\Modules\WriteBasicConfigVersionFile.cmake;C:\Program Files\CMake\share\cmake-3.26\Templates\CPackConfig.cmake.in;C:\test_win\3rdparty\onetbb\CMakeLists.txt;C:\test_win\3rdparty\onetbb\cmake\compilers\MSVC.cmake;C:\test_win\3rdparty\onetbb\cmake\config_generation.cmake;C:\test_win\3rdparty\onetbb\cmake\hwloc_detection.cmake;C:\test_win\3rdparty\onetbb\cmake\memcheck.cmake;C:\test_win\3rdparty\onetbb\cmake\packaging.cmake;C:\test_win\3rdparty\onetbb\cmake\post_install\CMakeLists.txt;C:\test_win\3rdparty\onetbb\cmake\sanitize.cmake;C:\test_win\3rdparty\onetbb\cmake\test_spec.cmake;C:\test_win\3rdparty\onetbb\cmake\utils.cmake;C:\test_win\3rdparty\onetbb\cmake\vars_utils.cmake;C:\test_win\3rdparty\onetbb\integration\pkg-config\tbb.pc.in;C:\test_win\3rdparty\onetbb\src\tbb\CMakeLists.txt;C:\test_win\3rdparty\onetbb\src\tbbbind\CMakeLists.txt;C:\test_win\3rdparty\onetbb\src\tbbmalloc\CMakeLists.txt;C:\test_win\3rdparty\onetbb\src\tbbmalloc_proxy\CMakeLists.txt;C:\test_win\build\onetbb-build\CMakeFiles\3.26.3\CMakeCCompiler.cmake;C:\test_win\build\onetbb-build\CMakeFiles\3.26.3\CMakeCXXCompiler.cmake;C:\test_win\build\onetbb-build\CMakeFiles\3.26.3\CMakeRCCompiler.cmake;C:\test_win\build\onetbb-build\CMakeFiles\3.26.3\CMakeSystem.cmake;%(AdditionalInputs)</AdditionalInputs>
+      <Outputs Condition="'$(Configuration)|$(Platform)'=='Release|x64'">C:\test_win\build\onetbb-build\CMakeFiles\generate.stamp;C:\test_win\build\onetbb-build\src\tbb\CMakeFiles\generate.stamp;C:\test_win\build\onetbb-build\src\tbbmalloc\CMakeFiles\generate.stamp;C:\test_win\build\onetbb-build\src\tbbmalloc_proxy\CMakeFiles\generate.stamp;C:\test_win\build\onetbb-build\src\tbbbind\CMakeFiles\generate.stamp;C:\test_win\build\onetbb-build\cmake\post_install\CMakeFiles\generate.stamp</Outputs>
+      <LinkObjects Condition="'$(Configuration)|$(Platform)'=='Release|x64'">false</LinkObjects>
+      <Message Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|x64'">Checking Build System</Message>
+      <Command Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|x64'">setlocal
+"C:\Program Files\CMake\bin\cmake.exe" -SC:/test_win/3rdparty/onetbb -BC:/test_win/build/onetbb-build --check-stamp-list CMakeFiles/generate.stamp.list --vs-solution-file C:/test_win/build/onetbb-build/TBB.sln
+if %errorlevel% neq 0 goto :cmEnd
+:cmEnd
+endlocal &amp; call :cmErrorLevel %errorlevel% &amp; goto :cmDone
+:cmErrorLevel
+exit /b %1
+:cmDone
+if %errorlevel% neq 0 goto :VCEnd</Command>
+      <AdditionalInputs Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|x64'">C:\Program Files\CMake\share\cmake-3.26\Modules\BasicConfigVersion-AnyNewerVersion.cmake.in;C:\Program Files\CMake\share\cmake-3.26\Modules\CMakeCInformation.cmake;C:\Program Files\CMake\share\cmake-3.26\Modules\CMakeCXXInformation.cmake;C:\Program Files\CMake\share\cmake-3.26\Modules\CMakeCheckCompilerFlagCommonPatterns.cmake;C:\Program Files\CMake\share\cmake-3.26\Modules\CMakeCommonLanguageInclude.cmake;C:\Program Files\CMake\share\cmake-3.26\Modules\CMakeDependentOption.cmake;C:\Program Files\CMake\share\cmake-3.26\Modules\CMakeGenericSystem.cmake;C:\Program Files\CMake\share\cmake-3.26\Modules\CMakeInitializeConfigs.cmake;C:\Program Files\CMake\share\cmake-3.26\Modules\CMakeLanguageInformation.cmake;C:\Program Files\CMake\share\cmake-3.26\Modules\CMakePackageConfigHelpers.cmake;C:\Program Files\CMake\share\cmake-3.26\Modules\CMakeParseArguments.cmake;C:\Program Files\CMake\share\cmake-3.26\Modules\CMakeRCInformation.cmake;C:\Program Files\CMake\share\cmake-3.26\Modules\CMakeSystemSpecificInformation.cmake;C:\Program Files\CMake\share\cmake-3.26\Modules\CMakeSystemSpecificInitialize.cmake;C:\Program Files\CMake\share\cmake-3.26\Modules\CPack.cmake;C:\Program Files\CMake\share\cmake-3.26\Modules\CPackComponent.cmake;C:\Program Files\CMake\share\cmake-3.26\Modules\CheckCXXCompilerFlag.cmake;C:\Program Files\CMake\share\cmake-3.26\Modules\CheckCXXSourceCompiles.cmake;C:\Program Files\CMake\share\cmake-3.26\Modules\CheckIncludeFileCXX.cmake;C:\Program Files\CMake\share\cmake-3.26\Modules\CheckLibraryExists.cmake;C:\Program Files\CMake\share\cmake-3.26\Modules\Compiler\CMakeCommonCompilerMacros.cmake;C:\Program Files\CMake\share\cmake-3.26\Modules\Compiler\MSVC-C.cmake;C:\Program Files\CMake\share\cmake-3.26\Modules\Compiler\MSVC-CXX.cmake;C:\Program Files\CMake\share\cmake-3.26\Modules\Compiler\MSVC.cmake;C:\Program Files\CMake\share\cmake-3.26\Modules\FindPackageHandleStandardArgs.cmake;C:\Program Files\CMake\share\cmake-3.26\Modules\FindPackageMessage.cmake;C:\Program Files\CMake\share\cmake-3.26\Modules\FindPkgConfig.cmake;C:\Program Files\CMake\share\cmake-3.26\Modules\FindThreads.cmake;C:\Program Files\CMake\share\cmake-3.26\Modules\GNUInstallDirs.cmake;C:\Program Files\CMake\share\cmake-3.26\Modules\Internal\CheckCompilerFlag.cmake;C:\Program Files\CMake\share\cmake-3.26\Modules\Internal\CheckFlagCommonConfig.cmake;C:\Program Files\CMake\share\cmake-3.26\Modules\Internal\CheckSourceCompiles.cmake;C:\Program Files\CMake\share\cmake-3.26\Modules\Platform\Windows-MSVC-C.cmake;C:\Program Files\CMake\share\cmake-3.26\Modules\Platform\Windows-MSVC-CXX.cmake;C:\Program Files\CMake\share\cmake-3.26\Modules\Platform\Windows-MSVC.cmake;C:\Program Files\CMake\share\cmake-3.26\Modules\Platform\Windows.cmake;C:\Program Files\CMake\share\cmake-3.26\Modules\Platform\WindowsPaths.cmake;C:\Program Files\CMake\share\cmake-3.26\Modules\WriteBasicConfigVersionFile.cmake;C:\Program Files\CMake\share\cmake-3.26\Templates\CPackConfig.cmake.in;C:\test_win\3rdparty\onetbb\CMakeLists.txt;C:\test_win\3rdparty\onetbb\cmake\compilers\MSVC.cmake;C:\test_win\3rdparty\onetbb\cmake\config_generation.cmake;C:\test_win\3rdparty\onetbb\cmake\hwloc_detection.cmake;C:\test_win\3rdparty\onetbb\cmake\memcheck.cmake;C:\test_win\3rdparty\onetbb\cmake\packaging.cmake;C:\test_win\3rdparty\onetbb\cmake\post_install\CMakeLists.txt;C:\test_win\3rdparty\onetbb\cmake\sanitize.cmake;C:\test_win\3rdparty\onetbb\cmake\test_spec.cmake;C:\test_win\3rdparty\onetbb\cmake\utils.cmake;C:\test_win\3rdparty\onetbb\cmake\vars_utils.cmake;C:\test_win\3rdparty\onetbb\integration\pkg-config\tbb.pc.in;C:\test_win\3rdparty\onetbb\src\tbb\CMakeLists.txt;C:\test_win\3rdparty\onetbb\src\tbbbind\CMakeLists.txt;C:\test_win\3rdparty\onetbb\src\tbbmalloc\CMakeLists.txt;C:\test_win\3rdparty\onetbb\src\tbbmalloc_proxy\CMakeLists.txt;C:\test_win\build\onetbb-build\CMakeFiles\3.26.3\CMakeCCompiler.cmake;C:\test_win\build\onetbb-build\CMakeFiles\3.26.3\CMakeCXXCompiler.cmake;C:\test_win\build\onetbb-build\CMakeFiles\3.26.3\CMakeRCCompiler.cmake;C:\test_win\build\onetbb-build\CMakeFiles\3.26.3\CMakeSystem.cmake;%(AdditionalInputs)</AdditionalInputs>
+      <Outputs Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|x64'">C:\test_win\build\onetbb-build\CMakeFiles\generate.stamp;C:\test_win\build\onetbb-build\src\tbb\CMakeFiles\generate.stamp;C:\test_win\build\onetbb-build\src\tbbmalloc\CMakeFiles\generate.stamp;C:\test_win\build\onetbb-build\src\tbbmalloc_proxy\CMakeFiles\generate.stamp;C:\test_win\build\onetbb-build\src\tbbbind\CMakeFiles\generate.stamp;C:\test_win\build\onetbb-build\cmake\post_install\CMakeFiles\generate.stamp</Outputs>
+      <LinkObjects Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|x64'">false</LinkObjects>
+      <Message Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|x64'">Checking Build System</Message>
+      <Command Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|x64'">setlocal
+"C:\Program Files\CMake\bin\cmake.exe" -SC:/test_win/3rdparty/onetbb -BC:/test_win/build/onetbb-build --check-stamp-list CMakeFiles/generate.stamp.list --vs-solution-file C:/test_win/build/onetbb-build/TBB.sln
+if %errorlevel% neq 0 goto :cmEnd
+:cmEnd
+endlocal &amp; call :cmErrorLevel %errorlevel% &amp; goto :cmDone
+:cmErrorLevel
+exit /b %1
+:cmDone
+if %errorlevel% neq 0 goto :VCEnd</Command>
+      <AdditionalInputs Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|x64'">C:\Program Files\CMake\share\cmake-3.26\Modules\BasicConfigVersion-AnyNewerVersion.cmake.in;C:\Program Files\CMake\share\cmake-3.26\Modules\CMakeCInformation.cmake;C:\Program Files\CMake\share\cmake-3.26\Modules\CMakeCXXInformation.cmake;C:\Program Files\CMake\share\cmake-3.26\Modules\CMakeCheckCompilerFlagCommonPatterns.cmake;C:\Program Files\CMake\share\cmake-3.26\Modules\CMakeCommonLanguageInclude.cmake;C:\Program Files\CMake\share\cmake-3.26\Modules\CMakeDependentOption.cmake;C:\Program Files\CMake\share\cmake-3.26\Modules\CMakeGenericSystem.cmake;C:\Program Files\CMake\share\cmake-3.26\Modules\CMakeInitializeConfigs.cmake;C:\Program Files\CMake\share\cmake-3.26\Modules\CMakeLanguageInformation.cmake;C:\Program Files\CMake\share\cmake-3.26\Modules\CMakePackageConfigHelpers.cmake;C:\Program Files\CMake\share\cmake-3.26\Modules\CMakeParseArguments.cmake;C:\Program Files\CMake\share\cmake-3.26\Modules\CMakeRCInformation.cmake;C:\Program Files\CMake\share\cmake-3.26\Modules\CMakeSystemSpecificInformation.cmake;C:\Program Files\CMake\share\cmake-3.26\Modules\CMakeSystemSpecificInitialize.cmake;C:\Program Files\CMake\share\cmake-3.26\Modules\CPack.cmake;C:\Program Files\CMake\share\cmake-3.26\Modules\CPackComponent.cmake;C:\Program Files\CMake\share\cmake-3.26\Modules\CheckCXXCompilerFlag.cmake;C:\Program Files\CMake\share\cmake-3.26\Modules\CheckCXXSourceCompiles.cmake;C:\Program Files\CMake\share\cmake-3.26\Modules\CheckIncludeFileCXX.cmake;C:\Program Files\CMake\share\cmake-3.26\Modules\CheckLibraryExists.cmake;C:\Program Files\CMake\share\cmake-3.26\Modules\Compiler\CMakeCommonCompilerMacros.cmake;C:\Program Files\CMake\share\cmake-3.26\Modules\Compiler\MSVC-C.cmake;C:\Program Files\CMake\share\cmake-3.26\Modules\Compiler\MSVC-CXX.cmake;C:\Program Files\CMake\share\cmake-3.26\Modules\Compiler\MSVC.cmake;C:\Program Files\CMake\share\cmake-3.26\Modules\FindPackageHandleStandardArgs.cmake;C:\Program Files\CMake\share\cmake-3.26\Modules\FindPackageMessage.cmake;C:\Program Files\CMake\share\cmake-3.26\Modules\FindPkgConfig.cmake;C:\Program Files\CMake\share\cmake-3.26\Modules\FindThreads.cmake;C:\Program Files\CMake\share\cmake-3.26\Modules\GNUInstallDirs.cmake;C:\Program Files\CMake\share\cmake-3.26\Modules\Internal\CheckCompilerFlag.cmake;C:\Program Files\CMake\share\cmake-3.26\Modules\Internal\CheckFlagCommonConfig.cmake;C:\Program Files\CMake\share\cmake-3.26\Modules\Internal\CheckSourceCompiles.cmake;C:\Program Files\CMake\share\cmake-3.26\Modules\Platform\Windows-MSVC-C.cmake;C:\Program Files\CMake\share\cmake-3.26\Modules\Platform\Windows-MSVC-CXX.cmake;C:\Program Files\CMake\share\cmake-3.26\Modules\Platform\Windows-MSVC.cmake;C:\Program Files\CMake\share\cmake-3.26\Modules\Platform\Windows.cmake;C:\Program Files\CMake\share\cmake-3.26\Modules\Platform\WindowsPaths.cmake;C:\Program Files\CMake\share\cmake-3.26\Modules\WriteBasicConfigVersionFile.cmake;C:\Program Files\CMake\share\cmake-3.26\Templates\CPackConfig.cmake.in;C:\test_win\3rdparty\onetbb\CMakeLists.txt;C:\test_win\3rdparty\onetbb\cmake\compilers\MSVC.cmake;C:\test_win\3rdparty\onetbb\cmake\config_generation.cmake;C:\test_win\3rdparty\onetbb\cmake\hwloc_detection.cmake;C:\test_win\3rdparty\onetbb\cmake\memcheck.cmake;C:\test_win\3rdparty\onetbb\cmake\packaging.cmake;C:\test_win\3rdparty\onetbb\cmake\post_install\CMakeLists.txt;C:\test_win\3rdparty\onetbb\cmake\sanitize.cmake;C:\test_win\3rdparty\onetbb\cmake\test_spec.cmake;C:\test_win\3rdparty\onetbb\cmake\utils.cmake;C:\test_win\3rdparty\onetbb\cmake\vars_utils.cmake;C:\test_win\3rdparty\onetbb\integration\pkg-config\tbb.pc.in;C:\test_win\3rdparty\onetbb\src\tbb\CMakeLists.txt;C:\test_win\3rdparty\onetbb\src\tbbbind\CMakeLists.txt;C:\test_win\3rdparty\onetbb\src\tbbmalloc\CMakeLists.txt;C:\test_win\3rdparty\onetbb\src\tbbmalloc_proxy\CMakeLists.txt;C:\test_win\build\onetbb-build\CMakeFiles\3.26.3\CMakeCCompiler.cmake;C:\test_win\build\onetbb-build\CMakeFiles\3.26.3\CMakeCXXCompiler.cmake;C:\test_win\build\onetbb-build\CMakeFiles\3.26.3\CMakeRCCompiler.cmake;C:\test_win\build\onetbb-build\CMakeFiles\3.26.3\CMakeSystem.cmake;%(AdditionalInputs)</AdditionalInputs>
+      <Outputs Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|x64'">C:\test_win\build\onetbb-build\CMakeFiles\generate.stamp;C:\test_win\build\onetbb-build\src\tbb\CMakeFiles\generate.stamp;C:\test_win\build\onetbb-build\src\tbbmalloc\CMakeFiles\generate.stamp;C:\test_win\build\onetbb-build\src\tbbmalloc_proxy\CMakeFiles\generate.stamp;C:\test_win\build\onetbb-build\src\tbbbind\CMakeFiles\generate.stamp;C:\test_win\build\onetbb-build\cmake\post_install\CMakeFiles\generate.stamp</Outputs>
+      <LinkObjects Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|x64'">false</LinkObjects>
+    </CustomBuild>
+  </ItemGroup>
+  <ItemGroup>
+  </ItemGroup>
+  <ItemGroup>
+  </ItemGroup>
+  <Import Project="$(VCTargetsPath)\Microsoft.Cpp.targets" />
+  <ImportGroup Label="ExtensionTargets">
+  </ImportGroup>
+</Project>

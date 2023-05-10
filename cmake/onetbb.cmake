@@ -14,7 +14,12 @@ execute_process(
         -D CMAKE_CXX_FLAGS_RELEASE=${CMAKE_CXX_FLAGS}
         -D CMAKE_CXX_FLAGS_DEBUG=${CMAKE_CXX_FLAGS}
         -D CMAKE_CXX_FLAGS=${CMAKE_CXX_FLAGS}
+		-D TBB_ENABLE_IPO=OFF
         RESULT_VARIABLE result)
+		
+
+message(STATUS "Build oneTBB: CMAKE_BUILD_TYPE: ${CMAKE_BUILD_TYPE} , CMAKE_CXX_FLAGS_RELEASE: ${CMAKE_CXX_FLAGS_RELEASE}, CMAKE_CXX_FLAGS_DEBUG: ${CMAKE_CXX_FLAGS_DEBUG}")
+
 if(result)
     message(FATAL_ERROR "CMake step for onetbb failed: ${result}")
 endif()
