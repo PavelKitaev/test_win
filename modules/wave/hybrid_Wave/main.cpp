@@ -135,49 +135,53 @@ void ParallelAlgHybrid(double* matrix, int size, double eps, int num_omp_th)
     end_dec = temp[3];
   }
 
+  int j = 0;
+  double d, temp;
   int q = 0;
   do
   {
     q++;
     MPI_Barrier(MPI_COMM_WORLD);
-#pragma omp parallel for num_threads(2)
+
+#pragma omp parallel for private(j, d, temp) num_threads(2)
     for (int wave = start_inc; wave < end_inc; wave++) {
       dm[wave - 1] = 0;
       for (int i = 1; i < wave + 1; i++) {
-        int j = wave + 1 - i;
-        double temp = matrix[size * i + j];
+        j = wave + 1 - i;
+        temp = matrix[size * i + j];
 
         matrix[size * i + j] = 0.25 * (matrix[size * i + j + 1] +
           matrix[size * i + j - 1] + matrix[size * (i + 1) + j] +
           matrix[size * (i - 1) + j]);
 
-        double d = fabs(temp - matrix[size * i + j]);
+        d = fabs(temp - matrix[size * i + j]);
 
         if (dm[wave - 1] < d) {
           dm[wave - 1] = d;
         }
       }
     }
-#pragma omp parallel for num_threads(2)
+
+#pragma omp barrier 
+
+#pragma omp parallel for private(j, d, temp) num_threads(2)
     for (int wave = start_dec; wave > end_dec; wave--) {
       dm[wave - 1] = 0;
       for (int i = (size - 2) - wave + 1; i < (size - 2) + 1; i++) {
-        int j = 2 * (size - 2) - wave - i + 1;
+        j = 2 * (size - 2) - wave - i + 1;
 
-        double temp = matrix[size * i + j];
+        temp = matrix[size * i + j];
 
         matrix[size * i + j] = 0.25 * (matrix[size * i + j + 1] +
           matrix[size * i + j - 1] + matrix[size * (i + 1) + j] +
           matrix[size * (i - 1) + j]);
 
-        double d = fabs(temp - matrix[size * i + j]);
+        d = fabs(temp - matrix[size * i + j]);
         if (dm[wave - 1] < d) {
           dm[wave - 1] = d;
         }
       }
     }
-
-#pragma omp barrier
 
     MPI_Barrier(MPI_COMM_WORLD);
     if (procRank == 0) {
