@@ -141,16 +141,16 @@ int main(int argc, char **argv)
 
         if (size < 15)
             PrintMatrix(matrix_mpi, size);
+
+        std::ofstream out;            // поток для записи
+        std::string filename = "Seidel_mpi.txt";
+        out.open(filename, std::ios::app);         // открываем файл для записи
+        out << "Size: " << size << ", ProcNum: " << procNum << ", Time: " << time_mpi << std::endl;
+        out.close();
     }
 
     MPI_Barrier(MPI_COMM_WORLD);
     MPI_Win_free(&win_matrix);
-    
-    std::ofstream out;            // поток для записи
-    std::string filename = "Seidel_mpi.txt";
-    out.open(filename, std::ios::app);         // открываем файл для записи
-    out << "Size: " << size << ", ProcNum: " << procNum << ", Time: " << time_mpi << std::endl;
-    out.close();
 
     MPI_Finalize();
     return 0;
