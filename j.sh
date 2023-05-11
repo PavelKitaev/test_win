@@ -1,0 +1,52 @@
+#!/bin/sh
+cd build
+cd bin
+
+mpiexec -n 6 ./mpi_Jacobi_mpi 100
+mpiexec -n 6 ./mpi_Jacobi_mpi 100
+mpiexec -n 6 ./mpi_Jacobi_mpi 100
+mpiexec -n 6 ./mpi_Jacobi_mpi 100
+mpiexec -n 6 ./mpi_Jacobi_mpi 1000
+mpiexec -n 6 ./mpi_Jacobi_mpi 1000
+mpiexec -n 6 ./mpi_Jacobi_mpi 1000
+mpiexec -n 6 ./mpi_Jacobi_mpi 1000
+mpiexec -n 6 ./mpi_Jacobi_mpi 1500
+mpiexec -n 6 ./mpi_Jacobi_mpi 1500
+mpiexec -n 6 ./mpi_Jacobi_mpi 1500
+mpiexec -n 6 ./mpi_Jacobi_mpi 1500
+mpiexec -n 6 ./mpi_Jacobi_mpi 2000
+mpiexec -n 6 ./mpi_Jacobi_mpi 2000
+mpiexec -n 6 ./mpi_Jacobi_mpi 2000
+mpiexec -n 6 ./mpi_Jacobi_mpi 2000
+mpiexec -n 6 ./mpi_Jacobi_mpi 2500
+mpiexec -n 6 ./mpi_Jacobi_mpi 2500
+mpiexec -n 6 ./mpi_Jacobi_mpi 2500
+mpiexec -n 6 ./mpi_Jacobi_mpi 2500
+mpiexec -n 6 ./mpi_Jacobi_mpi 3000
+mpiexec -n 6 ./mpi_Jacobi_mpi 3000
+mpiexec -n 6 ./mpi_Jacobi_mpi 3000
+mpiexec -n 6 ./mpi_Jacobi_mpi 3000
+mpiexec -n 8 ./mpi_Jacobi_mpi 100
+mpiexec -n 8 ./mpi_Jacobi_mpi 100
+mpiexec -n 8 ./mpi_Jacobi_mpi 100
+mpiexec -n 8 ./mpi_Jacobi_mpi 100
+mpiexec -n 8 ./mpi_Jacobi_mpi 1000
+mpiexec -n 8 ./mpi_Jacobi_mpi 1000
+mpiexec -n 8 ./mpi_Jacobi_mpi 1000
+mpiexec -n 8 ./mpi_Jacobi_mpi 1000
+mpiexec -n 8 ./mpi_Jacobi_mpi 1500
+mpiexec -n 8 ./mpi_Jacobi_mpi 1500
+mpiexec -n 8 ./mpi_Jacobi_mpi 1500
+mpiexec -n 8 ./mpi_Jacobi_mpi 1500
+mpiexec -n 8 ./mpi_Jacobi_mpi 2000
+mpiexec -n 8 ./mpi_Jacobi_mpi 2000
+mpiexec -n 8 ./mpi_Jacobi_mpi 2000
+mpiexec -n 8 ./mpi_Jacobi_mpi 2000
+mpiexec -n 8 ./mpi_Jacobi_mpi 2500
+mpiexec -n 8 ./mpi_Jacobi_mpi 2500
+mpiexec -n 8 ./mpi_Jacobi_mpi 2500
+mpiexec -n 8 ./mpi_Jacobi_mpi 2500
+mpiexec -n 8 ./mpi_Jacobi_mpi 3000
+mpiexec -n 8 ./mpi_Jacobi_mpi 3000
+mpiexec -n 8 ./mpi_Jacobi_mpi 3000
+mpiexec -n 8 ./mpi_Jacobi_mpi 3000 
