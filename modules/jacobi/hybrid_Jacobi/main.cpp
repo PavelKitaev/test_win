@@ -77,7 +77,7 @@ void ParallelAlgHybrid(double* matrix, int size, double eps, int num_omp_th) {
     MPI_Scatter(&end_temp[0], 1, MPI_INT, &end, 1, MPI_INT, 0, MPI_COMM_WORLD);
     
     int q = 0;
-    double dmax, temp, d;
+    double dmax, temp, d;na
     double temp_dmax = 0;
     double* dm = new double[size];
 
@@ -172,7 +172,6 @@ int main(int argc, char **argv)
     if (procRank == 0){
         end_mpi = MPI_Wtime();
         double time_mpi = end_mpi - start_mpi;
-        double time_mpi_o = end_mpi_o - start_mpi_o;
 
         std::cout << ", Hybrid Time: " << time_mpi << std::endl;
 
