@@ -81,6 +81,8 @@ void ParallelAlgHybrid(double* matrix, int size, double eps, int num_omp_th) {
     double temp_dmax = 0;
     double* dm = new double[size];
     
+    double t_s = omp_get_wtime();
+
     do {
         q++;
         dmax = 0;
@@ -121,6 +123,9 @@ void ParallelAlgHybrid(double* matrix, int size, double eps, int num_omp_th) {
         
     } while ( dmax > eps );
     
+    double t_e = omp_get_wtime();
+
+    std::cout << "procRank: " << procRank << ", Local time: " << t_e - t_s << std::endl;
     if (procRank == 0) {
         delete[] begin_temp;
         delete[] end_temp;
@@ -149,6 +154,7 @@ int main(int argc, char **argv)
     sscanf(argv[2], "%d", &num_omp_th);
 
     double start_mpi, end_mpi;
+    double start_mpi_o, end_mpi_o;
     double* matrix_mpi;
     MPI_Win win_matrix;      //Создаем окно доступа к матрице
 
@@ -160,6 +166,7 @@ int main(int argc, char **argv)
         std::cout << "ProcNum(MPI): " << procNum << ", Num thread OMP:" << num_omp_th << std::endl;
         std::cout << "Start hybrid... " << std::endl;
         start_mpi = MPI_Wtime();
+        start_mpi_o = omp_get_wtime();
     } else {
         int disp;
         MPI_Aint ssize;
@@ -171,9 +178,12 @@ int main(int argc, char **argv)
 
     if (procRank == 0){
         end_mpi = MPI_Wtime();
+        end_mpi_o = omp_get_wtime();
         double time_mpi = end_mpi - start_mpi;
+        double time_mpi_o = end_mpi_o - start_mpi_o;
 
         std::cout << ", Hybrid Time: " << time_mpi << std::endl;
+        std::cout << ", Hybrid Time_o: " << time_mpi_o << std::endl;
 
         if (size < 15)
             PrintMatrix(matrix_mpi, size);
